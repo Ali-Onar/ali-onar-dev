@@ -9,7 +9,7 @@ type MenuOverlayProps = {
 };
 
 const MenuOverlay = (props: MenuOverlayProps) => {
-    const { links } = props;
+  const { links } = props;
 
   return (
     <ul className="flex flex-col py-4 items-center">
