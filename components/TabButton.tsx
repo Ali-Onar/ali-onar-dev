@@ -9,7 +9,7 @@ type TabButtonProps = {
 const TabButton = (props: TabButtonProps) => {
     const { active, selectTab, children } = props;
   const buttonClasses = active
-    ? "text-white border-purple-500 border-b"
+    ? "text-white border-green-500 border-b"
     : "text-[#ADB7BE]";
 
   return (
