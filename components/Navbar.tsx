@@ -10,7 +10,7 @@ const navLinks = [
   { title: "About", path: "#about" },
   { title: "Projects", path: "#projects" },
   { title: "Socials", path: "#socials" },
-  { title: "Blog", path: "#blog" },
+  { title: "Blog", path: "https://alitunacanonar.medium.com/" },
 ];
 
 const Navbar = () => {
@@ -23,7 +23,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          LOGO
+          ALI ONAR
         </Link>
         <div className="block md:hidden">
           {!navbarOpen ? (

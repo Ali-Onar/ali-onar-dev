@@ -14,28 +14,28 @@ import Link from "next/link";
 
 const socialAccounts = [
   {
-    name: "Twitter",
-    url: "https://twitter.com",
+    name: "X",
+    url: "https://x.com/alionar60",
     icon: <FaTwitter size={24} />,
   },
   {
     name: "LinkedIn",
-    url: "https://linkedin.com",
+    url: "https://www.linkedin.com/in/ali-tunacan-onar",
     icon: <FaLinkedinIn size={24} />,
   },
   {
     name: "Medium",
-    url: "https://medium.com",
+    url: "https://medium.com/@alitunacanonar",
     icon: <FaMedium size={24} />,
   },
   {
     name: "GitHub",
-    url: "https://github.com",
+    url: "https://github.com/Ali-Onar",
     icon: <FaGithub size={24} />,
   },
   {
     name: "YouTube",
-    url: "https://youtube.com",
+    url: "www.youtube.com/@alionar60",
     icon: <FaYoutube size={24} />,
   },
   {
@@ -66,11 +66,11 @@ const SocialsSection = () => {
             ))}
           </div>
           <Link
-            href="mailto:info@mail.com"
+            href="mailto:alitunacanonar59@gmail.com"
             className="text-base hover:text-gray-300"
           >
             <AiOutlineMail size={24} className="inline mr-2" />
-            info@mail.com
+            alitunacanonar59@gmail.com
           </Link>
         </div>
       </div>
