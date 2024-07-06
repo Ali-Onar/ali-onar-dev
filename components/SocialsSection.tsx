@@ -49,7 +49,7 @@ const SocialsSection = () => {
   return (
     <section id="socials">
       <div className="py-8">
-        <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+        <h2 className="text-center text-4xl font-bold text-white my-8 md:mb-12">
           Social Accounts
         </h2>
         <div className="container mx-auto flex flex-col items-center text-white">
