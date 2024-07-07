@@ -1,0 +1,20 @@
+{
+  "Navbar": {
+    "LogoTitle": "ALI ONAR",
+    "About": "About",
+    "Projects": "Projects",
+    "Socials": "Socials",
+    "Blog": "Blog"
+  },
+  "Hero": {
+    "greeting": "Hello, I'm",
+    "description": "I am a Software Engineer and I love to build web applications.",
+    "hireMe": "Hire Me",
+    "downloadCV": "Download CV"
+  },
+  "About": {
+    "title": "About Me",
+    "description": "I am a Full Stack Software Engineer developing web applications. I enjoy learning new things and meeting new people thanks to my passion for my profession. Recently I have been working on AI based SaaS projects. Here are some of the technologies I have experience with:",
+    "skills": "Skills"
+  }
+}

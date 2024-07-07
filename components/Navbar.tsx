@@ -5,6 +5,8 @@ import React from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
+import { useTranslation } from "react-i18next";
+import LanguageChanger from "./i18n/LanguageChanger";
 
 const navLinks = [
   { title: "About", path: "#about" },
@@ -15,6 +17,7 @@ const navLinks = [
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
+  const { t } = useTranslation();
 
   return (
     <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
@@ -23,7 +26,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          ALI ONAR
+          {t("Navbar.LogoTitle")}
         </Link>
         <div className="block md:hidden">
           {!navbarOpen ? (
@@ -48,9 +51,12 @@ const Navbar = () => {
           <ul className="font-medium flex p-4 md:p-0 rounded-lg flex-row md:space-x-8 mt-0">
             {navLinks.map((link) => (
               <li key={link.title}>
-                <NavLink title={link.title} href={link.path} />
+                <NavLink title={t(`Navbar.${link.title}`)} href={link.path} />
               </li>
             ))}
+            <li>
+              <LanguageChanger />
+            </li>
           </ul>
         </div>
       </div>

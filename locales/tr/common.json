@@ -1,0 +1,20 @@
+{
+  "Navbar": {
+    "LogoTitle": "ALI ONAR",
+    "About": "Hakkımda",
+    "Projects": "Projeler",
+    "Socials": "Sosyal",
+    "Blog": "Blog"
+  },
+  "Hero": {
+    "greeting": "Merhaba, Ben",
+    "description": "Yazılım Mühendisi olarak web uygulamaları geliştirmekten keyif alıyorum.",
+    "hireMe": "Benimle Çalışın",
+    "downloadCV": "CV'me Ulaşın"
+  },
+  "About": {
+    "title": "Hakkımda",
+    "description": "Web uygulamaları geliştiren bir Full Stack Yazılım Mühendisiyim. Mesleğime olan tutkum sayesinde yeni şeyler öğrenmeyi ve yeni insanlarla tanışmayı seviyorum. Son zamanlarda yapay zeka tabanlı SaaS projeleri üzerinde çalışıyorum. İşte deneyim sahibi olduğum bazı teknolojiler:",
+    "skills": "Yetenekler"
+  }
+}
