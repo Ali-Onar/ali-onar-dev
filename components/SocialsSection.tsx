@@ -11,6 +11,7 @@ import {
 import { GiOppositeHearts } from "react-icons/gi";
 import { AiOutlineMail } from "react-icons/ai";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 
 const socialAccounts = [
   {
@@ -46,11 +47,13 @@ const socialAccounts = [
 ];
 
 const SocialsSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="socials">
       <div className="py-8">
         <h2 className="text-center text-4xl font-bold text-white my-8 md:mb-12">
-          Social Accounts
+          {t("Socials.title")}
         </h2>
         <div className="container mx-auto flex flex-col items-center text-white">
           <div className="grid grid-cols-3 md:grid-cols-6 gap-4 mb-4">

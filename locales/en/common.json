@@ -16,5 +16,23 @@
     "title": "About Me",
     "description": "I am a Full Stack Software Engineer developing web applications. I enjoy learning new things and meeting new people thanks to my passion for my profession. Recently I have been working on AI based SaaS projects. Here are some of the technologies I have experience with:",
     "skills": "Skills"
+  },
+  "Projects": {
+    "title": "Projects"
+  },
+  "Socials": {
+    "title": "Social Accounts"
+  },
+  "Footer": {
+    "description": "You can access the project codes from my github account"
+  },
+  "achievements": {
+    "metric": {
+      "Projects": "Projects",
+      "Users": "Users",
+      "Languages": "Clients",
+      "Partners": "Awards",
+      "Products": "Products"
+    }
   }
 }

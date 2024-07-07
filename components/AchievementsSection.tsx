@@ -2,6 +2,7 @@
 
 import React from "react";
 import dynamic from "next/dynamic";
+import { useTranslation } from "react-i18next";
 
 const AnimatedNumbers = dynamic(
   () => {
@@ -36,6 +37,8 @@ const achievementsList = [
 ];
 
 const AchievementsSection = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
       <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col sm:flex-row items-center justify-between">
@@ -55,7 +58,7 @@ const AchievementsSection = () => {
                 />
                 {achievement.postfix}
               </h2>
-              <p className="text-[#ADB7BE] text-base">{achievement.metric}</p>
+              <p className="text-[#ADB7BE] text-base">{t(`achievements.metric.${achievement.metric}`)}</p>
             </div>
           );
         })}

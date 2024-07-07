@@ -16,5 +16,23 @@
     "title": "Hakkımda",
     "description": "Web uygulamaları geliştiren bir Full Stack Yazılım Mühendisiyim. Mesleğime olan tutkum sayesinde yeni şeyler öğrenmeyi ve yeni insanlarla tanışmayı seviyorum. Son zamanlarda yapay zeka tabanlı SaaS projeleri üzerinde çalışıyorum. İşte deneyim sahibi olduğum bazı teknolojiler:",
     "skills": "Yetenekler"
+  },
+  "Projects": {
+    "title": "Projeler"
+  },
+  "Socials": {
+    "title": "Sosyal Hesaplar"
+  },
+  "Footer": {
+    "description": "Projenin kaynak kodlarına github hesabımdan ulaşabilirsiniz."
+  },
+  "achievements": {
+    "metric": {
+      "Projects": "Proje",
+      "Users": "Kullanıcı",
+      "Languages": "Dil",
+      "Partners": "Partner",
+      "Products": "Ürün"
+    }
   }
 }

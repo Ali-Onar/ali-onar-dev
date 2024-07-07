@@ -4,6 +4,7 @@ import React, { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
+import { useTranslation } from "react-i18next";
 
 const projectsData = [
   {
@@ -40,6 +41,8 @@ const ProjectsSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
+  const { t } = useTranslation();
+
   const handleTagChange = (newTag: string) => {
     setTag(newTag);
   };
@@ -56,7 +59,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+        {t("Projects.title")}
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
