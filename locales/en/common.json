@@ -2,8 +2,9 @@
   "Navbar": {
     "LogoTitle": "ALI ONAR",
     "About": "About",
+    "Experience": "Experience",
     "Projects": "Projects",
-    "Socials": "Socials",
+    "Social": "Social",
     "Blog": "Blog"
   },
   "Hero": {
@@ -20,7 +21,7 @@
   "Projects": {
     "title": "Projects"
   },
-  "Socials": {
+  "Social": {
     "title": "Social Accounts"
   },
   "Footer": {
@@ -30,8 +31,8 @@
     "metric": {
       "Projects": "Projects",
       "Users": "Users",
-      "Languages": "Clients",
-      "Partners": "Awards",
+      "Languages": "Languages",
+      "Partners": "Partners",
       "Products": "Products"
     }
   }

@@ -2,8 +2,9 @@
   "Navbar": {
     "LogoTitle": "ALI ONAR",
     "About": "Hakkımda",
+    "Experience": "Deneyim",
     "Projects": "Projeler",
-    "Socials": "Sosyal",
+    "Social": "Sosyal",
     "Blog": "Blog"
   },
   "Hero": {
