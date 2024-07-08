@@ -10,8 +10,9 @@ import LanguageChanger from "./i18n/LanguageChanger";
 
 const navLinks = [
   { title: "About", path: "#about" },
+  { title: "Experience", path: "#experience" },
   { title: "Projects", path: "#projects" },
-  { title: "Socials", path: "#socials" },
+  { title: "Social", path: "#social" },
   { title: "Blog", path: "https://alitunacanonar.medium.com/" },
 ];
 
