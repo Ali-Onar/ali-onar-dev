@@ -13,6 +13,40 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Ali Onar",
   description: "Ali Onar - Software Engineer",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://ali-onar-dev.vercel.app",
+    title: "Ali Onar - Software Engineer",
+    description: `Ali Onar's Personal Website`,
+    images: [
+      {
+        url: "https://ali-onar-dev.vercel.app/images/hero-image.jpeg",
+        width: 1024,
+        height: 768,
+        alt: "Ali Onar",
+      },
+    ],
+    siteName: "Ali Onar",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@alitncn",
+    creator: "@alitncn",
+    title: "Ali Onar",
+    description: `Ali Onar's Personal Website`,
+    images: [
+      {
+        url: "https://ali-onar-dev.vercel.app/images/hero-image.jpeg",
+        alt: "Ali Onar",
+      },
+    ],
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export function generateStaticParams() {
