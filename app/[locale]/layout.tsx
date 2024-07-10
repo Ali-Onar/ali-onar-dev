@@ -16,12 +16,12 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://ali-onar-dev.vercel.app",
+    url: "https://alionar.com",
     title: "Ali Onar - Software Engineer",
     description: `Ali Onar's Personal Website`,
     images: [
       {
-        url: "https://ali-onar-dev.vercel.app/images/hero-image.jpeg",
+        url: "https://alionar.com/images/hero-image.jpeg",
         width: 1024,
         height: 768,
         alt: "Ali Onar",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     description: `Ali Onar's Personal Website`,
     images: [
       {
-        url: "https://ali-onar-dev.vercel.app/images/hero-image.jpeg",
+        url: "https://alionar.com/images/hero-image.jpeg",
         alt: "Ali Onar",
       },
     ],
