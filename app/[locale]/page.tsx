@@ -6,6 +6,7 @@ import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
 import ProjectsSection from "@/components/ProjectsSection";
 import SocialsSection from "@/components/SocialsSection";
+import WhatCanIDoForYouSection from "@/components/WhatCanIDoForYouSection";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <AboutSection />
         <ExperienceSection />
         <ProjectsSection />
+        <WhatCanIDoForYouSection />
         <SocialsSection />
       </div>
       <Footer />
