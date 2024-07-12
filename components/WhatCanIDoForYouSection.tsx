@@ -35,7 +35,7 @@ const WhatCanIDoForYouSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="social">
+    <section id="whatCanIDo">
       <div className="py-8">
         <h2 className="text-center text-4xl font-bold text-white my-8 md:mb-12">
           What Can I Do For You?
