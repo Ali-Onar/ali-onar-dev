@@ -59,6 +59,7 @@ const HeroSection = () => {
             <button
               className="w-full sm:w-fit m-4 bg-gradient-to-br from-blue-500 via-green-500 to-blue-500 px-1 py-1 text-white rounded-full"
               onClick={handleDownloadCV}
+              disabled
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 {t("Hero.downloadCV")}

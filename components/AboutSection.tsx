@@ -6,7 +6,7 @@ import TabButton from "./TabButton";
 import { Badge } from "./ui/badge";
 import { useTranslation } from "react-i18next";
 
-const skillData = ["JavaScript", "TypeScript", "PostgreSQL", "MongoDB", "Supabase", "Nextjs", "React", "Fastify", "Clerk Auth", "Supabase Auth", "TailwindCSS", "ChakraUI", "Shadcn", "Material UI", "Vercel", "AWS Amplify", "AWS Beanstalk", "AWS S3", "AWS VPS", "AWS RDS", "and another AWS Web Services..."];
+const skillData = ["JavaScript", "TypeScript", "PostgreSQL", "MongoDB", "Supabase", "Expressjs", "Nextjs", "React", "Clerk Auth", "TailwindCSS", "ChakraUI", "Shadcn", "Material UI", "Vercel", "AWS Amplify", "AWS Beanstalk", "AWS S3", "AWS RDS"];
 
 const TAB_DATA = [
   {
