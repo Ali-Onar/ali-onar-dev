@@ -47,6 +47,7 @@ export const metadata: Metadata = {
     shortcut: "/favicon-16x16.png",
     apple: "/apple-touch-icon.png",
   },
+  keywords: ["Ali Onar", "Ali Tunacan Onar", "Software Engineer", "SaaS Developer"],
 };
 
 export function generateStaticParams() {
