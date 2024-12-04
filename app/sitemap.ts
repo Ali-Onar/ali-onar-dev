@@ -11,7 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
                     tr: 'https://alionar.com/tr',
                 }
             },
-            changeFrequency: 'yearly',
+            changeFrequency: 'monthly',
             priority: 1,
         },
     ];
