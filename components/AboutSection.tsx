@@ -8,14 +8,31 @@ import { useTranslation } from "react-i18next";
 
 const skillData = ["JavaScript", "TypeScript", "PostgreSQL", "MongoDB", "Supabase", "Expressjs", "Nextjs", "React", "Clerk Auth", "TailwindCSS", "ChakraUI", "Shadcn", "Material UI", "Vercel", "AWS Amplify", "AWS Beanstalk", "AWS S3", "AWS RDS"];
 
+const coreSkills = ["Nextjs", "TypeScript", "Supabase", "Clerk Auth", "TailwindCSS", "Shadcn"];
+
+const otherSkills = ["JavaScript", "MongoDB", "Expressjs", "React", "PostgreSQL", "Material UI", "Vercel", "AWS Amplify", "AWS Beanstalk", "AWS S3", "AWS RDS"];
+
 const TAB_DATA = [
   {
-    title: "Skills",
-    id: "skills",
+    title: "Core Skills",
+    id: "coreSkills",
     content: (
       <div className="pl-2 flex flex-wrap gap-2">
-        {skillData.map((skill, index) => (
-          <Badge key={index} className="text-white" variant="outline">
+        {coreSkills.map((skill, index) => (
+          <Badge key={index} className="text-white text-md" variant="outline">
+            {skill}
+          </Badge>
+        ))}
+      </div>
+    ),
+  },
+  {
+    title: "Other Skills",
+    id: "otherSkills",
+    content: (
+      <div className="pl-2 flex flex-wrap gap-2">
+        {otherSkills.map((skill, index) => (
+          <Badge key={index} className="text-white text-md" variant="outline">
             {skill}
           </Badge>
         ))}
@@ -25,7 +42,7 @@ const TAB_DATA = [
 ];
 
 const AboutSection = () => {
-  const [tab, setTab] = useState("skills");
+  const [tab, setTab] = useState("coreSkills");
   const [isPending, startTransition] = useTransition();
 
   const { t } = useTranslation();
@@ -47,10 +64,18 @@ const AboutSection = () => {
           </p>
           <div className="flex flex-row justify-start mt-8 text-3xl">
             <TabButton
-              selectTab={() => handleTabChange("skills")}
-              active={tab === "skills"}
+              selectTab={() => handleTabChange("coreSkills")}
+              active={tab === "coreSkills"}
             >
-              {t("About.skills")}
+              {/* {t("About.skills")} */}
+              Core Skills
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("otherSkills")}
+              active={tab === "otherSkills"}
+            >
+              {/* {t("About.skills")} */}
+              Other Skills
             </TabButton>
           </div>
           <div className="mt-8">
