@@ -31,8 +31,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@alitncn",
-    creator: "@alitncn",
+    site: "@alionar60",
+    creator: "@alionar60",
     title: "Ali Onar",
     description: `Ali Onar's Personal Website`,
     images: [
@@ -67,6 +67,9 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} dir={dir(locale)}>
+      <head>
+        <link rel="icon" href="/logo.png" />
+      </head>
       <body className={inter.className}>
         <TranslationsProvider
           locale={locale}

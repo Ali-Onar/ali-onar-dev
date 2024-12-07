@@ -7,6 +7,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 import { useTranslation } from "react-i18next";
 import LanguageChanger from "./i18n/LanguageChanger";
+import Image from "next/image";
 
 const navLinks = [
   { title: "About", path: "#about" },
@@ -24,9 +25,10 @@ const Navbar = () => {
       <div className="flex flex-wrap container lg:py-4 items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
+          className="flex items-center gap-1 text-xl md:text-2xl font-bold text-white"
         >
-          {t("Navbar.LogoTitle")}
+          <Image src="/logo.png" alt="Ali Onar logo" width={32} height={32} unoptimized />
+          ALI ONAR
         </Link>
         <div className="block md:hidden">
           {!navbarOpen ? (
