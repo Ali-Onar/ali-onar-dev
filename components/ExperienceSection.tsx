@@ -7,23 +7,25 @@ const experiences = [
   {
     company: "SeamlessCARE",
     position: "Software Engineer",
-    date: "Oct 2022 - Jun 2024",
+    date: "Oct 2022 - Present",
     description: (
       <>
-        SeamlessCare is focussed on an AI-based emotion analyser for people who
-        are non-verbal. I worked on two different projects here:
+        SeamlessCARE Ltd. develops innovative assistive technologies grounded in years of health care, industry, and academic research. It offers an AI model that can interpret the emotions of nonverbal individuals through its mobile applications, which are used in care homes, long-term care facilities, and hospitals.
         <br />
         <br />
-        <strong>Project 1:</strong> Developing an admin panel for detailed
-        analyses about the services used and customers. Technologies I used:
-        MongoDB API, React, Material UI, PostgreSQL, Express.js, AWS (Beanstalk,
-        Cognito, Amplify, RDS, VPS)
+        <b>Accomplishments</b>
+        <ul className="list-disc list-inside">
+          <li>Developed requirements, system analysis and design of SeamlessCARE&apos;s web-based products.</li>
+          <li>Developed the admin panel for SeamlessCARE using React, MongoDB, PostgreSQL, Node.js and hosted on AWS.</li>
+          <li>Developed a SaaS product for emotion analysis in nonverbal individuals.</li>
+          <li>Developed a SaaS platform for inaudible audio watermarking.</li>
+          <li>Developed a web and mobile fitness platform using Next.js, React Native, PostgreSQL, and TypeScript.</li>
+          <li>Implemented error logging and monitoring with Sentry.</li>
+        </ul>
         <br />
+        <b>Skills:</b>
         <br />
-        <strong>Project 2:</strong> Development of the Client Panel of a emotion
-        analysis application for organisations. This project is a B2B SaaS
-        product. Technologies I used: Nextjs, TypeScript, Supabase, Clerk,
-        Material UI, Vercel
+        Full-Stack Development, RESTful WebServices, Next.js, Supabase, PostgreSQL, Software as a Service (SaaS), TypeScript, Tailwind CSS, AWS, MongoDB, Material UI, React.js, Node.js, React Native
       </>
     ),
   },
@@ -31,15 +33,41 @@ const experiences = [
     company: "Merit Risk",
     position: "Software Developer",
     date: "May 2021 - Jan 2022",
-    description:
-      "I contributed to the Web-based Analysis application being developed for the special needs of banks. Technologies I use: PHP, Laravel, JavaScript, MySQL, AWS Lambda",
+    description: (
+      <>
+        Financial risk management company that offers various analysis models for risk assessment of financial institutions, sovereign nations, and operational resilience. The Software Engineering team was responsible for creating SaaS products using the internal econometric models developed by the finance team and various external stakeholders.
+        <br />
+        <br />
+        <b>Accomplishments</b>
+        <ul className="list-disc list-inside">
+          <li>Development and reorganization of business risk rating models for companies and countries.</li>
+          <li>Developed a new model using PHP, MySQL, JavaScript to upload risk assessment models produced by the Finance team using Excel to the web portal.</li>
+          <li>Organized Merit Risk&apos;s server maintenance and professional e-mails.</li>
+          <li>Researched and developed alternatives and new technologies and presented them to teammates.</li>
+          <li>Developed analytical, creative problem solving and communication skills.</li>
+        </ul>
+        <br />
+        <br />
+        <b>Skills:</b>
+        <br />
+        PHP, MySQL, Laravel, AWS, JavaScript
+      </>
+    ),
   },
   {
     company: "Pailab",
     position: "Software Developer",
     date: "Dec 2016 - Oct 2017",
-    description:
-      "I founded Pailab with my friends during my university years, we developed web projects. Technologies I use: html, css, php",
+    description: (
+      <>
+        In Pailab, which I founded with my friends during my university years, we developed websites for personal needs.
+        <br />
+        <br />
+        <b>Skills:</b>
+        <br />
+        HTML, CSS, PHP, MySQL, JavaScript
+      </>
+    ),
   },
 ];
 

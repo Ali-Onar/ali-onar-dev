@@ -9,7 +9,6 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import { GiOppositeHearts } from "react-icons/gi";
-import { AiOutlineMail } from "react-icons/ai";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
 
@@ -68,13 +67,6 @@ const SocialsSection = () => {
               </Link>
             ))}
           </div>
-          <Link
-            href="mailto:alitunacanonar59@gmail.com"
-            className="text-base hover:text-gray-300"
-          >
-            <AiOutlineMail size={24} className="inline mr-2" />
-            alitunacanonar59@gmail.com
-          </Link>
         </div>
       </div>
     </section>

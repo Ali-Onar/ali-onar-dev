@@ -21,7 +21,7 @@ const ExperienceCard: React.FC<ExperienceProps> = ({
         <p className="text-sm text-gray-500 mb-2">{date}</p>
       </div>
       <div className="flex-2 lg:w-2/3 lg:pl-6">
-        <p className="text-gray-300">{description}</p>
+        <div className="text-gray-300">{description}</div>
       </div>
     </div>
   );

@@ -25,24 +25,13 @@ const HeroSection = () => {
           transition={{ duration: 1 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
+          <h1 className="text-white text-2xl sm:text-3xl lg:text-4xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600">
               {t("Hero.greeting")}
             </span>{" "}
-            <br></br>
-            <TypeAnimation
-              sequence={[
-                "Ali",
-                3000,
-                "Software Engineer",
-                3000,
-                "SaaS Developer",
-                3000,
-              ]}
-              wrapper="span"
-              speed={50}
-              repeat={Infinity}
-            />
+          </h1>
+          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
+            Ali Onar
           </h1>
           <p className="text-[#ADB7BE] mb-6 text-base sm:text-lg lg:text-xl">
             {t("Hero.description")}
@@ -59,7 +48,6 @@ const HeroSection = () => {
             <button
               className="w-full sm:w-fit m-4 bg-gradient-to-br from-blue-500 via-green-500 to-blue-500 px-1 py-1 text-white rounded-full"
               onClick={handleDownloadCV}
-              disabled
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 {t("Hero.downloadCV")}

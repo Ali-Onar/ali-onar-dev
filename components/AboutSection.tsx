@@ -6,11 +6,9 @@ import TabButton from "./TabButton";
 import { Badge } from "./ui/badge";
 import { useTranslation } from "react-i18next";
 
-const skillData = ["JavaScript", "TypeScript", "PostgreSQL", "MongoDB", "Supabase", "Expressjs", "Nextjs", "React", "Clerk Auth", "TailwindCSS", "ChakraUI", "Shadcn", "Material UI", "Vercel", "AWS Amplify", "AWS Beanstalk", "AWS S3", "AWS RDS"];
+const coreSkills = ["JavaScript", "TypeScript", "Next.js", "React", "React Native", "PostgreSQL", "TailwindCSS", "AWS"];
 
-const coreSkills = ["Nextjs", "TypeScript", "Supabase", "Clerk Auth", "TailwindCSS", "Shadcn"];
-
-const otherSkills = ["JavaScript", "MongoDB", "Expressjs", "React", "PostgreSQL", "Material UI", "Vercel", "AWS Amplify", "AWS Beanstalk", "AWS S3", "AWS RDS"];
+const otherSkills = ["Supabase", "Clerk Auth", "MongoDB", "Express.js", "Shadcn/UI", "Vercel", "Stripe", "Lemon Squeezy"];
 
 const TAB_DATA = [
   {
