@@ -14,6 +14,7 @@ const navLinks = [
   { title: "Experience", path: "#experience" },
   { title: "Social", path: "#social" },
   { title: "Blog", path: "https://alitunacanonar.medium.com/" },
+  { title: "Youtube", path: "https://www.youtube.com/@alionar60" },
 ];
 
 const Navbar = () => {
@@ -28,7 +29,6 @@ const Navbar = () => {
           className="flex items-center gap-1 text-xl md:text-2xl font-bold text-white"
         >
           <Image src="/logo.png" alt="Ali Onar logo" width={32} height={32} unoptimized />
-          ALI ONAR
         </Link>
         <div className="block md:hidden">
           {!navbarOpen ? (
