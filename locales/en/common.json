@@ -5,17 +5,18 @@
     "Experience": "Experience",
     "Projects": "Projects",
     "Social": "Social",
-    "Blog": "Blog"
+    "Blog": "Blog",
+    "Youtube": "Youtube"
   },
   "Hero": {
-    "greeting": "Hello, I'm",
-    "description": "I am a Software Engineer and I love to build web applications.",
-    "hireMe": "Hire Me",
-    "downloadCV": "Download CV"
+    "greeting": "Hi, I am",
+    "description": "As a Full Stack Software Engineer, I am a developer of SaaS products with +4 years of experience.",
+    "hireMe": "Contact Me",
+    "downloadCV": "Resume"
   },
   "About": {
     "title": "About Me",
-    "description": "I am a Full Stack Software Engineer developing web applications. I enjoy learning new things and meeting new people thanks to my passion for my profession. Recently I have been working on AI based SaaS projects. Here are some of the technologies I have experience with:",
+    "description": "Full-stack Software Engineer with 4+ years of proven experience building robust web and SaaS applications independently from scratch, collaborating closely with executive leadership and stakeholders. Passionate about clean, scalable solutions, consistently demonstrating determination, technical excellence, and teamwork. Driven by genuine enthusiasm for software engineering and continuous growth.",
     "skills": "Skills"
   },
   "Projects": {
@@ -23,9 +24,6 @@
   },
   "Social": {
     "title": "Social Accounts"
-  },
-  "Footer": {
-    "description": "© 2024 Ali Onar. All rights reserved"
   },
   "achievements": {
     "metric": {

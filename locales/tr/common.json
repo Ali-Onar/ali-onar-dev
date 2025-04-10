@@ -5,17 +5,18 @@
     "Experience": "Deneyim",
     "Projects": "Projeler",
     "Social": "Sosyal",
-    "Blog": "Blog"
+    "Blog": "Blog",
+    "Youtube": "Youtube"
   },
   "Hero": {
     "greeting": "Merhaba, Ben",
-    "description": "Yazılım Mühendisi olarak web uygulamaları geliştirmekten keyif alıyorum.",
+    "description": "Full Stack Yazılım Mühendisi olarak +4 yıllık deneyime sahip SaaS ürünleri geliştiricisiyim.",
     "hireMe": "Benimle Çalışın",
     "downloadCV": "CV'me Ulaşın"
   },
   "About": {
     "title": "Hakkımda",
-    "description": "Web uygulamaları geliştiren bir Full Stack Yazılım Mühendisiyim. Mesleğime olan tutkum sayesinde yeni şeyler öğrenmeyi ve yeni insanlarla tanışmayı seviyorum. Son zamanlarda yapay zeka tabanlı SaaS projeleri üzerinde çalışıyorum. İşte deneyim sahibi olduğum bazı teknolojiler:",
+    "description": "Sıfırdan bağımsız olarak sağlam web ve SaaS uygulamaları oluşturma konusunda 4 yıldan fazla kanıtlanmış deneyime sahip, yönetici liderlik ve paydaşlarla yakın işbirliği içinde çalışan tam yığın Yazılım Mühendisi. Temiz, ölçeklenebilir çözümler konusunda tutkulu, sürekli olarak kararlılık, teknik mükemmellik ve ekip çalışması sergileyen. Yazılım mühendisliği ve sürekli büyüme için gerçek bir tutku ile hareket eder.",
     "skills": "Yetenekler"
   },
   "Projects": {
