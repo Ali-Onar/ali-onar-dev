@@ -10,13 +10,13 @@
   },
   "Hero": {
     "greeting": "Hi, I am",
-    "description": "As a Full Stack Software Engineer, I am a developer of SaaS products with +4 years of experience.",
-    "hireMe": "Contact Me",
+    "description": "As a Full Stack Engineer with over 4 years of experience, I develop web and mobile applications.",
+    "hireMe": "Let's Bring your Idea to Life!",
     "downloadCV": "Resume"
   },
   "About": {
     "title": "About Me",
-    "description": "Full-stack Software Engineer with 4+ years of proven experience building robust web and SaaS applications independently from scratch, collaborating closely with executive leadership and stakeholders. Passionate about clean, scalable solutions, consistently demonstrating determination, technical excellence, and teamwork. Driven by genuine enthusiasm for software engineering and continuous growth.",
+    "description": "I am a passionate Software Engineer who enjoys developing products, solving problems, and learning new technologies. In addition to developing secure, sustainable products, I always prioritize communication with my teammates. I can fulfill many requirements as needed for a project. I try to look at the products I develop not just from one angle, but from all angles, taking ownership.",
     "skills": "Skills"
   },
   "Projects": {

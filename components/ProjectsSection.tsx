@@ -8,48 +8,61 @@ import { useTranslation } from "react-i18next";
 
 const projectsData = [
   {
-    id: 1,
-    title: "Load Muscle",
-    description: "Your Ideal Fitness Partner to Stay Fit and Healthy",
-    image: "/images/projects/load-muscle.png",
-    tag: ["All", "Web", "SaaS"],
-    gitUrl: "https://www.loadmuscle.com/",
+    title: "Load Muscle Web",
+    description: "AI Workout Planner",
+    image: "/images/projects/1.jpg",
     previewUrl: "https://www.loadmuscle.com/",
   },
   {
-    id: 2,
-    title: "MUI Dark / Ligh Theme",
+    title: "Sonic8",
+    description: "Audio Watermarking SaaS",
+    image: "/images/projects/2.jpg",
+    previewUrl: "https://sonic8.io/",
+  },
+  {
+    title: "Denersen",
+    description: "AI Photo Editor",
+    image: "/images/projects/3.jpg",
+    previewUrl: "https://denersen.com/",
+  },
+  {
+    title: "Load Muscle Mobile",
+    description: "Fitness App & Workout Planner",
+    image: "/images/projects/4.jpg",
+    previewUrl: "https://loadmuscle.com/download",
+  },
+  {
+    title: "AI Image Tutorial",
+    description: "Full Stack Series - Youtube AI Tutorial",
+    image: "/images/projects/5.jpg",
+    previewUrl: "https://github.com/Ali-Onar/yt-nextjs-tutorial",
+  },
+  {
+    title: "Youtube Full Stack Series",
+    description: "Web Development Series with Next.js, Supabase, TailwindCSS and more",
+    image: "/images/projects/6.jpg",
+    previewUrl: "https://www.youtube.com/@alionar60",
+  },
+  {
+    title: "MUI Dark / Light Theme",
     description: "Material UI Dark and Light Theme Switcher",
-    image: "/images/projects/mui-theme.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Ali-Onar/next-mui-dark-light-mode",
+    image: "/images/projects/7.jpg",
     previewUrl: "https://github.com/Ali-Onar/next-mui-dark-light-mode",
   },
   {
-    id: 3,
-    title: "Todo App",
-    description: "A Simple Todo App with Nextjs",
-    image: "/images/projects/nextjs-supabase.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Ali-Onar/nextjs-supabase-todo-app",
-    previewUrl: "https://github.com/Ali-Onar/nextjs-supabase-todo-app",
+    title: "Work with Me",
+    description: "Let's Develop your Project Together",
+    image: "/images/projects/8.jpg",
+    previewUrl: "mailto:alitunacanonar59@gmail.com",
   },
 ];
 
 const ProjectsSection = () => {
-  const [tag, setTag] = useState<string>("All");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
   const { t } = useTranslation();
 
-  const handleTagChange = (newTag: string) => {
-    setTag(newTag);
-  };
-
-  const filteredProjects = projectsData.filter((project) =>
-    project.tag.includes(tag)
-  );
 
   const cardVariants = {
     initial: { y: 50, opacity: 0 },
@@ -61,25 +74,9 @@ const ProjectsSection = () => {
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         {t("Projects.title")}
       </h2>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-        <ProjectTag
-          onClick={handleTagChange}
-          name="All"
-          isSelected={tag === "All"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="SaaS"
-          isSelected={tag === "SaaS"}
-        />
-      </div>
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
-        {filteredProjects.map((project, index) => (
+      
+      <ul ref={ref} className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+        {projectsData.map((project, index) => (
           <motion.li
             key={index}
             variants={cardVariants}
@@ -88,11 +85,10 @@ const ProjectsSection = () => {
             transition={{ duration: 0.3, delay: index * 0.4 }}
           >
             <ProjectCard
-              key={project.id}
+              key={project.image}
               title={project.title}
               description={project.description}
               imgUrl={project.image}
-              gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
             />
           </motion.li>

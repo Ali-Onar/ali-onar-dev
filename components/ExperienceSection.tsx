@@ -5,27 +5,61 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    company: "SeamlessCARE",
-    position: "Software Engineer",
-    date: "Oct 2022 - Present",
+    company: "Freelance",
+    position: "Full Stack Engineer",
+    date: "Nov 2025 - Present",
     description: (
       <>
-        SeamlessCARE Ltd. develops innovative assistive technologies grounded in years of health care, industry, and academic research. It offers an AI model that can interpret the emotions of nonverbal individuals through its mobile applications, which are used in care homes, long-term care facilities, and hospitals.
+        As a freelancer, I develop web and mobile applications for clients.
+        <br />
+        <br />
+        <b>Skills:</b>
+        <br />
+        Full-Stack Development, SaaS, TypeScript, Next.js, React Native, React.js, Supabase, PostgreSQL, TailwindCSS
+      </>
+    ),
+  },
+  {
+    company: "Papak Software Ltd",
+    position: "Full Stack Engineer",
+    date: "Jun 2024 - Jun 2025",
+    description: (
+      <>
+        Papak is a software company that develops SaaS-based products.
         <br />
         <br />
         <b>Accomplishments</b>
         <ul className="list-disc list-inside">
-          <li>Developed requirements, system analysis and design of SeamlessCARE&apos;s web-based products.</li>
-          <li>Developed the admin panel for SeamlessCARE using React, MongoDB, PostgreSQL, Node.js and hosted on AWS.</li>
-          <li>Developed a SaaS product for emotion analysis in nonverbal individuals.</li>
-          <li>Developed a SaaS platform for inaudible audio watermarking.</li>
-          <li>Developed a web and mobile fitness platform using Next.js, React Native, PostgreSQL, and TypeScript.</li>
-          <li>Implemented error logging and monitoring with Sentry.</li>
+          <li>Created a cross-platform fitness application for web and mobile using Next.js, React Native, TypeScript, PostgreSQL, and Supabase, increasing client engagement by providing personalized fitness experiences.</li>
+          <li>Designed and implemented a SaaS solution for inaudible audio watermarking, integrating with third-party APIs and ensuring high data integrity.</li>
         </ul>
         <br />
         <b>Skills:</b>
         <br />
-        Full-Stack Development, RESTful WebServices, Next.js, Supabase, PostgreSQL, Software as a Service (SaaS), TypeScript, Tailwind CSS, AWS, MongoDB, Material UI, React.js, Node.js, React Native
+        Full-Stack Development, TypeScript, Next.js, React Native, React.js, Supabase, PostgreSQL, TailwindCSS
+      </>
+    ),
+  },
+  {
+    company: "SeamlessCARE Ltd",
+    position: "Full Stack Engineer",
+    date: "Oct 2022 - Jun 2024",
+    description: (
+      <>
+        SeamlessCARE develops AI-powered assistive technologies to support nonverbal individuals in care environments.
+        <br />
+        <br />
+        <b>Accomplishments</b>
+        <ul className="list-disc list-inside">
+          <li>Led the requirements gathering, system analysis, and architectural design of B2B SaaS product.</li>
+          <li>Built a custom admin panel using React, Node.js, PostgreSQL, and MongoDB, deployed on AWS, enabling internal teams to manage AI services and users efficiently.</li>
+          <li>Developed an emotion analysis SaaS platform integrating a proprietary AI model to support nonverbal individuals in hospitals and care homes.</li>
+          <li>Integrated Sentry for system-wide error tracking and real-time performance monitoring.</li>
+        </ul>
+        <br />
+        <b>Skills:</b>
+        <br />
+        Full-Stack Development, SaaS, RESTful WebServices, Next.js, Supabase, PostgreSQL, TypeScript, TailwindCSS, AWS, MongoDB, Material UI, React.js, Node.js, React Native
       </>
     ),
   },
@@ -35,7 +69,7 @@ const experiences = [
     date: "May 2021 - Jan 2022",
     description: (
       <>
-        Financial risk management company that offers various analysis models for risk assessment of financial institutions, sovereign nations, and operational resilience. The Software Engineering team was responsible for creating SaaS products using the internal econometric models developed by the finance team and various external stakeholders.
+        Financial risk management company that offers various analysis models for risk assessment of financial institutions, sovereign nations, and operational resilience.
         <br />
         <br />
         <b>Accomplishments</b>

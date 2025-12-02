@@ -24,16 +24,6 @@ const whatICanDo = [
     description: "Expert advice to optimize your software development processes.",
     icon: <FaRegLightbulb />
   },
-  {
-    title: "Landing Page",
-    description: "Engaging and responsive landing pages tailored to your product or service.",
-    icon: <FaRocket />
-  },
-  {
-    title: "UI/UX Design",
-    description: "Designing intuitive and user-friendly interfaces for your projects.",
-    icon: <FaPaintBrush />
-  },
 ];
 
 const WhatCanIDoForYouSection = () => {
