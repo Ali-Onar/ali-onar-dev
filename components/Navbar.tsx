@@ -56,9 +56,6 @@ const Navbar = () => {
                 <NavLink title={t(`Navbar.${link.title}`)} href={link.path} />
               </li>
             ))}
-            <li>
-              <LanguageChanger />
-            </li>
           </ul>
         </div>
       </div>
