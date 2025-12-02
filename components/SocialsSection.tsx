@@ -38,11 +38,6 @@ const socialAccounts = [
     url: "www.youtube.com/@alionar60",
     icon: <FaYoutube size={24} />,
   },
-  {
-    name: "LoadMuscle",
-    url: "https://loadmuscle.com",
-    icon: <GiOppositeHearts size={24} />,
-  },
 ];
 
 const SocialsSection = () => {
@@ -51,11 +46,10 @@ const SocialsSection = () => {
   return (
     <section id="social">
       <div className="py-8">
-        <h2 className="text-center text-4xl font-bold text-white my-8 md:mb-12">
+        <h2 className="text-center text-4xl font-bold text-white my-8 md:mb-6">
           {t("Social.title")}
         </h2>
-        <div className="container mx-auto flex flex-col items-center text-white">
-          <div className="grid grid-cols-3 md:grid-cols-6 gap-4 mb-4">
+        <div className="container mx-auto flex items-center justify-center gap-2 text-white">
             {socialAccounts.map((account, index) => (
               <Link
                 key={index}
@@ -66,7 +60,6 @@ const SocialsSection = () => {
                 {account.icon}
               </Link>
             ))}
-          </div>
         </div>
       </div>
     </section>
