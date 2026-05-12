@@ -1,25 +1,25 @@
 import AboutSection from "@/components/AboutSection";
+import ContactSection from "@/components/ContactSection";
 import ExperienceSection from "@/components/ExperienceSection";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
-import ProjectsSection from "@/components/ProjectsSection";
-import SocialsSection from "@/components/SocialsSection";
-import WhatCanIDoForYouSection from "@/components/WhatCanIDoForYouSection";
+import ServicesSection from "@/components/ServicesSection";
+import WorkSection from "@/components/WorkSection";
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen bg-[#121212]">
+    <div className="relative min-h-screen bg-background text-foreground">
       <Navbar />
-      <div className="container mt-24 mx-auto px-12 py-4">
+      <main>
         <HeroSection />
         <AboutSection />
+        <WorkSection />
         <ExperienceSection />
-        <ProjectsSection />
-        <WhatCanIDoForYouSection />
-        <SocialsSection />
-      </div>
+        <ServicesSection />
+        <ContactSection />
+      </main>
       <Footer />
-    </main>
+    </div>
   );
 }

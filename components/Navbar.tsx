@@ -1,66 +1,110 @@
 "use client";
 
 import Link from "next/link";
-import React from "react";
-import NavLink from "./NavLink";
+import Image from "next/image";
+import React, { useEffect, useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
-import MenuOverlay from "./MenuOverlay";
 import { useTranslation } from "react-i18next";
 import LanguageChanger from "./i18n/LanguageChanger";
-import Image from "next/image";
 
 const navLinks = [
-  { title: "About", path: "#about" },
-  { title: "Experience", path: "#experience" },
-  { title: "Social", path: "#social" },
-  { title: "Blog", path: "https://alitunacanonar.medium.com/" },
-  { title: "Youtube", path: "https://www.youtube.com/@alionar60" },
+  { key: "About", href: "#about" },
+  { key: "Work", href: "#work" },
+  { key: "Experience", href: "#experience" },
+  { key: "Services", href: "#services" },
 ];
 
 const Navbar = () => {
-  const [navbarOpen, setNavbarOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const { t } = useTranslation();
 
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 8);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
-    <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
-      <div className="flex flex-wrap container lg:py-4 items-center justify-between mx-auto px-4 py-2">
-        <Link
-          href={"/"}
-          className="flex items-center gap-1 text-xl md:text-2xl font-bold text-white"
-        >
-          <Image src="/logo.png" alt="Ali Onar logo" width={32} height={32} unoptimized />
-        </Link>
-        <div className="block md:hidden">
-          {!navbarOpen ? (
-            <button
-              id="nav-toggle"
-              className="flex items-center px-3 py-2 border rounded text-slate-200 border-slate-200 hover:text-white hover:border-white"
-              onClick={() => setNavbarOpen(true)}
-            >
-              <Bars3Icon className="h-5 w-5" />
-            </button>
-          ) : (
-            <button
-              id="nav-toggle"
-              className="flex items-center px-3 py-2 border rounded text-slate-200 border-slate-200 hover:text-white hover:border-white"
-              onClick={() => setNavbarOpen(false)}
-            >
-              <XMarkIcon className="h-5 w-5" />
-            </button>
-          )}
-        </div>
-        <div className="menu hidden md:block md:w-auto" id="navbar">
-          <ul className="font-medium flex p-4 md:p-0 rounded-lg flex-row md:space-x-8 mt-0">
+    <header
+      className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
+        scrolled
+          ? "bg-background/85 backdrop-blur-md border-b border-border"
+          : "bg-transparent border-b border-transparent"
+      }`}
+    >
+      <div className="mx-auto max-w-6xl px-6 lg:px-8">
+        <div className="flex h-16 items-center justify-between">
+          <Link
+            href="/"
+            className="flex items-center gap-2 text-sm font-semibold tracking-tight text-foreground"
+          >
+            <Image
+              src="/logo.png"
+              alt="Ali Onar logo"
+              width={28}
+              height={28}
+              priority
+              className="h-7 w-7 object-contain"
+            />
+            <span>{t("Navbar.LogoTitle")}</span>
+          </Link>
+
+          <nav className="hidden md:flex items-center gap-7">
             {navLinks.map((link) => (
-              <li key={link.title}>
-                <NavLink title={t(`Navbar.${link.title}`)} href={link.path} />
-              </li>
+              <a
+                key={link.key}
+                href={link.href}
+                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              >
+                {t(`Navbar.${link.key}`)}
+              </a>
             ))}
-          </ul>
+          </nav>
+
+          <div className="flex items-center gap-3">
+            <LanguageChanger />
+            <a
+              href="#contact"
+              className="hidden md:inline-flex items-center rounded-full bg-foreground px-3.5 py-1.5 text-xs font-medium text-background hover:bg-foreground/85 transition-colors"
+            >
+              {t("Navbar.Contact")}
+            </a>
+            <button
+              type="button"
+              onClick={() => setOpen((v) => !v)}
+              className="md:hidden inline-flex items-center justify-center rounded-md p-2 text-foreground"
+              aria-label="Toggle menu"
+            >
+              {open ? (
+                <XMarkIcon className="h-5 w-5" />
+              ) : (
+                <Bars3Icon className="h-5 w-5" />
+              )}
+            </button>
+          </div>
         </div>
+
+        {open && (
+          <div className="md:hidden pb-4">
+            <ul className="flex flex-col gap-1 pt-2 border-t border-border">
+              {navLinks.map((link) => (
+                <li key={link.key}>
+                  <a
+                    href={link.href}
+                    onClick={() => setOpen(false)}
+                    className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+                  >
+                    {t(`Navbar.${link.key}`)}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
-      {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
-    </nav>
+    </header>
   );
 };
 

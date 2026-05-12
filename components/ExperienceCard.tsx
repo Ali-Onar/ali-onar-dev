@@ -1,29 +1,63 @@
-import React, { ReactNode } from "react";
+import React from "react";
 
 type ExperienceProps = {
   company: string;
   position: string;
   date: string;
-  description: ReactNode;
+  location?: string;
+  summary: string;
+  bullets: string[];
+  stack: string[];
 };
 
 const ExperienceCard: React.FC<ExperienceProps> = ({
   company,
   position,
   date,
-  description,
+  location,
+  summary,
+  bullets,
+  stack,
 }) => {
   return (
-    <div className="flex flex-col lg:flex-row bg-[#1f1f1f] p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out">
-      <div className="flex-1 lg:w-1/3 mb-4 lg:mb-0">
-        <h3 className="text-xl font-semibold text-white">{company}</h3>
-        <h4 className="text-md text-gray-400">{position}</h4>
-        <p className="text-sm text-gray-500 mb-2">{date}</p>
+    <article>
+      <header className="flex flex-col gap-1 md:flex-row md:items-baseline md:justify-between">
+        <div>
+          <h3 className="text-lg font-semibold tracking-tight text-foreground">
+            {company}
+          </h3>
+          <p className="text-sm text-muted-foreground">
+            {position}
+            {location ? <span className="text-foreground/30"> · {location}</span> : null}
+          </p>
+        </div>
+        <span className="text-xs font-mono uppercase tracking-wider text-muted-foreground">
+          {date}
+        </span>
+      </header>
+
+      <p className="mt-3 text-sm text-foreground/80 leading-relaxed">{summary}</p>
+
+      <ul className="mt-4 space-y-2 text-sm text-muted-foreground leading-relaxed">
+        {bullets.map((b) => (
+          <li key={b} className="flex gap-2">
+            <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/40" />
+            <span>{b}</span>
+          </li>
+        ))}
+      </ul>
+
+      <div className="mt-4 flex flex-wrap gap-1.5">
+        {stack.map((s) => (
+          <span
+            key={s}
+            className="rounded-full border border-border bg-secondary/60 px-2 py-0.5 text-[11px] text-foreground/70"
+          >
+            {s}
+          </span>
+        ))}
       </div>
-      <div className="flex-2 lg:w-2/3 lg:pl-6">
-        <div className="text-gray-300">{description}</div>
-      </div>
-    </div>
+    </article>
   );
 };
 

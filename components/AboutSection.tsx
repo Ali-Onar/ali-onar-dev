@@ -1,90 +1,91 @@
 "use client";
 
-import React, { useState, useTransition } from "react";
+import React from "react";
 import Image from "next/image";
-import TabButton from "./TabButton";
-import { Badge } from "./ui/badge";
 import { useTranslation } from "react-i18next";
 
-const coreSkills = ["JavaScript", "TypeScript", "Next.js", "React", "React Native", "PostgreSQL", "TailwindCSS", "AWS"];
-
-const otherSkills = ["Supabase", "Clerk Auth", "MongoDB", "Express.js", "Shadcn/UI", "Vercel", "Stripe", "Lemon Squeezy"];
-
-const TAB_DATA = [
+const stack = [
   {
-    title: "Core Skills",
-    id: "coreSkills",
-    content: (
-      <div className="pl-2 flex flex-wrap gap-2">
-        {coreSkills.map((skill, index) => (
-          <Badge key={index} className="text-white text-md" variant="outline">
-            {skill}
-          </Badge>
-        ))}
-      </div>
-    ),
+    key: "frontend",
+    items: ["Next.js", "React", "React Native", "TypeScript", "TailwindCSS"],
   },
   {
-    title: "Other Skills",
-    id: "otherSkills",
-    content: (
-      <div className="pl-2 flex flex-wrap gap-2">
-        {otherSkills.map((skill, index) => (
-          <Badge key={index} className="text-white text-md" variant="outline">
-            {skill}
-          </Badge>
-        ))}
-      </div>
-    ),
+    key: "backend",
+    items: ["Node.js", "Express", "PostgreSQL", "Supabase", "Prisma"],
+  },
+  {
+    key: "infra",
+    items: ["Vercel", "Railway", "Hetzner", "AWS", "Cloudflare"],
+  },
+  {
+    key: "payments",
+    items: ["Stripe", "Lemon Squeezy", "Iyzico", "Param"],
   },
 ];
 
 const AboutSection = () => {
-  const [tab, setTab] = useState("coreSkills");
-  const [isPending, startTransition] = useTransition();
-
   const { t } = useTranslation();
 
-  const handleTabChange = (id: string) => {
-    startTransition(() => {
-      setTab(id);
-    });
-  };
-
   return (
-    <section className="text-white" id="about">
-      <div className="gap-8 items-center py-8 px-4 xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-16">
-        <Image 
-          src="/images/hero-image.jpeg" 
-          alt="About me" 
-          width={448}
-          height={336}
-          priority={false} 
-          className="rounded-full" 
-        />
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">{t("About.title")}</h2>
-          <p className="text-white text-base md:text-lg">
-          {t("About.description")}
-          </p>
-          <div className="flex flex-row justify-start mt-8 text-3xl">
-            <TabButton
-              selectTab={() => handleTabChange("coreSkills")}
-              active={tab === "coreSkills"}
-            >
-              {/* {t("About.skills")} */}
-              Core Skills
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("otherSkills")}
-              active={tab === "otherSkills"}
-            >
-              {/* {t("About.skills")} */}
-              Other Skills
-            </TabButton>
+    <section id="about" className="py-24 md:py-32 border-t border-border">
+      <div className="mx-auto max-w-6xl px-6 lg:px-8">
+        <div className="grid gap-12 md:gap-16 md:grid-cols-12 items-start">
+          <div className="md:col-span-5 md:sticky md:top-28">
+            <span className="inline-block text-xs uppercase tracking-[0.18em] text-muted-foreground">
+              {t("About.eyebrow")}
+            </span>
+            <div className="mt-6 relative">
+              <div className="relative aspect-square w-full max-w-sm overflow-hidden rounded-2xl border border-border bg-muted">
+                <Image
+                  src="/images/hero-image.jpeg"
+                  alt="Ali Tunacan Onar"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                  className="object-cover"
+                  priority={false}
+                />
+              </div>
+              <div className="mt-4 flex items-center gap-3 text-xs text-muted-foreground">
+                <span className="h-px w-8 bg-border" />
+                <span>Türkiye · Remote</span>
+              </div>
+            </div>
           </div>
-          <div className="mt-8">
-            {TAB_DATA.find((t) => t.id === tab)?.content}
+
+          <div className="md:col-span-7">
+            <h2 className="text-balance text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight leading-[1.1]">
+              {t("About.title")}
+            </h2>
+
+            <div className="mt-8 space-y-5 text-base sm:text-lg text-muted-foreground leading-relaxed max-w-2xl">
+              <p>{t("About.p1")}</p>
+              <p>{t("About.p2")}</p>
+            </div>
+
+            <div className="mt-12">
+              <h3 className="text-xs uppercase tracking-[0.18em] text-muted-foreground">
+                {t("About.stackTitle")}
+              </h3>
+              <div className="mt-6 grid gap-x-8 gap-y-6 sm:grid-cols-2">
+                {stack.map((group) => (
+                  <div key={group.key}>
+                    <p className="text-xs font-medium uppercase tracking-wider text-foreground/70">
+                      {t(`About.categories.${group.key}`)}
+                    </p>
+                    <ul className="mt-3 flex flex-wrap gap-1.5">
+                      {group.items.map((item) => (
+                        <li
+                          key={item}
+                          className="rounded-full border border-border bg-secondary px-2.5 py-1 text-xs text-foreground/80"
+                        >
+                          {item}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -1,17 +1,13 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-import { usePathname } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 import { useTranslation } from "react-i18next";
 import i18nConfig from "@/i18nConfig";
 
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
+const locales = [
+  { code: "en", label: "EN" },
+  { code: "tr", label: "TR" },
+] as const;
 
 export default function LanguageChanger() {
   const { i18n } = useTranslation();
@@ -20,13 +16,13 @@ export default function LanguageChanger() {
   const currentPathname = usePathname();
 
   const handleChange = (newLocale: string) => {
-    // set cookie for next-i18n-router
+    if (newLocale === currentLocale) return;
+
     const days = 30;
     const date = new Date();
     date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
     document.cookie = `NEXT_LOCALE=${newLocale};expires=${date.toUTCString()};path=/`;
 
-    // redirect to the new locale path
     if (
       currentLocale === i18nConfig.defaultLocale &&
       !i18nConfig.prefixDefault
@@ -37,19 +33,28 @@ export default function LanguageChanger() {
         currentPathname.replace(`/${currentLocale}`, `/${newLocale}`)
       );
     }
-
     router.refresh();
   };
 
   return (
-    <Select onValueChange={handleChange} value={currentLocale}>
-      <SelectTrigger className="w-[60px] h-[30px]">
-        <SelectValue placeholder="Lang" />
-      </SelectTrigger>
-      <SelectContent>
-        <SelectItem value="en">En</SelectItem>
-        <SelectItem value="tr">Tr</SelectItem>
-      </SelectContent>
-    </Select>
+    <div className="inline-flex items-center rounded-full border border-border bg-background p-0.5 text-xs">
+      {locales.map((l) => {
+        const active = currentLocale === l.code;
+        return (
+          <button
+            key={l.code}
+            type="button"
+            onClick={() => handleChange(l.code)}
+            className={`rounded-full px-2.5 py-1 font-medium transition-colors ${
+              active
+                ? "bg-foreground text-background"
+                : "text-muted-foreground hover:text-foreground"
+            }`}
+          >
+            {l.label}
+          </button>
+        );
+      })}
+    </div>
   );
 }

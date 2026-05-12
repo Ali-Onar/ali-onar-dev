@@ -1,37 +1,82 @@
 {
   "Navbar": {
-    "LogoTitle": "ALI ONAR",
+    "LogoTitle": "Ali Onar",
     "About": "About",
+    "Work": "Work",
     "Experience": "Experience",
-    "Projects": "Projects",
-    "Social": "Social",
-    "Blog": "Blog",
-    "Youtube": "Youtube"
+    "Services": "Services",
+    "Contact": "Contact"
   },
   "Hero": {
-    "greeting": "Hi, I am",
-    "description": "As a Full Stack Engineer with over 4 years of experience, I develop web and mobile applications.",
-    "hireMe": "Let's Bring your Idea to Life!",
-    "downloadCV": "Resume"
+    "status": "Available for new work",
+    "location": "Remote · Türkiye",
+    "name": "Ali Tunacan Onar",
+    "role": "Full-Stack Engineer building SaaS products.",
+    "intro": "Full-Stack Software Engineer with 5 years of experience designing and building SaaS products from scratch. I've worked across fintech, healthcare AI, fitness, and B2B platforms, both as part of product teams and as a freelance engineer leading end-to-end builds.",
+    "primaryCta": "Get in touch",
+    "secondaryCta": "View on LinkedIn"
   },
   "About": {
-    "title": "About Me",
-    "description": "I am a passionate Software Engineer who enjoys developing products, solving problems, and learning new technologies. In addition to developing secure, sustainable products, I always prioritize communication with my teammates. I can fulfill many requirements as needed for a project. I try to look at the products I develop not just from one angle, but from all angles, taking ownership.",
-    "skills": "Skills"
-  },
-  "Projects": {
-    "title": "Projects"
-  },
-  "Social": {
-    "title": "Social Accounts"
-  },
-  "achievements": {
-    "metric": {
-      "Projects": "Projects",
-      "Users": "Users",
-      "Languages": "Languages",
-      "Partners": "Partners",
-      "Products": "Products"
+    "eyebrow": "About",
+    "title": "Full-stack engineer, end-to-end product builder.",
+    "p1": "I design and build SaaS products from scratch - both on product teams and as a freelance engineer leading complete builds. My work spans multi-tenant B2B platforms, AI-driven workflows, two-sided marketplaces, and cross-platform mobile apps.",
+    "p2": "What I care about: shipping products that actually work in production, writing maintainable code that won't haunt the next developer, and understanding the business problem before the technical one.",
+    "stackTitle": "Default stack",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "infra": "Infrastructure",
+      "payments": "Payments"
     }
+  },
+  "Work": {
+    "eyebrow": "Selected work",
+    "title": "Products I've built end-to-end.",
+    "subtitle": "A mix of greenfield SaaS builds, marketplaces, and rescues of stalled codebases.",
+    "visit": "Visit",
+    "caseStudy": "Case study",
+    "ctaEyebrow": "Work with me",
+    "ctaTitle": "Have a project in mind? Let's build it together.",
+    "ctaSubtitle": "Whether it's a greenfield SaaS, a B2B platform, or a stalled codebase that needs to ship, I'd love to hear about it.",
+    "ctaButton": "Start a project"
+  },
+  "Experience": {
+    "eyebrow": "Experience",
+    "title": "Five years across product teams and freelance builds."
+  },
+  "Services": {
+    "eyebrow": "Services",
+    "title": "How I can help.",
+    "subtitle": "Whether you're starting from scratch or inheriting something that no longer scales - I can take it from there.",
+    "items": {
+      "saas": {
+        "title": "SaaS from scratch",
+        "description": "Greenfield builds - multi-tenant architecture, auth, billing, and the unsexy infrastructure that lets a product actually scale."
+      },
+      "rescue": {
+        "title": "Codebase rescues",
+        "description": "Taking over stalled or AI-generated codebases and shipping them to production. Refactor, redesign the database, fix the N+1s."
+      },
+      "mobile": {
+        "title": "Cross-platform mobile",
+        "description": "React Native + Expo apps with a Next.js web counterpart. Shared types, shared logic, one team shipping both."
+      },
+      "consulting": {
+        "title": "Technical consulting",
+        "description": "Architecture reviews, stack decisions, and second opinions before you commit to a direction that's expensive to undo."
+      }
+    }
+  },
+  "Contact": {
+    "eyebrow": "Get in touch",
+    "title": "Have a product idea or a stalled codebase?",
+    "subtitle": "Currently open to full-time roles or freelance work on SaaS products, B2B platforms, and complex full-stack builds.",
+    "emailLabel": "Email",
+    "linkedinLabel": "LinkedIn",
+    "social": "Elsewhere"
+  },
+  "Footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Built with Next.js + Tailwind."
   }
 }

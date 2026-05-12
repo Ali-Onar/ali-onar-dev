@@ -8,23 +8,25 @@ import TranslationsProvider from "@/components/i18n/TranslationProvider";
 import initTranslations from "../i18n";
 import { Toaster } from "@/components/ui/toaster";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Ali Onar",
-  description: "Ali Onar - Software Engineer",
+  title: "Ali Tunacan Onar - Full-Stack Engineer",
+  description:
+    "Full-Stack Engineer building SaaS products. Five years across fintech, healthcare AI, fitness, and B2B platforms.",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://alionar.com",
-    title: "Ali Onar - Software Engineer",
-    description: `Ali Onar's Personal Website`,
+    title: "Ali Tunacan Onar - Full-Stack Engineer",
+    description:
+      "Full-Stack Engineer building SaaS products. Next.js, TypeScript, Node.js, PostgreSQL.",
     images: [
       {
         url: "https://alionar.com/images/hero-image.jpeg",
         width: 1024,
         height: 768,
-        alt: "Ali Onar",
+        alt: "Ali Tunacan Onar",
       },
     ],
     siteName: "Ali Onar",
@@ -33,12 +35,12 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@alionar60",
     creator: "@alionar60",
-    title: "Ali Onar",
-    description: `Ali Onar's Personal Website`,
+    title: "Ali Tunacan Onar - Full-Stack Engineer",
+    description: "Full-Stack Engineer building SaaS products.",
     images: [
       {
         url: "https://alionar.com/images/hero-image.jpeg",
-        alt: "Ali Onar",
+        alt: "Ali Tunacan Onar",
       },
     ],
   },
@@ -47,7 +49,16 @@ export const metadata: Metadata = {
     shortcut: "/favicon-16x16.png",
     apple: "/apple-touch-icon.png",
   },
-  keywords: ["Ali Onar", "Ali Tunacan Onar", "Software Engineer", "SaaS Developer"],
+  keywords: [
+    "Ali Onar",
+    "Ali Tunacan Onar",
+    "Full-Stack Engineer",
+    "SaaS Developer",
+    "Next.js",
+    "TypeScript",
+    "React Native",
+    "Freelance",
+  ],
 };
 
 export function generateStaticParams() {
@@ -66,11 +77,11 @@ export default async function RootLayout({
   const { resources } = await initTranslations(locale, i18nNamespaces);
 
   return (
-    <html lang={locale} dir={dir(locale)}>
+    <html lang={locale} dir={dir(locale)} className={inter.variable}>
       <head>
         <link rel="icon" href="/logo.png" />
       </head>
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-background text-foreground`}>
         <TranslationsProvider
           locale={locale}
           namespaces={i18nNamespaces}

@@ -1,40 +1,82 @@
 {
   "Navbar": {
-    "LogoTitle": "ALI ONAR",
+    "LogoTitle": "Ali Onar",
     "About": "Hakkımda",
+    "Work": "Projeler",
     "Experience": "Deneyim",
-    "Projects": "Projeler",
-    "Social": "Sosyal",
-    "Blog": "Blog",
-    "Youtube": "Youtube"
+    "Services": "Hizmetler",
+    "Contact": "İletişim"
   },
   "Hero": {
-    "greeting": "Merhaba, Ben",
-    "description": "Full Stack Yazılım Mühendisi olarak +4 yıllık deneyime sahip SaaS ürünleri geliştiricisiyim.",
-    "hireMe": "Benimle Çalışın",
-    "downloadCV": "CV'me Ulaşın"
+    "status": "Yeni projelere açığım",
+    "location": "Uzaktan · Türkiye",
+    "name": "Ali Tunacan Onar",
+    "role": "Full-Stack Yazılım Mühendisi",
+    "intro": "SaaS ürünlerini sıfırdan tasarlama ve geliştirme konusunda 5 yıllık deneyime sahip bir Full-Stack Yazılım Mühendisiyim. Fintech, sağlık sektöründe yapay zeka, fitness ve B2B platformlarında hem ürün ekiplerinin bir parçası olarak hem de uçtan uca geliştirme süreçlerini yöneten serbest mühendis olarak çalıştım.",
+    "primaryCta": "İletişime geç",
+    "secondaryCta": "LinkedIn'de görüntüle"
   },
   "About": {
-    "title": "Hakkımda",
-    "description": "Sıfırdan bağımsız olarak sağlam web ve SaaS uygulamaları oluşturma konusunda 4 yıldan fazla kanıtlanmış deneyime sahip, yönetici liderlik ve paydaşlarla yakın işbirliği içinde çalışan tam yığın Yazılım Mühendisi. Temiz, ölçeklenebilir çözümler konusunda tutkulu, sürekli olarak kararlılık, teknik mükemmellik ve ekip çalışması sergileyen. Yazılım mühendisliği ve sürekli büyüme için gerçek bir tutku ile hareket eder.",
-    "skills": "Yetenekler"
+    "eyebrow": "Hakkımda",
+    "title": "Full-stack mühendis, uçtan uca ürün geliştirici.",
+    "p1": "Sıfırdan SaaS ürünleri tasarlayıp geliştiriyorum - hem ürün ekiplerinin parçası olarak hem de uçtan uca projeleri yöneten freelance mühendis olarak. Çalışmalarım çok kiracılı B2B platformlarını, AI destekli iş akışlarını, iki taraflı pazaryerlerini ve cross-platform mobil uygulamaları kapsıyor.",
+    "p2": "Önemsediğim şeyler: üretimde gerçekten çalışan ürünler göndermek, bir sonraki geliştiriciye yük olmayan sürdürülebilir kod yazmak ve teknik problemden önce iş problemini anlamak.",
+    "stackTitle": "Tercih ettiğim stack",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "infra": "Altyapı",
+      "payments": "Ödeme"
+    }
   },
-  "Projects": {
-    "title": "Projeler"
+  "Work": {
+    "eyebrow": "Seçilmiş projeler",
+    "title": "Uçtan uca geliştirdiğim ürünler.",
+    "subtitle": "Greenfield SaaS projeleri, pazaryerleri ve durmuş kod tabanlarının kurtarılması karışımı.",
+    "visit": "İncele",
+    "caseStudy": "Vaka çalışması",
+    "ctaEyebrow": "Benimle çalış",
+    "ctaTitle": "Aklında bir proje mi var? Beraber inşa edelim.",
+    "ctaSubtitle": "Greenfield bir SaaS, B2B platform veya yayına alınması gereken durmuş bir kod tabanı, ne olursa olsun konuşmaya hazırım.",
+    "ctaButton": "Projeye başla"
   },
-  "Socials": {
-    "title": "Sosyal Hesaplar"
+  "Experience": {
+    "eyebrow": "Deneyim",
+    "title": "Beş yıl boyunca ürün ekipleri ve freelance projeler."
+  },
+  "Services": {
+    "eyebrow": "Hizmetler",
+    "title": "Size nasıl yardımcı olabilirim.",
+    "subtitle": "Sıfırdan başlıyor olun ya da ölçeklenmeyen bir kod tabanı devraldıysanız - buradan devam ettirebilirim.",
+    "items": {
+      "saas": {
+        "title": "Sıfırdan SaaS",
+        "description": "Greenfield projeler - çok kiracılı mimari, kimlik doğrulama, faturalama ve ürünün gerçekten ölçeklenmesini sağlayan altyapı."
+      },
+      "rescue": {
+        "title": "Kod tabanı kurtarma",
+        "description": "Durmuş veya AI ile üretilmiş kod tabanlarını devralıp üretime almak. Refactor, veritabanını yeniden tasarlama, N+1 sorgularını düzeltme."
+      },
+      "mobile": {
+        "title": "Cross-platform mobil",
+        "description": "Next.js web karşılığı olan React Native + Expo uygulamaları. Paylaşılan tipler, paylaşılan iş mantığı, ikisini de gönderen tek ekip."
+      },
+      "consulting": {
+        "title": "Teknik danışmanlık",
+        "description": "Mimari incelemeler, stack kararları ve geri dönüşü pahalı bir yöne gitmeden önce ikinci görüş."
+      }
+    }
+  },
+  "Contact": {
+    "eyebrow": "İletişime geçin",
+    "title": "Yeni bir ürün fikri veya durmuş bir kod tabanı mı var?",
+    "subtitle": "Şu anda SaaS ürünleri, B2B platformları ve karmaşık full-stack projeler için tam zamanlı veya freelance işlere açığım.",
+    "emailLabel": "E-posta",
+    "linkedinLabel": "LinkedIn",
+    "social": "Diğer kanallar"
   },
   "Footer": {
-    "description": "Projenin kaynak kodlarına github hesabımdan ulaşabilirsiniz."
-  },
-  "achievements": {
-    "metric": {
-      "Projects": "Proje",
-      "Users": "Kullanıcı",
-      "Languages": "Dil",
-      "Partners": "Partner",
-      "Products": "Ürün"
-    }
+    "rights": "Tüm hakları saklıdır.",
+    "builtWith": "Next.js + Tailwind ile geliştirildi."
   }
 }
