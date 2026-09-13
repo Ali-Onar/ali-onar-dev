@@ -48,7 +48,7 @@ const ContactSection = () => {
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
         <div className="grid gap-12 md:grid-cols-12">
           <div className="md:col-span-7">
-            <span className="inline-block text-xs uppercase tracking-[0.18em] text-muted-foreground">
+            <span className="inline-block text-xs font-medium uppercase tracking-[0.18em] text-brand-deep">
               {t("Contact.eyebrow")}
             </span>
             <h2 className="mt-3 text-balance text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight leading-[1.1]">
@@ -61,10 +61,10 @@ const ContactSection = () => {
             <div className="mt-10 flex flex-col gap-3 max-w-md">
               <Link
                 href="mailto:alitunacanonar@icloud.com"
-                className="group flex items-center justify-between gap-4 rounded-xl border border-border bg-background px-5 py-4 transition-colors hover:border-foreground/30 hover:bg-secondary/60"
+                className="group flex items-center justify-between gap-4 rounded-xl border border-border bg-background px-5 py-4 transition-colors hover:border-brand/50 hover:bg-brand-soft"
               >
                 <span className="flex items-center gap-3">
-                  <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-foreground text-background">
+                  <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-brand text-brand-foreground shadow-md shadow-brand/25">
                     <Mail className="h-4 w-4" />
                   </span>
                   <span>
@@ -76,16 +76,16 @@ const ContactSection = () => {
                     </span>
                   </span>
                 </span>
-                <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-foreground" />
+                <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-brand" />
               </Link>
 
               <Link
                 href="https://www.linkedin.com/in/ali-tunacan-onar"
                 target="_blank"
-                className="group flex items-center justify-between gap-4 rounded-xl border border-border bg-background px-5 py-4 transition-colors hover:border-foreground/30 hover:bg-secondary/60"
+                className="group flex items-center justify-between gap-4 rounded-xl border border-border bg-background px-5 py-4 transition-colors hover:border-[#0A66C2]/50 hover:bg-[#0A66C2]/5"
               >
                 <span className="flex items-center gap-3">
-                  <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-secondary text-foreground border border-border">
+                  <span className="flex h-9 w-9 items-center justify-center rounded-lg border border-[#0A66C2]/20 bg-[#0A66C2]/10 text-[#0A66C2]">
                     <FaLinkedinIn size={14} />
                   </span>
                   <span>
@@ -97,13 +97,13 @@ const ContactSection = () => {
                     </span>
                   </span>
                 </span>
-                <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-foreground" />
+                <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-brand" />
               </Link>
             </div>
           </div>
 
           <aside className="md:col-span-5 md:pl-8 md:border-l md:border-border">
-            <span className="inline-block text-xs uppercase tracking-[0.18em] text-muted-foreground">
+            <span className="inline-block text-xs font-medium uppercase tracking-[0.18em] text-brand-deep">
               {t("Contact.social")}
             </span>
             <ul className="mt-6 divide-y divide-border border-y border-border">
@@ -113,15 +113,15 @@ const ContactSection = () => {
                     href={s.url}
                     target="_blank"
                     rel="noreferrer"
-                    className="group flex items-center justify-between gap-4 py-3.5 text-sm text-foreground hover:text-foreground"
+                    className="group flex items-center justify-between gap-4 py-3.5 text-sm text-foreground transition-colors hover:text-brand-deep"
                   >
                     <span className="flex items-center gap-3">
-                      <span className="text-muted-foreground group-hover:text-foreground transition-colors">
+                      <span className="text-muted-foreground group-hover:text-brand transition-colors">
                         {s.icon}
                       </span>
                       <span>{s.name}</span>
                     </span>
-                    <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-foreground" />
+                    <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-brand" />
                   </a>
                 </li>
               ))}

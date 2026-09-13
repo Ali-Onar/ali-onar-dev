@@ -8,6 +8,7 @@ type ExperienceProps = {
   summary: string;
   bullets: string[];
   stack: string[];
+  current?: boolean;
 };
 
 const ExperienceCard: React.FC<ExperienceProps> = ({
@@ -18,6 +19,7 @@ const ExperienceCard: React.FC<ExperienceProps> = ({
   summary,
   bullets,
   stack,
+  current = false,
 }) => {
   return (
     <article>
@@ -31,7 +33,13 @@ const ExperienceCard: React.FC<ExperienceProps> = ({
             {location ? <span className="text-foreground/30"> · {location}</span> : null}
           </p>
         </div>
-        <span className="text-xs font-mono uppercase tracking-wider text-muted-foreground">
+        <span
+          className={`inline-flex w-fit items-center rounded-full border px-2.5 py-0.5 text-xs font-mono uppercase tracking-wider ${
+            current
+              ? "border-orange-200 bg-orange-50 text-brand-deep"
+              : "border-border bg-secondary/60 text-muted-foreground"
+          }`}
+        >
           {date}
         </span>
       </header>
@@ -41,7 +49,7 @@ const ExperienceCard: React.FC<ExperienceProps> = ({
       <ul className="mt-4 space-y-2 text-sm text-muted-foreground leading-relaxed">
         {bullets.map((b) => (
           <li key={b} className="flex gap-2">
-            <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-foreground/40" />
+            <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-brand" />
             <span>{b}</span>
           </li>
         ))}

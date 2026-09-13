@@ -29,7 +29,7 @@ const Footer = () => {
         <div className="flex items-center gap-6 text-sm text-muted-foreground">
           <Link
             href="mailto:alitunacanonar@icloud.com"
-            className="hover:text-foreground transition-colors"
+            className="hover:text-brand-deep transition-colors"
           >
             alitunacanonar@icloud.com
           </Link>

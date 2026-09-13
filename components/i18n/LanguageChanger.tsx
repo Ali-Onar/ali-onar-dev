@@ -47,7 +47,7 @@ export default function LanguageChanger() {
             onClick={() => handleChange(l.code)}
             className={`rounded-full px-2.5 py-1 font-medium transition-colors ${
               active
-                ? "bg-foreground text-background"
+                ? "bg-brand text-brand-foreground"
                 : "text-muted-foreground hover:text-foreground"
             }`}
           >
