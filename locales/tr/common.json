@@ -17,20 +17,29 @@
     "location": "Türkiye · Uzaktan",
     "name": "Ali Tunacan Onar",
     "role": "SaaS ürünleri geliştiren Full-Stack Yazılım Mühendisi.",
-    "intro": "SaaS ürünlerini sıfırdan tasarlayıp geliştirme konusunda 6 yıllık deneyime sahip bir Full-Stack Yazılım Mühendisiyim. Fintech, sağlıkta yapay zekâ, fitness ve B2B platformlarında hem ürün ekiplerinin bir parçası olarak hem de projeleri uçtan uca yöneten freelance mühendis olarak çalıştım.",
+    "intro": "6 yıldır web ve mobil ürünleri sıfırdan tasarlayıp yayına alıyorum. Finans, sağlık, fitness ve B2B alanlarında hem şirket bünyesinde hem de projeleri baştan sona üstlenen freelance mühendis olarak çalıştım.",
     "primaryCta": "İletişime geçin",
     "secondaryCta": "LinkedIn profilim",
     "stats": {
-      "experience": { "label": "Deneyim", "value": "6+ yıl" },
-      "products": { "label": "Yayınlanan ürün", "value": "15+" },
-      "users": { "label": "Ulaşılan kullanıcı", "value": "20 bin+" }
+      "experience": {
+        "label": "Deneyim",
+        "value": "6+ yıl"
+      },
+      "products": {
+        "label": "Yayınlanan ürün",
+        "value": "15+"
+      },
+      "users": {
+        "label": "Ulaşılan kullanıcı",
+        "value": "50 bin+"
+      }
     }
   },
   "About": {
     "eyebrow": "Hakkımda",
-    "title": "Full-stack mühendis, uçtan uca ürün geliştirici.",
-    "p1": "SaaS ürünlerini sıfırdan tasarlayıp geliştiriyorum; hem ürün ekiplerinin bir parçası olarak hem de projeleri uçtan uca yöneten freelance mühendis olarak. Çalışmalarım multi-tenant B2B platformlarını, yapay zekâ destekli iş akışlarını, iki taraflı pazaryerlerini ve cross-platform mobil uygulamaları kapsıyor.",
-    "p2": "Önem verdiğim şeyler: canlıda gerçekten çalışan ürünler çıkarmak, bir sonraki geliştiriciye yük olmayacak sürdürülebilir kod yazmak ve teknik problemden önce iş problemini anlamak.",
+    "title": "Fikirden yayına, ürünün her aşamasını üstlenen yazılım mühendisi.",
+    "p1": "Web ve mobil ürünleri sıfırdan tasarlayıp geliştiriyorum; hem ürün ekiplerinin içinde hem de projeleri baştan sona yöneten freelance mühendis olarak. Çalışmalarım kurumsal B2B platformlarından yapay zekâ destekli uygulamalara, pazaryerlerinden mobil uygulamalara uzanıyor.",
+    "p2": "Benim için önemli olan üç şey var: yayına çıkan ve gerçekten çalışan ürünler, yıllar sonra bile rahatça geliştirilebilen temiz kod ve teknik çözümden önce işin kendisini anlamak.",
     "location": "Türkiye · Uzaktan",
     "photoAlt": "Ali Tunacan Onar",
     "stackTitle": "Kullandığım teknolojiler",
@@ -44,7 +53,7 @@
   "Work": {
     "eyebrow": "Seçili projeler",
     "title": "Uçtan uca geliştirdiğim ürünler.",
-    "subtitle": "Sıfırdan geliştirilen SaaS ürünleri, pazaryerleri ve yarım kalmış projelerin canlıya alınması.",
+    "subtitle": "Sıfırdan geliştirdiğim SaaS ürünleri, pazaryerleri ve devralıp yayına aldığım projeler.",
     "visit": "{{title}} sitesini ziyaret et",
     "preview": "{{title}} önizlemesi",
     "status": {
@@ -86,7 +95,7 @@
       "tigaa": {
         "tagline": "WhatsApp ve yapay zekâ destekli teklif motoruna sahip B2B satın alma SaaS'ı.",
         "highlights": [
-          "Alıcı ve tedarikçi rollerini birlikte destekleyen, katalog ve teklif yönetimi içeren multi-tenant veri modeli.",
+          "Her firmanın hem alıcı hem tedarikçi olabildiği, katalog ve teklif yönetimi içeren çok firmalı yapı.",
           "PDF ve görsellerden ürünleri çıkarıp teklif belgesi üreten WhatsApp Business API + OpenAI botu.",
           "Çok kanallı iletişim (WhatsApp, SMS, e-posta), tedarikçi onay otomasyonu ve analitik panelleri."
         ]
@@ -119,7 +128,7 @@
         "tagline": "Ses dosyaları için yapay zekâ filigranı ve ses iyileştirme SaaS'ı.",
         "highlights": [
           "Ses dosyalarına duyulmayan yapay zekâ filigranı; ses iyileştirme hattı Dolby API'leri ile çalışıyor.",
-          "Serverless katmandan Modal üzerindeki yapay zekâ API'lerine erişmek için yoğun Supabase Edge Functions kullanımı.",
+          "Yapay zekâ modellerine sunucusuz mimariyle bağlanan altyapı (Supabase Edge Functions + Modal).",
           "Filigranlı sesleri işleyip indirmek için kimlik doğrulama, faturalama ve kontrol paneli."
         ]
       },
@@ -149,7 +158,7 @@
     },
     "ctaEyebrow": "Birlikte çalışalım",
     "ctaTitle": "Aklınızda bir proje mi var? Birlikte hayata geçirelim.",
-    "ctaSubtitle": "Sıfırdan bir SaaS, bir B2B platformu ya da canlıya alınması gereken yarım kalmış bir proje... Ne olursa olsun, dinlemekten memnuniyet duyarım.",
+    "ctaSubtitle": "Yeni bir ürün, bir B2B platformu ya da bir türlü bitmeyen bir proje... Kısaca anlatın, nasıl ilerleyebileceğimizi birlikte konuşalım.",
     "ctaButton": "Projenizi anlatın"
   },
   "Experience": {
@@ -161,7 +170,7 @@
         "position": "Full-Stack Yazılım Mühendisi",
         "date": "Kas 2025 - Günümüz",
         "location": "Uzaktan",
-        "summary": "SaaS ürünleri ve B2B platformları uçtan uca geliştiriyorum. Sıfırdan projeler ve yarım kalmış kod tabanlarının canlıya alınması.",
+        "summary": "Müşteriler için web ve mobil ürünleri baştan sona geliştiriyorum: yeni projeler ve yarım kalmış projelerin tamamlanıp yayına alınması.",
         "bullets": [
           "Tigaa: WhatsApp Business API + OpenAI teklif motoruna sahip multi-tenant B2B satın alma SaaS'ı.",
           "KolayTadilat: İki taraflı tadilat pazaryeri; yarım kalmış kod tabanını devralıp canlıya aldım.",
@@ -220,30 +229,30 @@
   "Services": {
     "eyebrow": "Hizmetler",
     "title": "Size nasıl yardımcı olabilirim?",
-    "subtitle": "İster sıfırdan başlıyor olun ister artık ölçeklenmeyen bir projeyi devralmış olun; kaldığı yerden devam ettirebilirim.",
+    "subtitle": "Yeni bir ürün fikriniz de olsa, elinizde büyüyemeyen bir yazılım da olsa; süreci baştan sona üstlenip yayına alıyorum.",
     "items": {
       "saas": {
-        "title": "Sıfırdan SaaS geliştirme",
-        "description": "Multi-tenant mimari, kimlik doğrulama, ödeme ve abonelik sistemleri ve ürünün gerçekten ölçeklenmesini sağlayan sağlam altyapı."
+        "title": "Sıfırdan SaaS ürünü geliştirme",
+        "description": "Fikrinizi baştan sona çalışan bir web uygulamasına dönüştürüyorum: kullanıcı girişi, abonelik ve ödeme sistemi, yönetim paneli ve büyüdükçe sizi yarı yolda bırakmayacak sağlam bir altyapı."
       },
       "rescue": {
-        "title": "Yarım kalmış projeleri kurtarma",
-        "description": "Durmuş ya da yapay zekâ ile üretilmiş projeleri devralıp canlıya alıyorum. Refactor, veritabanının yeniden tasarımı ve performans sorunlarının giderilmesi."
+        "title": "Yarım kalmış projeleri tamamlama",
+        "description": "Önceki ekibin bıraktığı ya da yapay zekâ araçlarıyla üretilip tıkanan projeleri devralıyorum. Sorunları tespit edip düzeltiyor, eksikleri tamamlıyor ve projeyi sorunsuz şekilde yayına alıyorum."
       },
       "mobile": {
-        "title": "Web + mobil uygulama",
-        "description": "Next.js web uygulamasıyla birlikte çalışan React Native + Expo mobil uygulamalar. Ortak tipler, ortak iş mantığı, ikisini de yayına alan tek ekip."
+        "title": "Web ve mobil uygulama",
+        "description": "Aynı ürünü hem web'de hem iOS ve Android'de sunmak isteyenler için. Her iki platformu tek bir altyapı üzerinde birlikte geliştiriyorum; böylece maliyet düşüyor, güncellemeler her yere aynı anda ulaşıyor."
       },
       "consulting": {
         "title": "Teknik danışmanlık",
-        "description": "Mimari incelemeler, teknoloji seçimi ve geri dönüşü pahalı bir karar vermeden önce ikinci bir görüş."
+        "description": "Hangi teknolojiyi seçmelisiniz, mevcut sisteminiz büyümeye hazır mı, teklif aldığınız yazılım ekibi doğru mu ilerliyor? Pahalı hatalar yapmadan önce tarafsız bir teknik görüş sunuyorum."
       }
     }
   },
   "Contact": {
     "eyebrow": "İletişime geçin",
     "title": "Yeni bir ürün fikriniz ya da yarım kalmış bir projeniz mi var?",
-    "subtitle": "Şu anda SaaS ürünleri, B2B platformları ve kapsamlı full-stack projeler için tam zamanlı ya da freelance iş birliklerine açığım.",
+    "subtitle": "Yeni projeler için hem freelance hem de tam zamanlı iş birliklerine açığım. Kısa bir e-posta yeterli, en kısa sürede dönüş yapıyorum.",
     "emailLabel": "E-posta",
     "linkedinLabel": "LinkedIn",
     "social": "Diğer kanallar"

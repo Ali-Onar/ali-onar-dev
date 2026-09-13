@@ -17,20 +17,29 @@
     "location": "Remote · Türkiye",
     "name": "Ali Tunacan Onar",
     "role": "Full-Stack Engineer building SaaS products.",
-    "intro": "Full-Stack Software Engineer with 6 years of experience designing and building SaaS products from scratch. I've worked across fintech, healthcare AI, fitness, and B2B platforms, both as part of product teams and as a freelance engineer leading end-to-end builds.",
+    "intro": "For six years I've been designing and shipping web and mobile products from scratch. I've worked across fintech, healthcare AI, fitness, and B2B, both inside product teams and as a freelance engineer owning projects end to end.",
     "primaryCta": "Get in touch",
     "secondaryCta": "View on LinkedIn",
     "stats": {
-      "experience": { "label": "Experience", "value": "6+ yrs" },
-      "products": { "label": "Products shipped", "value": "15+" },
-      "users": { "label": "Users reached", "value": "20k+" }
+      "experience": {
+        "label": "Experience",
+        "value": "6+ yrs"
+      },
+      "products": {
+        "label": "Products shipped",
+        "value": "15+"
+      },
+      "users": {
+        "label": "Users reached",
+        "value": "50k+"
+      }
     }
   },
   "About": {
     "eyebrow": "About",
-    "title": "Full-stack engineer, end-to-end product builder.",
-    "p1": "I design and build SaaS products from scratch - both on product teams and as a freelance engineer leading complete builds. My work spans multi-tenant B2B platforms, AI-driven workflows, two-sided marketplaces, and cross-platform mobile apps.",
-    "p2": "What I care about: shipping products that actually work in production, writing maintainable code that won't haunt the next developer, and understanding the business problem before the technical one.",
+    "title": "A full-stack engineer who takes products from idea to launch.",
+    "p1": "I design and build web and mobile products from scratch, both inside product teams and as a freelance engineer running projects end to end. My work spans B2B platforms, AI-powered products, two-sided marketplaces, and mobile apps.",
+    "p2": "Three things matter to me: products that ship and actually work, code that's still easy to build on years later, and understanding the business before the technology.",
     "location": "Türkiye · Remote",
     "photoAlt": "Ali Tunacan Onar",
     "stackTitle": "Default stack",
@@ -44,7 +53,7 @@
   "Work": {
     "eyebrow": "Selected work",
     "title": "Products I've built end-to-end.",
-    "subtitle": "A mix of greenfield SaaS builds, marketplaces, and rescues of stalled codebases.",
+    "subtitle": "SaaS products built from scratch, marketplaces, and stalled projects I took over and shipped.",
     "visit": "Visit {{title}}",
     "preview": "{{title}} preview",
     "status": {
@@ -86,7 +95,7 @@
       "tigaa": {
         "tagline": "B2B procurement SaaS with WhatsApp + AI quote engine.",
         "highlights": [
-          "Multi-tenant data model with dual buyer/supplier roles, catalogs, and quote management.",
+          "Multi-company setup where each business can act as both buyer and supplier, with catalog and quote management.",
           "WhatsApp Business API + OpenAI bot that extracts products from PDFs and images, then generates quote documents.",
           "Multi-channel comms (WhatsApp, SMS, email), supplier confirmation automation, analytics dashboards."
         ]
@@ -119,7 +128,7 @@
         "tagline": "AI watermark generator and audio enhancement SaaS for sound files.",
         "highlights": [
           "Inaudible AI watermarking for audio files, with Dolby APIs powering the audio enhancement pipeline.",
-          "Heavy use of Supabase Edge Functions to talk to Modal-hosted AI APIs from the serverless layer.",
+          "Serverless integration layer connecting to the AI models (Supabase Edge Functions + Modal).",
           "Auth, billing, and dashboard for processing and downloading watermarked audio."
         ]
       },
@@ -149,7 +158,7 @@
     },
     "ctaEyebrow": "Work with me",
     "ctaTitle": "Have a project in mind? Let's build it together.",
-    "ctaSubtitle": "Whether it's a greenfield SaaS, a B2B platform, or a stalled codebase that needs to ship, I'd love to hear about it.",
+    "ctaSubtitle": "A new product, a B2B platform, or a project that never quite got finished. Tell me a bit about it and let's talk through how to move it forward.",
     "ctaButton": "Start a project"
   },
   "Experience": {
@@ -161,7 +170,7 @@
         "position": "Full-Stack Engineer",
         "date": "Nov 2025 - Present",
         "location": "Remote",
-        "summary": "Building SaaS products and B2B platforms end-to-end. Greenfield builds and rescues of stalled codebases.",
+        "summary": "Building web and mobile products for clients end to end: new builds, plus stalled projects taken over and shipped.",
         "bullets": [
           "Tigaa: Multi-tenant B2B procurement SaaS with a WhatsApp Business API + OpenAI quote engine.",
           "KolayTadilat: Two-sided renovation marketplace - took over a stalled codebase and shipped to production.",
@@ -220,30 +229,30 @@
   "Services": {
     "eyebrow": "Services",
     "title": "How I can help.",
-    "subtitle": "Whether you're starting from scratch or inheriting something that no longer scales - I can take it from there.",
+    "subtitle": "Whether you're starting with a fresh idea or stuck with software that can't keep up, I take it from where it is to a product that ships.",
     "items": {
       "saas": {
-        "title": "SaaS from scratch",
-        "description": "Greenfield builds - multi-tenant architecture, auth, billing, and the unsexy infrastructure that lets a product actually scale."
+        "title": "SaaS products from scratch",
+        "description": "I turn your idea into a working web application end to end: user accounts, subscriptions and payments, an admin panel, and a solid foundation that won't hold you back as you grow."
       },
       "rescue": {
-        "title": "Codebase rescues",
-        "description": "Taking over stalled or AI-generated codebases and shipping them to production. Refactor, redesign the database, fix the N+1s."
+        "title": "Finishing stalled projects",
+        "description": "I take over projects left behind by a previous team or generated with AI tools and stuck halfway. I find and fix what's broken, fill in the gaps, and get it live without drama."
       },
       "mobile": {
-        "title": "Cross-platform mobile",
-        "description": "React Native + Expo apps with a Next.js web counterpart. Shared types, shared logic, one team shipping both."
+        "title": "Web and mobile apps",
+        "description": "For products that need to live on the web and on iOS and Android. I build both on one shared foundation, so costs stay down and every update reaches every platform at once."
       },
       "consulting": {
         "title": "Technical consulting",
-        "description": "Architecture reviews, stack decisions, and second opinions before you commit to a direction that's expensive to undo."
+        "description": "Which technology to pick, whether your current system is ready to grow, or whether the agency you're quoting is on the right track. An independent technical opinion before expensive mistakes get made."
       }
     }
   },
   "Contact": {
     "eyebrow": "Get in touch",
     "title": "Have a product idea or a stalled codebase?",
-    "subtitle": "Currently open to full-time roles or freelance work on SaaS products, B2B platforms, and complex full-stack builds.",
+    "subtitle": "Open to both freelance and full-time collaborations on new projects. A short email is enough, and I'll get back to you quickly.",
     "emailLabel": "Email",
     "linkedinLabel": "LinkedIn",
     "social": "Elsewhere"
