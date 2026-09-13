@@ -304,20 +304,8 @@ const WorkSection = () => {
 
         <a
           href="#contact"
-          className="group mt-6 relative grid overflow-hidden rounded-2xl border border-border bg-background transition-all hover:border-foreground/30 hover:shadow-[0_8px_30px_rgb(0,0,0,0.06)] md:grid-cols-2"
+          className="group mt-6 relative block overflow-hidden rounded-2xl border border-border bg-background transition-all hover:border-foreground/30 hover:shadow-[0_8px_30px_rgb(0,0,0,0.06)]"
         >
-          <div className="p-3">
-            <div className="relative aspect-[16/9] md:aspect-auto md:h-full md:min-h-[260px] overflow-hidden rounded-xl border border-border bg-secondary">
-              <Image
-                src="/images/projects/cta.jpg"
-                alt="Work with me"
-                fill
-                sizes="(max-width: 768px) 100vw, 50vw"
-                className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
-                unoptimized
-              />
-            </div>
-          </div>
           <div className="flex flex-col justify-center gap-5 p-8 md:p-10">
             <span className="inline-block text-xs uppercase tracking-[0.18em] text-muted-foreground">
               {t("Work.ctaEyebrow")}
