@@ -60,13 +60,13 @@ const HeroSection = () => {
               <dt className="text-xs uppercase tracking-wider text-muted-foreground">
                 Experience
               </dt>
-              <dd className="mt-1 text-2xl font-semibold tracking-tight">5+ yrs</dd>
+              <dd className="mt-1 text-2xl font-semibold tracking-tight">6+ yrs</dd>
             </div>
             <div>
               <dt className="text-xs uppercase tracking-wider text-muted-foreground">
                 Products shipped
               </dt>
-              <dd className="mt-1 text-2xl font-semibold tracking-tight">12+</dd>
+              <dd className="mt-1 text-2xl font-semibold tracking-tight">15+</dd>
             </div>
             <div>
               <dt className="text-xs uppercase tracking-wider text-muted-foreground">
