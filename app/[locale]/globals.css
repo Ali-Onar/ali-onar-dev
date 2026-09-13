@@ -28,15 +28,17 @@
     --accent: 222 47% 11%;
     --accent-foreground: 0 0% 100%;
 
-    --brand: 24 95% 53%;
+    --brand: 22 92% 50%;
     --brand-foreground: 0 0% 100%;
+    --brand-deep: 20 90% 40%;
+    --brand-soft: 24 100% 96%;
 
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 30 6% 90%;
     --input: 30 6% 90%;
-    --ring: 240 10% 6%;
+    --ring: 22 92% 50%;
 
     --radius: 0.75rem;
   }
@@ -57,8 +59,8 @@
   }
 
   ::selection {
-    background-color: hsl(240 10% 6%);
-    color: hsl(0 0% 100%);
+    background-color: hsl(var(--brand));
+    color: hsl(var(--brand-foreground));
   }
 }
 
