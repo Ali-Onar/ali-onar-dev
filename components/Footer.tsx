@@ -21,19 +21,18 @@ const Footer = () => {
           />
           <div className="flex flex-col">
             <span className="text-sm font-medium text-foreground">
-              Ali Tunacan Onar
+              Ali Onar
             </span>
           </div>
         </div>
 
-        <div className="flex items-center gap-6 text-xs text-muted-foreground">
+        <div className="flex items-center gap-6 text-sm text-muted-foreground">
           <Link
             href="mailto:alitunacanonar@icloud.com"
             className="hover:text-foreground transition-colors"
           >
             alitunacanonar@icloud.com
           </Link>
-          <span className="hidden md:inline">{t("Footer.builtWith")}</span>
         </div>
       </div>
     </footer>
