@@ -6,7 +6,7 @@ import ExperienceCard from "./ExperienceCard";
 
 const experiences = [
   {
-    company: "Upwork - Freelance",
+    company: "Self-Employed",
     position: "Full-Stack Engineer",
     date: "Nov 2025 - Present",
     location: "Remote",
