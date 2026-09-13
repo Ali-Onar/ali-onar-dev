@@ -10,10 +10,40 @@ import { Toaster } from "@/components/ui/toaster";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
-export const metadata: Metadata = {
+const meta = {
+  en: {
+    title: "Ali Tunacan Onar - Full-Stack Engineer",
+    description:
+      "Full-Stack Engineer building SaaS products. Six years across fintech, healthcare AI, fitness, and B2B platforms.",
+    ogLocale: "en_US",
+  },
+  tr: {
+    title: "Ali Tunacan Onar - Full-Stack Yazılım Mühendisi",
+    description:
+      "SaaS ürünleri geliştiren Full-Stack Yazılım Mühendisi. Fintech, sağlıkta yapay zekâ, fitness ve B2B platformlarında 6 yıllık deneyim.",
+    ogLocale: "tr_TR",
+  },
+} as const;
+
+export function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}): Metadata {
+  const m = meta[locale as keyof typeof meta] ?? meta.en;
+  return {
+    ...baseMetadata,
+    title: m.title,
+    description: m.description,
+    openGraph: { ...baseMetadata.openGraph, locale: m.ogLocale, title: m.title, description: m.description },
+    twitter: { ...baseMetadata.twitter, title: m.title, description: m.description },
+  };
+}
+
+const baseMetadata: Metadata = {
   title: "Ali Tunacan Onar - Full-Stack Engineer",
   description:
-    "Full-Stack Engineer building SaaS products. Five years across fintech, healthcare AI, fitness, and B2B platforms.",
+    "Full-Stack Engineer building SaaS products. Six years across fintech, healthcare AI, fitness, and B2B platforms.",
   openGraph: {
     type: "website",
     locale: "en_US",

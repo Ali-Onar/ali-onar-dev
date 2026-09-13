@@ -1,76 +1,249 @@
 {
+  "Meta": {
+    "title": "Ali Tunacan Onar - Full-Stack Yazılım Mühendisi",
+    "description": "SaaS ürünleri geliştiren Full-Stack Yazılım Mühendisi. Fintech, sağlıkta yapay zekâ, fitness ve B2B platformlarında 6 yıllık deneyim."
+  },
   "Navbar": {
     "LogoTitle": "Ali Onar",
     "About": "Hakkımda",
     "Work": "Projeler",
     "Experience": "Deneyim",
     "Services": "Hizmetler",
-    "Contact": "İletişim"
+    "Contact": "İletişim",
+    "toggleMenu": "Menüyü aç/kapat"
   },
   "Hero": {
     "status": "Yeni projelere açığım",
-    "location": "Uzaktan · Türkiye",
+    "location": "Türkiye · Uzaktan",
     "name": "Ali Tunacan Onar",
-    "role": "Full-Stack Yazılım Mühendisi",
-    "intro": "SaaS ürünlerini sıfırdan tasarlama ve geliştirme konusunda 6 yıllık deneyime sahip bir Full-Stack Yazılım Mühendisiyim. Fintech, sağlık sektöründe yapay zeka, fitness ve B2B platformlarında hem ürün ekiplerinin bir parçası olarak hem de uçtan uca geliştirme süreçlerini yöneten serbest mühendis olarak çalıştım.",
-    "primaryCta": "İletişime geç",
-    "secondaryCta": "LinkedIn'de görüntüle"
+    "role": "SaaS ürünleri geliştiren Full-Stack Yazılım Mühendisi.",
+    "intro": "SaaS ürünlerini sıfırdan tasarlayıp geliştirme konusunda 6 yıllık deneyime sahip bir Full-Stack Yazılım Mühendisiyim. Fintech, sağlıkta yapay zekâ, fitness ve B2B platformlarında hem ürün ekiplerinin bir parçası olarak hem de projeleri uçtan uca yöneten freelance mühendis olarak çalıştım.",
+    "primaryCta": "İletişime geçin",
+    "secondaryCta": "LinkedIn profilim",
+    "stats": {
+      "experience": { "label": "Deneyim", "value": "6+ yıl" },
+      "products": { "label": "Yayınlanan ürün", "value": "15+" },
+      "users": { "label": "Ulaşılan kullanıcı", "value": "20 bin+" }
+    }
   },
   "About": {
     "eyebrow": "Hakkımda",
     "title": "Full-stack mühendis, uçtan uca ürün geliştirici.",
-    "p1": "Sıfırdan SaaS ürünleri tasarlayıp geliştiriyorum - hem ürün ekiplerinin parçası olarak hem de uçtan uca projeleri yöneten freelance mühendis olarak. Çalışmalarım çok kiracılı B2B platformlarını, AI destekli iş akışlarını, iki taraflı pazaryerlerini ve cross-platform mobil uygulamaları kapsıyor.",
-    "p2": "Önemsediğim şeyler: üretimde gerçekten çalışan ürünler göndermek, bir sonraki geliştiriciye yük olmayan sürdürülebilir kod yazmak ve teknik problemden önce iş problemini anlamak.",
-    "stackTitle": "Tercih ettiğim stack",
+    "p1": "SaaS ürünlerini sıfırdan tasarlayıp geliştiriyorum; hem ürün ekiplerinin bir parçası olarak hem de projeleri uçtan uca yöneten freelance mühendis olarak. Çalışmalarım multi-tenant B2B platformlarını, yapay zekâ destekli iş akışlarını, iki taraflı pazaryerlerini ve cross-platform mobil uygulamaları kapsıyor.",
+    "p2": "Önem verdiğim şeyler: canlıda gerçekten çalışan ürünler çıkarmak, bir sonraki geliştiriciye yük olmayacak sürdürülebilir kod yazmak ve teknik problemden önce iş problemini anlamak.",
+    "location": "Türkiye · Uzaktan",
+    "photoAlt": "Ali Tunacan Onar",
+    "stackTitle": "Kullandığım teknolojiler",
     "categories": {
       "frontend": "Frontend",
       "backend": "Backend",
       "infra": "Altyapı",
-      "payments": "Ödeme"
+      "payments": "Ödeme sistemleri"
     }
   },
   "Work": {
-    "eyebrow": "Seçilmiş projeler",
+    "eyebrow": "Seçili projeler",
     "title": "Uçtan uca geliştirdiğim ürünler.",
-    "subtitle": "Greenfield SaaS projeleri, pazaryerleri ve durmuş kod tabanlarının kurtarılması karışımı.",
-    "visit": "İncele",
-    "caseStudy": "Vaka çalışması",
-    "ctaEyebrow": "Benimle çalış",
-    "ctaTitle": "Aklında bir proje mi var? Beraber inşa edelim.",
-    "ctaSubtitle": "Greenfield bir SaaS, B2B platform veya yayına alınması gereken durmuş bir kod tabanı, ne olursa olsun konuşmaya hazırım.",
-    "ctaButton": "Projeye başla"
+    "subtitle": "Sıfırdan geliştirilen SaaS ürünleri, pazaryerleri ve yarım kalmış projelerin canlıya alınması.",
+    "visit": "{{title}} sitesini ziyaret et",
+    "preview": "{{title}} önizlemesi",
+    "status": {
+      "live": "Yayında",
+      "production": "Canlıda",
+      "client": "Müşteri projesi"
+    },
+    "projects": {
+      "adilanaliz": {
+        "tagline": "Hukuk profesyonelleri için RAG mimarili yapay zekâ platformu.",
+        "highlights": [
+          "Hukuki yapay zekâ sohbetinin arkasındaki RAG altyapısını arama kalitesi ve yanıt isabeti açısından ciddi ölçüde iyileştirdim.",
+          "Kimlik doğrulama iyileştirmeleri, iyzico ödeme entegrasyonu, bayilik modeli ve referans sistemi.",
+          "Yapay zekâ sohbet deneyiminde süregelen iyileştirmeler; Hetzner üzerinde yayında."
+        ]
+      },
+      "aktek": {
+        "tagline": "Endüstriyel chiller servisi firması için SEO odaklı kurumsal web sitesi.",
+        "highlights": [
+          "Marmara Bölgesi'nde chiller servisi anahtar kelimelerinde ilk sayfayı hedefleyen teknik ve sayfa içi SEO çalışması.",
+          "Next.js üzerinde yerel SEO yapısı, hizmet sayfaları ve performans optimizasyonu."
+        ]
+      },
+      "rumimetric": {
+        "tagline": "Hayvancılık için kapsamlı rasyon ve yem planlama platformu.",
+        "highlights": [
+          "Yapay zekâ ile üretilmiş HTML/CSS/JS prototipi baz alarak uygulamayı sıfırdan, üretime hazır şekilde yeniden yazdım.",
+          "Rasyon hesaplama, hayvan ve yem yönetimi ile raporlama akışları modern bir teknoloji altyapısı üzerinde.",
+          "Kimlik doğrulama, veritabanı ve depolama Supabase'de; Railway üzerinde yayında."
+        ]
+      },
+      "tekliftamam": {
+        "tagline": "Toptancıların teklif süreçlerini hızlandıran çoklu arama aracı.",
+        "highlights": [
+          "Toptancıların saatler yerine dakikalar içinde teklif hazırlamasını sağlayan toplu ürün arama.",
+          "Next.js ve Supabase ile geliştirilmiş ürün kataloğu, teklif yönetimi ve kullanıcı akışları."
+        ]
+      },
+      "tigaa": {
+        "tagline": "WhatsApp ve yapay zekâ destekli teklif motoruna sahip B2B satın alma SaaS'ı.",
+        "highlights": [
+          "Alıcı ve tedarikçi rollerini birlikte destekleyen, katalog ve teklif yönetimi içeren multi-tenant veri modeli.",
+          "PDF ve görsellerden ürünleri çıkarıp teklif belgesi üreten WhatsApp Business API + OpenAI botu.",
+          "Çok kanallı iletişim (WhatsApp, SMS, e-posta), tedarikçi onay otomasyonu ve analitik panelleri."
+        ]
+      },
+      "meritrisk": {
+        "tagline": "Türkiye'nin önde gelen bankalarının kullandığı 10 yıllık multi-tenant risk platformunun modernizasyonu.",
+        "highlights": [
+          "PHP/MySQL'den Next.js, Express ve PostgreSQL'e tam kapsamlı yeniden yazım.",
+          "Mevcut risk modellerini bozmadan canlı müşteriler için geçiş planı.",
+          "Veri katmanını finans ekibinin ekonometrik modelleri etrafında yeniden tasarladım."
+        ]
+      },
+      "kolaytadilat": {
+        "tagline": "Ev sahipleri ile tadilat ustalarını buluşturan iki taraflı pazaryeri.",
+        "highlights": [
+          "Yarım kalmış, yapay zekâ ile üretilmiş kod tabanını devralıp canlıya aldım.",
+          "Express backend'i sıfırdan kurdum; veritabanını ölçeklenebilirlik için yeniden tasarladım.",
+          "Kredi bazlı başvurular, Param ile aşamalı ödemeler, SMS doğrulama ve e-posta bildirimleri."
+        ]
+      },
+      "ireturnticket": {
+        "tagline": "Vize başvuruları ve sınır geçişleri için seyahat belgesi SaaS'ı.",
+        "highlights": [
+          "Herkese açık rezervasyon akışı, yönetim paneli ve otomatik PDF üretimi.",
+          "Gerçek gidiş/dönüş bileti belgeleri için lisanslı GDS entegrasyonu.",
+          "Ödeme ve otomatik e-posta gönderimi; Railway üzerinde yayında."
+        ]
+      },
+      "sonic8": {
+        "tagline": "Ses dosyaları için yapay zekâ filigranı ve ses iyileştirme SaaS'ı.",
+        "highlights": [
+          "Ses dosyalarına duyulmayan yapay zekâ filigranı; ses iyileştirme hattı Dolby API'leri ile çalışıyor.",
+          "Serverless katmandan Modal üzerindeki yapay zekâ API'lerine erişmek için yoğun Supabase Edge Functions kullanımı.",
+          "Filigranlı sesleri işleyip indirmek için kimlik doğrulama, faturalama ve kontrol paneli."
+        ]
+      },
+      "oneclickgenerator": {
+        "tagline": "Mobil uygulamalar için yapay zekâ destekli gizlilik politikası ve destek sayfası üretici.",
+        "highlights": [
+          "Birkaç uygulama bilgisinden yayına hazır hukuki sayfalar üretir.",
+          "Stripe ödeme altyapısı, Prisma veri katmanı; Railway üzerinde yayında."
+        ]
+      },
+      "denersen": {
+        "tagline": "Ham ürün fotoğraflarını profesyonel ürün görselleri ve videolarına dönüştüren Türkçe yapay zekâ SaaS'ı.",
+        "highlights": [
+          "fal.ai görsel ve video modeli API'lerini keşfetmek için geliştirdiğim kişisel proje.",
+          "Yüklemeden indirilebilir ürün görseline kadar uçtan uca akış.",
+          "Abonelik sistemi ve tamamen Türkçe arayüz; şu anda yayında."
+        ]
+      },
+      "loadmuscle": {
+        "tagline": "Tek başıma geliştirip yayına aldığım yapay zekâ destekli antrenman planlayıcı.",
+        "highlights": [
+          "15.000+ uygulama kullanıcısı ve aylık 60.000+ web ziyaretçisi.",
+          "Mobilde React Native + Expo; web'de ortak tiplerle Next.js.",
+          "Kullanıcının hedeflerine ve ekipmanına göre kişiselleştirilmiş antrenman programları."
+        ]
+      }
+    },
+    "ctaEyebrow": "Birlikte çalışalım",
+    "ctaTitle": "Aklınızda bir proje mi var? Birlikte hayata geçirelim.",
+    "ctaSubtitle": "Sıfırdan bir SaaS, bir B2B platformu ya da canlıya alınması gereken yarım kalmış bir proje... Ne olursa olsun, dinlemekten memnuniyet duyarım.",
+    "ctaButton": "Projenizi anlatın"
   },
   "Experience": {
     "eyebrow": "Deneyim",
-    "title": "Beş yıl boyunca ürün ekipleri ve freelance projeler."
+    "title": "Altı yılı aşkın süredir ürün ekipleri ve freelance projeler.",
+    "items": {
+      "self": {
+        "company": "Serbest Çalışan",
+        "position": "Full-Stack Yazılım Mühendisi",
+        "date": "Kas 2025 - Günümüz",
+        "location": "Uzaktan",
+        "summary": "SaaS ürünleri ve B2B platformları uçtan uca geliştiriyorum. Sıfırdan projeler ve yarım kalmış kod tabanlarının canlıya alınması.",
+        "bullets": [
+          "Tigaa: WhatsApp Business API + OpenAI teklif motoruna sahip multi-tenant B2B satın alma SaaS'ı.",
+          "KolayTadilat: İki taraflı tadilat pazaryeri; yarım kalmış kod tabanını devralıp canlıya aldım.",
+          "IReturnTicket: Lisanslı GDS entegrasyonu ve otomatik PDF üretimi içeren seyahat belgesi SaaS'ı.",
+          "Merit Risk yeniden yazımı: Türkiye'nin önde gelen bankalarının kullandığı 10 yıllık multi-tenant risk platformunun modernizasyonu."
+        ]
+      },
+      "papak": {
+        "company": "Papak Software Ltd",
+        "position": "Full-Stack Yazılım Mühendisi",
+        "date": "Haz 2024 - Haz 2025",
+        "location": "İstanbul, Türkiye",
+        "summary": "Papak, fitness ve ses teknolojileri alanında SaaS ürünleri geliştiriyor.",
+        "bullets": [
+          "Next.js, React Native, TypeScript, PostgreSQL ve Supabase ile cross-platform (web + mobil) fitness uygulaması geliştirdim.",
+          "Üçüncü parti API'leri yüksek veri bütünlüğüyle entegre ederek duyulmayan ses filigranı SaaS'ını tasarlayıp yayına aldım."
+        ]
+      },
+      "seamlesscare": {
+        "company": "seamlessCARE Ltd",
+        "position": "Full-Stack Yazılım Mühendisi",
+        "date": "Eki 2022 - Haz 2024",
+        "location": "İstanbul, Türkiye",
+        "summary": "Bakım ortamlarındaki konuşamayan bireyler için yapay zekâ destekli yardımcı teknolojiler.",
+        "bullets": [
+          "B2B SaaS ürününün gereksinim toplama, sistem analizi ve mimari tasarım süreçlerine liderlik ettim.",
+          "Dahili yapay zekâ servisleri ve kullanıcı yönetimi için AWS üzerinde özel yönetim paneli (React, Node.js, PostgreSQL, MongoDB) geliştirdim.",
+          "Hastaneler ve bakım evleri için şirketin kendi yapay zekâ modelini entegre eden duygu analizi SaaS'ı geliştirdim.",
+          "Sistem genelinde hata takibi ve gerçek zamanlı performans izleme için Sentry entegre ettim."
+        ]
+      },
+      "meritrisk": {
+        "company": "Merit Risk",
+        "position": "Junior Yazılım Geliştirici",
+        "date": "May 2021 - Oca 2022",
+        "location": "İstanbul, Türkiye",
+        "summary": "Finansal risk yönetimi; şirket içi ekonometrik modeller etrafında kurulmuş SaaS ürünleri.",
+        "bullets": [
+          "Şirketler ve ülkeler için iş riski derecelendirme modellerini geliştirip yeniden düzenledim.",
+          "Finans ekibinin Excel tabanlı risk değerlendirme modellerini web portalına yükleyen bir araç geliştirdim.",
+          "Sunucu bakımı ve kurumsal e-posta altyapısının sorumluluğunu üstlendim."
+        ]
+      },
+      "pailab": {
+        "company": "Pailab",
+        "position": "Junior Geliştirici",
+        "date": "Ara 2016 - Eki 2017",
+        "location": "Tekirdağ, Türkiye",
+        "summary": "Kurucu ortağı olduğum öğrenci girişimi; erken aşama müşteriler için web siteleri geliştirdik.",
+        "bullets": [
+          "Erken aşama ürünlere katkı sağlayarak uçtan uca geliştirme sürecinde uygulamalı deneyim kazandım."
+        ]
+      }
+    }
   },
   "Services": {
     "eyebrow": "Hizmetler",
-    "title": "Size nasıl yardımcı olabilirim.",
-    "subtitle": "Sıfırdan başlıyor olun ya da ölçeklenmeyen bir kod tabanı devraldıysanız - buradan devam ettirebilirim.",
+    "title": "Size nasıl yardımcı olabilirim?",
+    "subtitle": "İster sıfırdan başlıyor olun ister artık ölçeklenmeyen bir projeyi devralmış olun; kaldığı yerden devam ettirebilirim.",
     "items": {
       "saas": {
-        "title": "Sıfırdan SaaS",
-        "description": "Greenfield projeler - çok kiracılı mimari, kimlik doğrulama, faturalama ve ürünün gerçekten ölçeklenmesini sağlayan altyapı."
+        "title": "Sıfırdan SaaS geliştirme",
+        "description": "Multi-tenant mimari, kimlik doğrulama, ödeme ve abonelik sistemleri ve ürünün gerçekten ölçeklenmesini sağlayan sağlam altyapı."
       },
       "rescue": {
-        "title": "Kod tabanı kurtarma",
-        "description": "Durmuş veya AI ile üretilmiş kod tabanlarını devralıp üretime almak. Refactor, veritabanını yeniden tasarlama, N+1 sorgularını düzeltme."
+        "title": "Yarım kalmış projeleri kurtarma",
+        "description": "Durmuş ya da yapay zekâ ile üretilmiş projeleri devralıp canlıya alıyorum. Refactor, veritabanının yeniden tasarımı ve performans sorunlarının giderilmesi."
       },
       "mobile": {
-        "title": "Cross-platform mobil",
-        "description": "Next.js web karşılığı olan React Native + Expo uygulamaları. Paylaşılan tipler, paylaşılan iş mantığı, ikisini de gönderen tek ekip."
+        "title": "Web + mobil uygulama",
+        "description": "Next.js web uygulamasıyla birlikte çalışan React Native + Expo mobil uygulamalar. Ortak tipler, ortak iş mantığı, ikisini de yayına alan tek ekip."
       },
       "consulting": {
         "title": "Teknik danışmanlık",
-        "description": "Mimari incelemeler, stack kararları ve geri dönüşü pahalı bir yöne gitmeden önce ikinci görüş."
+        "description": "Mimari incelemeler, teknoloji seçimi ve geri dönüşü pahalı bir karar vermeden önce ikinci bir görüş."
       }
     }
   },
   "Contact": {
     "eyebrow": "İletişime geçin",
-    "title": "Yeni bir ürün fikri veya durmuş bir kod tabanı mı var?",
-    "subtitle": "Şu anda SaaS ürünleri, B2B platformları ve karmaşık full-stack projeler için tam zamanlı veya freelance işlere açığım.",
+    "title": "Yeni bir ürün fikriniz ya da yarım kalmış bir projeniz mi var?",
+    "subtitle": "Şu anda SaaS ürünleri, B2B platformları ve kapsamlı full-stack projeler için tam zamanlı ya da freelance iş birliklerine açığım.",
     "emailLabel": "E-posta",
     "linkedinLabel": "LinkedIn",
     "social": "Diğer kanallar"
