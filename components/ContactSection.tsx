@@ -59,7 +59,7 @@ const ContactSection = () => {
             </p>
 
             <div className="mt-10 flex flex-col gap-3 max-w-md">
-              <Link
+              <a
                 href="mailto:alitunacanonar@icloud.com"
                 className="group flex items-center justify-between gap-4 rounded-xl border border-border bg-background px-5 py-4 transition-colors hover:border-brand/50 hover:bg-brand-soft"
               >
@@ -77,7 +77,7 @@ const ContactSection = () => {
                   </span>
                 </span>
                 <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-brand" />
-              </Link>
+              </a>
 
               <Link
                 href="https://www.linkedin.com/in/ali-tunacan-onar"

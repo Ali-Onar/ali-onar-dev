@@ -2,7 +2,6 @@
 
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { useTranslation } from "react-i18next";
 
 const Footer = () => {
@@ -27,12 +26,12 @@ const Footer = () => {
         </div>
 
         <div className="flex items-center gap-6 text-sm text-muted-foreground">
-          <Link
+          <a
             href="mailto:alitunacanonar@icloud.com"
             className="hover:text-brand-deep transition-colors"
           >
             alitunacanonar@icloud.com
-          </Link>
+          </a>
         </div>
       </div>
     </footer>
