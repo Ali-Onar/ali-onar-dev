@@ -29,6 +29,12 @@ const stack = [
     dot: "bg-brand",
     chip: "border-orange-200 bg-orange-50 text-orange-800",
   },
+  {
+    key: "seo",
+    items: ["Core Web Vitals", "Search Console", "Schema.org", "Lighthouse", "Sitemap & Robots"],
+    dot: "bg-rose-500",
+    chip: "border-rose-200 bg-rose-50 text-rose-800",
+  },
 ];
 
 const AboutSection = () => {

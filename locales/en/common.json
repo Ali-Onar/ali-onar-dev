@@ -38,8 +38,8 @@
   "About": {
     "eyebrow": "About",
     "title": "A full-stack engineer who takes products from idea to launch.",
-    "p1": "I design and build web and mobile products from scratch, both inside product teams and as a freelance engineer running projects end to end. My work spans B2B platforms, AI-powered products, two-sided marketplaces, and mobile apps.",
-    "p2": "Three things matter to me: products that ship and actually work, code that's still easy to build on years later, and understanding the business before the technology.",
+    "p1": "I design and build web and mobile products from scratch, both inside product teams and as a freelance engineer running projects end to end. My work spans B2B platforms, AI-powered products, two-sided marketplaces, and SEO-driven corporate sites that rank on Google.",
+    "p2": "What I care about: understanding the problem fast and getting it solved without detours, choosing technology based on what it will cost you over the years rather than what's easiest today, and keeping you in the loop in plain language throughout.",
     "location": "Türkiye · Remote",
     "photoAlt": "Ali Tunacan Onar",
     "stackTitle": "Default stack",
@@ -47,7 +47,8 @@
       "frontend": "Frontend",
       "backend": "Backend",
       "infra": "Infrastructure",
-      "payments": "Payments"
+      "payments": "Payments",
+      "seo": "SEO & Performance"
     }
   },
   "Work": {
@@ -241,11 +242,15 @@
       },
       "mobile": {
         "title": "Web and mobile apps",
-        "description": "For products that need to live on the web and on iOS and Android. I build both on one shared foundation, so costs stay down and every update reaches every platform at once."
+        "description": "I build your product as a website and as iOS and Android apps, together. One team, one foundation, and the same experience for your users on whatever device they open it on."
       },
       "consulting": {
         "title": "Technical consulting",
         "description": "Which technology to pick, whether your current system is ready to grow, or whether the agency you're quoting is on the right track. An independent technical opinion before expensive mistakes get made."
+      },
+      "seo": {
+        "title": "SEO and visibility on Google",
+        "description": "I handle the full SEO work that gets your website in front of customers searching on Google, from the technical foundations to content structure. Site speed, local search and page architecture included; the goal is always a measurable climb in rankings."
       }
     }
   },

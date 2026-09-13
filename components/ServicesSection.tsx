@@ -2,7 +2,7 @@
 
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Boxes, LifeBuoy, Smartphone, Lightbulb } from "lucide-react";
+import { Boxes, LifeBuoy, Smartphone, Lightbulb, TrendingUp } from "lucide-react";
 
 const items = [
   {
@@ -29,6 +29,13 @@ const items = [
     tone: "border-violet-200 bg-violet-50 text-violet-700",
     glow: "from-violet-500/15",
   },
+  {
+    key: "seo",
+    Icon: TrendingUp,
+    tone: "border-rose-200 bg-rose-50 text-rose-700",
+    glow: "from-rose-500/15",
+    wide: true,
+  },
 ];
 
 const ServicesSection = () => {
@@ -50,21 +57,23 @@ const ServicesSection = () => {
         </div>
 
         <div className="mt-14 grid gap-px overflow-hidden rounded-2xl border border-border bg-border md:grid-cols-2">
-          {items.map(({ key, Icon, tone, glow }) => (
+          {items.map(({ key, Icon, tone, glow, wide }) => (
             <div
               key={key}
-              className="group relative flex flex-col gap-4 overflow-hidden bg-background p-7 transition-colors hover:bg-muted/40"
+              className={`group relative flex flex-col gap-4 overflow-hidden bg-background p-7 transition-colors hover:bg-muted/40 ${
+                wide ? "md:col-span-2 md:flex-row md:items-start md:gap-6" : ""
+              }`}
             >
               <div
                 aria-hidden
                 className={`pointer-events-none absolute -left-16 -top-16 h-40 w-40 rounded-full bg-gradient-to-br ${glow} to-transparent opacity-0 blur-2xl transition-opacity duration-500 group-hover:opacity-100`}
               />
               <div
-                className={`relative flex h-11 w-11 items-center justify-center rounded-xl border transition-transform duration-300 group-hover:-translate-y-0.5 ${tone}`}
+                className={`relative flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border transition-transform duration-300 group-hover:-translate-y-0.5 ${tone}`}
               >
                 <Icon className="h-5 w-5" />
               </div>
-              <div className="relative">
+              <div className={`relative ${wide ? "md:max-w-3xl" : ""}`}>
                 <h3 className="text-lg font-semibold tracking-tight">
                   {t(`Services.items.${key}.title`)}
                 </h3>

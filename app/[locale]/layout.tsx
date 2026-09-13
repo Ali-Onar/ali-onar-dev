@@ -87,6 +87,7 @@ const baseMetadata: Metadata = {
     "Next.js",
     "TypeScript",
     "React Native",
+    "SEO",
     "Freelance",
   ],
 };

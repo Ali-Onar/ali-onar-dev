@@ -38,8 +38,8 @@
   "About": {
     "eyebrow": "Hakkımda",
     "title": "Fikirden yayına, ürünün her aşamasını üstlenen yazılım mühendisi.",
-    "p1": "Web ve mobil ürünleri sıfırdan tasarlayıp geliştiriyorum; hem ürün ekiplerinin içinde hem de projeleri baştan sona yöneten freelance mühendis olarak. Çalışmalarım kurumsal B2B platformlarından yapay zekâ destekli uygulamalara, pazaryerlerinden mobil uygulamalara uzanıyor.",
-    "p2": "Benim için önemli olan üç şey var: yayına çıkan ve gerçekten çalışan ürünler, yıllar sonra bile rahatça geliştirilebilen temiz kod ve teknik çözümden önce işin kendisini anlamak.",
+    "p1": "Web ve mobil ürünleri sıfırdan tasarlayıp geliştiriyorum; hem ürün ekiplerinin içinde hem de projeleri baştan sona yöneten freelance mühendis olarak. Çalışmalarım kurumsal B2B platformlarından yapay zekâ destekli uygulamalara, pazaryerlerinden Google'da öne çıkan SEO odaklı kurumsal sitelere uzanıyor.",
+    "p2": "Önem verdiğim şeyler: problemi hızlıca anlayıp en kısa yoldan çözüme ulaştırmak, teknoloji seçimlerini bugünkü kolaylığa değil uzun vadeli maliyetine göre yapmak ve süreç boyunca teknik olmayan biriyle de anlaşılır bir dille konuşmak.",
     "location": "Türkiye · Uzaktan",
     "photoAlt": "Ali Tunacan Onar",
     "stackTitle": "Kullandığım teknolojiler",
@@ -47,7 +47,8 @@
       "frontend": "Frontend",
       "backend": "Backend",
       "infra": "Altyapı",
-      "payments": "Ödeme sistemleri"
+      "payments": "Ödeme sistemleri",
+      "seo": "SEO & Performans"
     }
   },
   "Work": {
@@ -241,11 +242,15 @@
       },
       "mobile": {
         "title": "Web ve mobil uygulama",
-        "description": "Aynı ürünü hem web'de hem iOS ve Android'de sunmak isteyenler için. Her iki platformu tek bir altyapı üzerinde birlikte geliştiriyorum; böylece maliyet düşüyor, güncellemeler her yere aynı anda ulaşıyor."
+        "description": "Ürününüzü web sitesi, iOS ve Android uygulaması olarak birlikte geliştiriyorum. Tek ekip, tek altyapı; kullanıcılarınız hangi cihazdan girerse girsin aynı deneyimi alıyor."
       },
       "consulting": {
         "title": "Teknik danışmanlık",
         "description": "Hangi teknolojiyi seçmelisiniz, mevcut sisteminiz büyümeye hazır mı, teklif aldığınız yazılım ekibi doğru mu ilerliyor? Pahalı hatalar yapmadan önce tarafsız bir teknik görüş sunuyorum."
+      },
+      "seo": {
+        "title": "SEO ve Google'da görünürlük",
+        "description": "Web sitenizin, müşterilerinizin Google'da aradığı kelimelerde öne çıkması için teknik altyapıdan içerik yapısına kadar tüm SEO çalışmasını üstleniyorum. Site hızı, yerel arama ve sayfa yapısı dahil; hedef her zaman ölçülebilir bir sıralama artışı."
       }
     }
   },
