@@ -22,16 +22,6 @@ const HeroSection = () => {
       />
       <div className="relative mx-auto max-w-6xl px-6 lg:px-8">
         <div className="flex flex-col items-center text-center gap-8 max-w-3xl mx-auto">
-          <div className="inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-emerald-50/80 px-3 py-1 text-xs text-emerald-800 backdrop-blur">
-            <span className="relative flex h-2 w-2">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-500 opacity-70" />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500" />
-            </span>
-            <span className="font-medium">{t("Hero.status")}</span>
-            <span className="text-emerald-300">·</span>
-            <span className="text-emerald-700/80">{t("Hero.location")}</span>
-          </div>
-
           <h1 className="text-balance text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tight text-foreground leading-[1.05]">
             {t("Hero.name")}
             <span className="block text-muted-foreground font-normal mt-3 text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight">
