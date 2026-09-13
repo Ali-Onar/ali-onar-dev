@@ -18,6 +18,60 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "AdilAnaliz",
+    tagline: "RAG-powered AI platform for legal professionals.",
+    status: "Client work",
+    highlights: [
+      "Significantly improved the RAG pipeline behind the legal AI chat, including retrieval quality and response relevance.",
+      "Auth hardening, iyzico payment integration, dealer/reseller model, and referral system.",
+      "Ongoing AI chat UX and conversation improvements, deployed on Hetzner.",
+    ],
+    stack: ["Next.js", "TypeScript", "RAG", "iyzico", "Hetzner"],
+    url: "https://adilanaliz.com/",
+    image: "/images/projects/adilanaliz.jpg",
+    accent: "from-slate-500/25 to-zinc-500/10",
+  },
+  {
+    title: "Aktek Elektromekanik",
+    tagline: "SEO-focused corporate site for an industrial chiller service company.",
+    status: "Client work",
+    highlights: [
+      "Technical and on-page SEO work targeting first-page rankings for chiller service keywords in the Marmara region.",
+      "Local SEO structure, service pages, and performance optimization built on Next.js.",
+    ],
+    stack: ["Next.js", "TypeScript", "SEO", "TailwindCSS"],
+    url: "https://aktekelektromekanik.com/",
+    image: "/images/projects/aktek-elektromekanik.jpg",
+    accent: "from-cyan-500/25 to-blue-500/10",
+  },
+  {
+    title: "RumiMetric",
+    tagline: "Comprehensive livestock ration and feed planning platform.",
+    status: "Client work",
+    highlights: [
+      "Took an AI-generated HTML/CSS/JS prototype and rebuilt it from scratch as a full production app.",
+      "Ration calculation, animal and feed management, and reporting flows on a modern stack.",
+      "Auth, database, and storage on Supabase; deployed on Railway.",
+    ],
+    stack: ["Next.js", "Supabase", "TailwindCSS", "TypeScript", "Railway"],
+    url: "https://rumimetric.com/",
+    image: "/images/projects/rumimetric.jpg",
+    accent: "from-lime-500/25 to-green-500/10",
+  },
+  {
+    title: "TeklifTamam",
+    tagline: "Multi-search quoting tool that speeds up wholesalers' quote workflows.",
+    status: "Client work",
+    highlights: [
+      "Bulk multi-product search so wholesalers can build quotes in minutes instead of hours.",
+      "Product catalog, quote management, and user flows built on Next.js and Supabase.",
+    ],
+    stack: ["Next.js", "Supabase", "TypeScript", "TailwindCSS"],
+    url: "https://tekliftamam.com/",
+    image: "/images/projects/tekliftamam.jpg",
+    accent: "from-amber-500/25 to-yellow-500/10",
+  },
+  {
     title: "Tigaa",
     tagline: "B2B procurement SaaS with WhatsApp + AI quote engine.",
     status: "Client work",
