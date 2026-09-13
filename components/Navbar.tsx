@@ -56,7 +56,7 @@ const Navbar = () => {
               <a
                 key={link.key}
                 href={link.href}
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                className="text-sm text-muted-foreground hover:text-brand-deep transition-colors"
               >
                 {t(`Navbar.${link.key}`)}
               </a>
@@ -67,7 +67,7 @@ const Navbar = () => {
             <LanguageChanger />
             <a
               href="#contact"
-              className="hidden md:inline-flex items-center rounded-full bg-foreground px-3.5 py-1.5 text-xs font-medium text-background hover:bg-foreground/85 transition-colors"
+              className="hidden md:inline-flex items-center rounded-full bg-brand px-3.5 py-1.5 text-xs font-medium text-brand-foreground shadow-sm shadow-brand/30 hover:bg-brand/90 transition-colors"
             >
               {t("Navbar.Contact")}
             </a>
@@ -75,7 +75,7 @@ const Navbar = () => {
               type="button"
               onClick={() => setOpen((v) => !v)}
               className="md:hidden inline-flex items-center justify-center rounded-md p-2 text-foreground"
-              aria-label="Toggle menu"
+              aria-label={t("Navbar.toggleMenu")}
             >
               {open ? (
                 <XMarkIcon className="h-5 w-5" />
