@@ -61,6 +61,14 @@
       "client": "Client work"
     },
     "projects": {
+      "toptantursu": {
+        "tagline": "B2B wholesale pickle ordering platform for restaurants, caterers and retailers.",
+        "highlights": [
+          "Catalog and ordering flow that lets businesses browse product ranges and place an order in three steps.",
+          "SEO-driven page structure built to rank on Google for wholesale pickle and product-level keywords.",
+          "Next.js and PostgreSQL stack, deployed on Railway behind Cloudflare."
+        ]
+      },
       "adilanaliz": {
         "tagline": "RAG-powered AI platform for legal professionals.",
         "highlights": [

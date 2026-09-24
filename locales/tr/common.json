@@ -61,6 +61,14 @@
       "client": "Müşteri projesi"
     },
     "projects": {
+      "toptantursu": {
+        "tagline": "Restoran, catering ve marketler için B2B toptan turşu sipariş platformu.",
+        "highlights": [
+          "İşletmelerin ürün çeşitlerini inceleyip üç adımda sipariş oluşturabildiği katalog ve sipariş akışı.",
+          "\"Toptan turşu\" ve ürün bazlı anahtar kelimelerde Google'da öne çıkmak üzere kurgulanmış SEO odaklı sayfa yapısı.",
+          "Next.js ve PostgreSQL altyapısı; Railway üzerinde, Cloudflare arkasında yayında."
+        ]
+      },
       "adilanaliz": {
         "tagline": "Hukuk profesyonelleri için RAG mimarili yapay zekâ platformu.",
         "highlights": [

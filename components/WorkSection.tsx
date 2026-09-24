@@ -19,6 +19,15 @@ type Project = {
 
 const projects: Project[] = [
   {
+    key: "toptantursu",
+    title: "Toptan Turşu",
+    status: "client",
+    stack: ["Next.js", "TypeScript", "PostgreSQL", "Railway", "Cloudflare"],
+    url: "https://toptantursu.com/",
+    image: "/images/projects/toptantursu.jpg",
+    accent: "from-green-500/25 to-lime-500/10",
+  },
+  {
     key: "adilanaliz",
     title: "AdilAnaliz",
     status: "client",
