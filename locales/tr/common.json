@@ -15,7 +15,7 @@
   "Hero": {
     "name": "Ali Tunacan Onar",
     "role": "SaaS ürünleri geliştiren Full-Stack Yazılım Mühendisi.",
-    "intro": "6 yıldır web ve mobil ürünleri sıfırdan tasarlayıp yayına alıyorum. Finans, sağlık, fitness ve B2B alanlarında hem şirket bünyesinde hem de projeleri baştan sona üstlenen freelance mühendis olarak çalıştım.",
+    "intro": "Altı yılı aşkın süredir web ve mobil ürünleri sıfırdan tasarlayıp yayına alıyorum. Finans, sağlık, fitness ve B2B alanlarında hem kurumsal ekiplerde hem de projelerin tamamını üstlenen bağımsız yazılım mühendisi olarak görev aldım.",
     "primaryCta": "İletişime geçin",
     "secondaryCta": "LinkedIn profilim",
     "stats": {
@@ -36,8 +36,8 @@
   "About": {
     "eyebrow": "Hakkımda",
     "title": "Fikirden yayına, ürünün her aşamasını üstlenen yazılım mühendisi.",
-    "p1": "Web ve mobil ürünleri sıfırdan tasarlayıp geliştiriyorum; hem ürün ekiplerinin içinde hem de projeleri baştan sona yöneten freelance mühendis olarak. Çalışmalarım kurumsal B2B platformlarından yapay zekâ destekli uygulamalara, pazaryerlerinden Google'da öne çıkan SEO odaklı kurumsal sitelere uzanıyor.",
-    "p2": "Önem verdiğim şeyler: problemi hızlıca anlayıp en kısa yoldan çözüme ulaştırmak, teknoloji seçimlerini bugünkü kolaylığa değil uzun vadeli maliyetine göre yapmak ve süreç boyunca teknik olmayan biriyle de anlaşılır bir dille konuşmak.",
+    "p1": "Web ve mobil ürünleri fikir aşamasından yayına kadar uçtan uca tasarlıyor ve geliştiriyorum. Ürün ekiplerinde ve bağımsız danışman olarak yürüttüğüm projeler; kurumsal B2B platformları, yapay zekâ destekli uygulamalar, pazaryerleri ve Google'da üst sıralarda yer alan SEO odaklı kurumsal web sitelerini kapsıyor.",
+    "p2": "Çalışma yaklaşımımın temelinde üç ilke var: problemi doğru tanımlayıp en kısa sürede çözüme ulaştırmak, teknoloji tercihlerini kısa vadeli kolaylığa değil uzun vadeli toplam maliyete göre belirlemek ve sürecin her aşamasında teknik olmayan paydaşlarla da şeffaf, anlaşılır bir iletişim kurmak.",
     "location": "Türkiye · Uzaktan",
     "photoAlt": "Ali Tunacan Onar",
     "stackTitle": "Kullandığım teknolojiler",
@@ -52,7 +52,7 @@
   "Work": {
     "eyebrow": "Seçili projeler",
     "title": "Uçtan uca geliştirdiğim ürünler.",
-    "subtitle": "Sıfırdan geliştirdiğim SaaS ürünleri, pazaryerleri ve devralıp yayına aldığım projeler.",
+    "subtitle": "Sıfırdan geliştirilen SaaS ürünleri, pazaryerleri ve devralınarak yayına alınan projeler.",
     "visit": "{{title}} sitesini ziyaret et",
     "preview": "{{title}} önizlemesi",
     "status": {
@@ -157,7 +157,7 @@
     },
     "ctaEyebrow": "Birlikte çalışalım",
     "ctaTitle": "Aklınızda bir proje mi var? Birlikte hayata geçirelim.",
-    "ctaSubtitle": "Yeni bir ürün, bir B2B platformu ya da bir türlü bitmeyen bir proje... Kısaca anlatın, nasıl ilerleyebileceğimizi birlikte konuşalım.",
+    "ctaSubtitle": "Yeni bir ürün, bir B2B platformu ya da tamamlanamamış bir proje: ihtiyacınızı kısaca paylaşın, en uygun yol haritasını birlikte belirleyelim.",
     "ctaButton": "Projenizi anlatın"
   },
   "Experience": {
@@ -169,7 +169,7 @@
         "position": "Full-Stack Yazılım Mühendisi",
         "date": "Kas 2025 - Günümüz",
         "location": "Uzaktan",
-        "summary": "Müşteriler için web ve mobil ürünleri baştan sona geliştiriyorum: yeni projeler ve yarım kalmış projelerin tamamlanıp yayına alınması.",
+        "summary": "Müşteriler için web ve mobil ürünleri uçtan uca geliştiriyorum: yeni projeler ile devralınarak tamamlanan ve yayına alınan projeler.",
         "bullets": [
           "Tigaa: WhatsApp Business API + OpenAI teklif motoruna sahip multi-tenant B2B satın alma SaaS'ı.",
           "KolayTadilat: İki taraflı tadilat pazaryeri; yarım kalmış kod tabanını devralıp canlıya aldım.",
@@ -228,15 +228,15 @@
   "Services": {
     "eyebrow": "Hizmetler",
     "title": "Size nasıl yardımcı olabilirim?",
-    "subtitle": "Yeni bir ürün fikriniz de olsa, elinizde büyüyemeyen bir yazılım da olsa; süreci baştan sona üstlenip yayına alıyorum.",
+    "subtitle": "İster yeni bir ürün fikriyle başlıyor olun ister ölçeklenemeyen mevcut bir yazılımı devretmek isteyin; süreci baştan sona üstlenerek yayına alıyorum.",
     "items": {
       "saas": {
         "title": "Sıfırdan SaaS ürünü geliştirme",
-        "description": "Fikrinizi baştan sona çalışan bir web uygulamasına dönüştürüyorum: kullanıcı girişi, abonelik ve ödeme sistemi, yönetim paneli ve büyüdükçe sizi yarı yolda bırakmayacak sağlam bir altyapı."
+        "description": "Fikrinizi uçtan uca çalışan bir web uygulamasına dönüştürüyorum: kullanıcı yönetimi, abonelik ve ödeme sistemleri, yönetim paneli ve büyüme sürecinde sizi sınırlamayacak sağlam bir altyapı."
       },
       "rescue": {
         "title": "Yarım kalmış projeleri tamamlama",
-        "description": "Önceki ekibin bıraktığı ya da yapay zekâ araçlarıyla üretilip tıkanan projeleri devralıyorum. Sorunları tespit edip düzeltiyor, eksikleri tamamlıyor ve projeyi sorunsuz şekilde yayına alıyorum."
+        "description": "Önceki ekibin bıraktığı ya da yapay zekâ araçlarıyla üretilip ilerleyemeyen projeleri devralıyorum. Sorunları tespit edip gideriyor, eksikleri tamamlıyor ve projeyi güvenle yayına alıyorum."
       },
       "mobile": {
         "title": "Web ve mobil uygulama",
@@ -255,7 +255,7 @@
   "Contact": {
     "eyebrow": "İletişime geçin",
     "title": "Yeni bir ürün fikriniz ya da yarım kalmış bir projeniz mi var?",
-    "subtitle": "Yeni projeler için hem freelance hem de tam zamanlı iş birliklerine açığım. Kısa bir e-posta yeterli, en kısa sürede dönüş yapıyorum.",
+    "subtitle": "Yeni projeler için freelance ve tam zamanlı iş birliklerine açığım. Kısa bir e-posta ile ulaşmanız yeterli; en kısa sürede geri dönüş sağlıyorum.",
     "emailLabel": "E-posta",
     "linkedinLabel": "LinkedIn",
     "social": "Diğer kanallar"

@@ -15,7 +15,7 @@
   "Hero": {
     "name": "Ali Tunacan Onar",
     "role": "Full-Stack Engineer building SaaS products.",
-    "intro": "For six years I've been designing and shipping web and mobile products from scratch. I've worked across fintech, healthcare AI, fitness, and B2B, both inside product teams and as a freelance engineer owning projects end to end.",
+    "intro": "For over six years I have been designing and launching web and mobile products from the ground up. I have worked across fintech, healthcare AI, fitness, and B2B, both within corporate teams and as an independent engineer responsible for entire projects.",
     "primaryCta": "Get in touch",
     "secondaryCta": "View on LinkedIn",
     "stats": {
@@ -36,8 +36,8 @@
   "About": {
     "eyebrow": "About",
     "title": "A full-stack engineer who takes products from idea to launch.",
-    "p1": "I design and build web and mobile products from scratch, both inside product teams and as a freelance engineer running projects end to end. My work spans B2B platforms, AI-powered products, two-sided marketplaces, and SEO-driven corporate sites that rank on Google.",
-    "p2": "What I care about: understanding the problem fast and getting it solved without detours, choosing technology based on what it will cost you over the years rather than what's easiest today, and keeping you in the loop in plain language throughout.",
+    "p1": "I design and build web and mobile products end to end, from initial idea to launch. My work, both within product teams and as an independent consultant, spans enterprise B2B platforms, AI-powered applications, marketplaces, and SEO-driven corporate websites that rank at the top of Google.",
+    "p2": "My approach rests on three principles: defining the problem precisely and solving it in the shortest possible time, choosing technology based on long-term total cost rather than short-term convenience, and maintaining transparent, clear communication with non-technical stakeholders at every stage.",
     "location": "Türkiye · Remote",
     "photoAlt": "Ali Tunacan Onar",
     "stackTitle": "Default stack",
@@ -52,7 +52,7 @@
   "Work": {
     "eyebrow": "Selected work",
     "title": "Products I've built end-to-end.",
-    "subtitle": "SaaS products built from scratch, marketplaces, and stalled projects I took over and shipped.",
+    "subtitle": "SaaS products built from scratch, marketplaces, and projects taken over and brought to launch.",
     "visit": "Visit {{title}}",
     "preview": "{{title}} preview",
     "status": {
@@ -157,7 +157,7 @@
     },
     "ctaEyebrow": "Work with me",
     "ctaTitle": "Have a project in mind? Let's build it together.",
-    "ctaSubtitle": "A new product, a B2B platform, or a project that never quite got finished. Tell me a bit about it and let's talk through how to move it forward.",
+    "ctaSubtitle": "A new product, a B2B platform, or an unfinished project: share a brief outline of your needs and we will map out the best way forward together.",
     "ctaButton": "Start a project"
   },
   "Experience": {
@@ -169,7 +169,7 @@
         "position": "Full-Stack Engineer",
         "date": "Nov 2025 - Present",
         "location": "Remote",
-        "summary": "Building web and mobile products for clients end to end: new builds, plus stalled projects taken over and shipped.",
+        "summary": "Building web and mobile products for clients end to end: new builds, plus projects taken over, completed and launched.",
         "bullets": [
           "Tigaa: Multi-tenant B2B procurement SaaS with a WhatsApp Business API + OpenAI quote engine.",
           "KolayTadilat: Two-sided renovation marketplace - took over a stalled codebase and shipped to production.",
@@ -228,15 +228,15 @@
   "Services": {
     "eyebrow": "Services",
     "title": "How I can help.",
-    "subtitle": "Whether you're starting with a fresh idea or stuck with software that can't keep up, I take it from where it is to a product that ships.",
+    "subtitle": "Whether you are starting with a new product idea or handing over existing software that no longer scales, I take ownership of the process end to end and bring it to launch.",
     "items": {
       "saas": {
         "title": "SaaS products from scratch",
-        "description": "I turn your idea into a working web application end to end: user accounts, subscriptions and payments, an admin panel, and a solid foundation that won't hold you back as you grow."
+        "description": "I turn your idea into a fully working web application: user management, subscription and payment systems, an admin panel, and a solid foundation that will not limit you as you grow."
       },
       "rescue": {
         "title": "Finishing stalled projects",
-        "description": "I take over projects left behind by a previous team or generated with AI tools and stuck halfway. I find and fix what's broken, fill in the gaps, and get it live without drama."
+        "description": "I take over projects left behind by a previous team or generated with AI tools and unable to move forward. I identify and resolve the issues, complete what is missing, and bring the project to launch with confidence."
       },
       "mobile": {
         "title": "Web and mobile apps",
@@ -255,7 +255,7 @@
   "Contact": {
     "eyebrow": "Get in touch",
     "title": "Have a product idea or a stalled codebase?",
-    "subtitle": "Open to both freelance and full-time collaborations on new projects. A short email is enough, and I'll get back to you quickly.",
+    "subtitle": "I am open to both freelance and full-time collaborations on new projects. A short email is all it takes; I respond as quickly as possible.",
     "emailLabel": "Email",
     "linkedinLabel": "LinkedIn",
     "social": "Elsewhere"
