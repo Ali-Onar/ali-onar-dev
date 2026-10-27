@@ -60,7 +60,7 @@ const ContactSection = () => {
 
             <div className="mt-10 flex flex-col gap-3 max-w-md">
               <a
-                href="mailto:alitunacanonar@icloud.com"
+                href="mailto:ali@alionar.com"
                 className="group flex items-center justify-between gap-4 rounded-xl border border-border bg-background px-5 py-4 transition-colors hover:border-brand/50 hover:bg-brand-soft"
               >
                 <span className="flex items-center gap-3">
@@ -72,7 +72,7 @@ const ContactSection = () => {
                       {t("Contact.emailLabel")}
                     </span>
                     <span className="block text-sm font-medium">
-                      alitunacanonar@icloud.com
+                      ali@alionar.com
                     </span>
                   </span>
                 </span>

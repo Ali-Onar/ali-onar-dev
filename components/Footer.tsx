@@ -27,10 +27,10 @@ const Footer = () => {
 
         <div className="flex items-center gap-6 text-sm text-muted-foreground">
           <a
-            href="mailto:alitunacanonar@icloud.com"
+            href="mailto:ali@alionar.com"
             className="hover:text-brand-deep transition-colors"
           >
-            alitunacanonar@icloud.com
+            ali@alionar.com
           </a>
         </div>
       </div>

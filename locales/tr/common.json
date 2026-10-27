@@ -24,12 +24,12 @@
         "value": "6+ yıl"
       },
       "products": {
-        "label": "Yayınlanan ürün",
+        "label": "Yayınlanan proje",
         "value": "15+"
       },
       "users": {
         "label": "Ulaşılan kullanıcı",
-        "value": "50 bin+"
+        "value": "100 bin+"
       }
     }
   },
@@ -61,6 +61,30 @@
       "client": "Müşteri projesi"
     },
     "projects": {
+      "tvtenerji": {
+        "tagline": "Isıtma ve soğutma sektöründe hizmet veren TVT için kurumsal web sitesi ve servis talep platformu.",
+        "highlights": [
+          "Chiller, ısı pompası, gaz yakıcı cihaz ve klima hizmetlerini ayrı sayfalarda sunan, Türkiye geneli hizmeti öne çıkaran kurumsal yapı.",
+          "Arıza, bakım, yeni sistem ve eğitim taleplerini tek ekrandan yönlendiren hızlı talep akışı ve WhatsApp entegrasyonu.",
+          "Blog, duyuru, eğitim ve basın sayfalarıyla SEO odaklı içerik altyapısı; Railway üzerinde, Cloudflare arkasında yayında."
+        ]
+      },
+      "ecoban": {
+        "tagline": "Isı pompası ve fan coil markası Ecoban için çok dilli ürün ve kurumsal web sitesi.",
+        "highlights": [
+          "Isı pompası, fan coil ve havuz ısı pompası ailelerini teknik değerler ve kataloglarla sunan ürün sayfaları.",
+          "Türkçe, İngilizce, Almanca, Fransızca, Arapça ve Çince olmak üzere altı dilde yayında; hreflang ile uluslararası SEO yapısı.",
+          "Bayi ve yetkili servis girişi, servis talebi ve iş ortaklığı başvuru akışları."
+        ]
+      },
+      "amperofis": {
+        "tagline": "Elektrik iç tesisat projeleri için evrak, hesap ve çizimleri tek veriden üreten web tabanlı platform.",
+        "highlights": [
+          "Yükleme cetveli bir kez girildiğinde dilekçe, sözleşme ve taahhütnameler dağıtım şirketinin şablonlarıyla PDF ve Word olarak üretilir.",
+          "Kurulu güç, eş zamanlı güç, akım ve kesit hesapları ile segment bazlı gerilim düşümü denetimi anlık olarak yapılır.",
+          "Kolon şeması otomatik çizilir; çıktılar PDF, DOCX, XLSX ve DXF formatlarında alınır, kaşe ve imza belgelere işlenir."
+        ]
+      },
       "toptantursu": {
         "tagline": "Restoran, catering ve marketler için B2B toptan turşu sipariş platformu.",
         "highlights": [
@@ -78,10 +102,11 @@
         ]
       },
       "aktek": {
-        "tagline": "Endüstriyel chiller servisi firması için SEO odaklı kurumsal web sitesi.",
+        "tagline": "Endüstriyel chiller servisi firması için SEO odaklı kurumsal web sitesi ve ERP yönetim paneli.",
         "highlights": [
           "Marmara Bölgesi'nde chiller servisi anahtar kelimelerinde ilk sayfayı hedefleyen teknik ve sayfa içi SEO çalışması.",
-          "Next.js üzerinde yerel SEO yapısı, hizmet sayfaları ve performans optimizasyonu."
+          "Next.js üzerinde yerel SEO yapısı, hizmet sayfaları ve performans optimizasyonu.",
+          "Servis ve teklif talepleri, randevu takvimi, servis formları, teklifler, projeler, ödemeler ve müşteri kayıtlarını tek yerden yöneten ERP paneli; yeni talepler Telegram üzerinden anlık bildirilir."
         ]
       },
       "rumimetric": {

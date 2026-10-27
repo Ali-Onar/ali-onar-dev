@@ -19,6 +19,33 @@ type Project = {
 
 const projects: Project[] = [
   {
+    key: "amperofis",
+    title: "AmperOfis",
+    status: "client",
+    stack: ["Next.js", "TypeScript", "Supabase", "TailwindCSS", "Railway", "Cloudflare"],
+    url: "https://amperofis.com/",
+    image: "/images/projects/amperofis.jpg",
+    accent: "from-yellow-500/25 to-slate-500/10",
+  },
+  {
+    key: "ecoban",
+    title: "Ecoban",
+    status: "client",
+    stack: ["Next.js", "TypeScript", "PostgreSQL", "TailwindCSS", "i18n", "Railway", "Cloudflare"],
+    url: "https://ecoban.com.tr/",
+    image: "/images/projects/ecoban.jpg",
+    accent: "from-green-500/25 to-sky-500/10",
+  },
+  {
+    key: "tvtenerji",
+    title: "TVT Isıtma Soğutma",
+    status: "client",
+    stack: ["Next.js", "TypeScript", "PostgreSQL", "TailwindCSS", "SEO", "Railway", "Cloudflare"],
+    url: "https://tvtenerji.com/",
+    image: "/images/projects/tvtenerji.jpg",
+    accent: "from-red-500/25 to-blue-500/10",
+  },
+  {
     key: "toptantursu",
     title: "Toptan Turşu",
     status: "client",
@@ -40,7 +67,7 @@ const projects: Project[] = [
     key: "aktek",
     title: "Aktek Elektromekanik",
     status: "client",
-    stack: ["Next.js", "TypeScript", "SEO", "TailwindCSS", "Railway"],
+    stack: ["Next.js", "TypeScript", "SEO", "TailwindCSS", "Telegram", "Railway"],
     url: "https://aktekelektromekanik.com/",
     image: "/images/projects/aktek-elektromekanik.jpg",
     accent: "from-cyan-500/25 to-blue-500/10",

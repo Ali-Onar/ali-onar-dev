@@ -24,12 +24,12 @@
         "value": "6+ yrs"
       },
       "products": {
-        "label": "Products shipped",
+        "label": "Projects shipped",
         "value": "15+"
       },
       "users": {
         "label": "Users reached",
-        "value": "50k+"
+        "value": "100k+"
       }
     }
   },
@@ -61,6 +61,30 @@
       "client": "Client work"
     },
     "projects": {
+      "tvtenerji": {
+        "tagline": "Corporate website and service request platform for TVT, a heating and cooling service company.",
+        "highlights": [
+          "Corporate structure with dedicated pages for chiller, heat pump, gas burner and air conditioning services, highlighting nationwide coverage.",
+          "Quick request flow that routes breakdown, maintenance, new system and training requests from a single screen, with WhatsApp integration.",
+          "SEO-driven content setup with blog, announcement, training and press pages; deployed on Railway behind Cloudflare."
+        ]
+      },
+      "ecoban": {
+        "tagline": "Multilingual product and corporate website for Ecoban, a heat pump and fan coil brand.",
+        "highlights": [
+          "Product pages presenting heat pump, fan coil and pool heat pump ranges with technical specifications and catalogs.",
+          "Live in six languages (Turkish, English, German, French, Arabic and Chinese) with an hreflang-based international SEO structure.",
+          "Dealer and authorized service login, service request and partnership application flows."
+        ]
+      },
+      "amperofis": {
+        "tagline": "Web-based platform that generates paperwork, calculations and drawings for electrical installation projects from a single data source.",
+        "highlights": [
+          "Once the load schedule is entered, petitions, contracts and declarations are generated as PDF and Word files using the utility company's own templates.",
+          "Installed power, simultaneous power, current and cross-section calculations, plus segment-by-segment voltage drop checks, update instantly.",
+          "Riser diagrams are drawn automatically; outputs export to PDF, DOCX, XLSX and DXF, with the engineer's stamp and signature applied to documents."
+        ]
+      },
       "toptantursu": {
         "tagline": "B2B wholesale pickle ordering platform for restaurants, caterers and retailers.",
         "highlights": [
@@ -78,10 +102,11 @@
         ]
       },
       "aktek": {
-        "tagline": "SEO-focused corporate site for an industrial chiller service company.",
+        "tagline": "SEO-focused corporate site and ERP admin panel for an industrial chiller service company.",
         "highlights": [
           "Technical and on-page SEO work targeting first-page rankings for chiller service keywords in the Marmara region.",
-          "Local SEO structure, service pages, and performance optimization built on Next.js."
+          "Local SEO structure, service pages, and performance optimization built on Next.js.",
+          "ERP admin panel managing service and quote requests, an appointment calendar, service forms, quotes, projects, payments and customer records, with instant Telegram notifications for new requests."
         ]
       },
       "rumimetric": {
