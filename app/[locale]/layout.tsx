@@ -12,6 +12,7 @@ import {
   GoogleTagManagerNoScript,
 } from "@/components/GoogleTagManager";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import { SITE_URL, ogImage } from "@/lib/site";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -40,12 +41,24 @@ export function generateMetadata({
     ...baseMetadata,
     title: m.title,
     description: m.description,
-    openGraph: { ...baseMetadata.openGraph, locale: m.ogLocale, title: m.title, description: m.description },
-    twitter: { ...baseMetadata.twitter, title: m.title, description: m.description },
+    openGraph: {
+      ...baseMetadata.openGraph,
+      locale: m.ogLocale,
+      title: m.title,
+      description: m.description,
+      images: [ogImage(locale)],
+    },
+    twitter: {
+      ...baseMetadata.twitter,
+      title: m.title,
+      description: m.description,
+      images: [ogImage(locale).url],
+    },
   };
 }
 
 const baseMetadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "Ali Onar - Full-Stack Engineer",
   description:
     "Full-Stack Engineer. Six years across fintech, healthcare AI, fitness, and B2B platforms.",
@@ -56,14 +69,7 @@ const baseMetadata: Metadata = {
     title: "Ali Onar - Full-Stack Engineer",
     description:
       "Full-Stack Engineer. Next.js, TypeScript, Node.js, PostgreSQL.",
-    images: [
-      {
-        url: "https://alionar.com/images/hero-image.jpeg",
-        width: 1024,
-        height: 768,
-        alt: "Ali Onar",
-      },
-    ],
+    images: [ogImage("en")],
     siteName: "Ali Onar",
   },
   twitter: {
@@ -73,12 +79,7 @@ const baseMetadata: Metadata = {
     title: "Ali Onar - Full-Stack Engineer",
     description:
       "Full-Stack Engineer. Six years across fintech, healthcare AI, fitness, and B2B platforms.",
-    images: [
-      {
-        url: "https://alionar.com/images/hero-image.jpeg",
-        alt: "Ali Onar",
-      },
-    ],
+    images: [ogImage("en").url],
   },
   icons: {
     icon: "/favicon.ico",
