@@ -556,11 +556,11 @@
       "whatsappMessage": "Hi, I would like to learn more about Google Ads management.",
       "cases": [
         {
-          "title": "With an e-commerce company we reached 55 verified sign-ups in the first two weeks",
+          "title": "With an e-commerce company we reached more than 100 verified sign-ups from ads",
           "text": "We took over a campaign that spent most of its budget outside Google Search and rebuilt it as a search-only campaign with four ad groups. Only sign-ups completed with an SMS code count as conversions.",
           "metrics": [
             {
-              "value": "55",
+              "value": "100+",
               "label": "verified sign-ups"
             },
             {
@@ -572,11 +572,25 @@
               "label": "conversion rate"
             }
           ],
-          "note": "First two weeks of the Google Search campaign."
+          "note": "Click-through and conversion rates are from the first two weeks of the Google Search campaign."
         },
         {
           "title": "With a service business we made every enquiry from ads measurable",
-          "text": "We built 19 landing pages matched one to one with the ad groups and set up conversion tracking for form, phone and WhatsApp clicks. The ad account and Analytics now agree, and it is clear which campaign brings enquiries."
+          "text": "We built 19 landing pages matched one to one with the ad groups and set up conversion tracking for form, phone and WhatsApp clicks. The ad account and Analytics now agree, and it is clear which campaign brings enquiries.",
+          "metrics": [
+            {
+              "value": "19",
+              "label": "landing pages"
+            },
+            {
+              "value": "3",
+              "label": "conversion types tracked"
+            },
+            {
+              "value": "8",
+              "label": "campaigns with cleaned-up tracking"
+            }
+          ]
         }
       ]
     },

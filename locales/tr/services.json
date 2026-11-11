@@ -556,11 +556,11 @@
       "whatsappMessage": "Merhaba, Google Ads reklam yönetimi hakkında bilgi almak istiyorum.",
       "cases": [
         {
-          "title": "Bir e-ticaret firmasıyla ilk iki haftada 55 doğrulanmış üye kaydına ulaştık",
+          "title": "Bir e-ticaret firmasıyla reklamlardan 100'den fazla doğrulanmış üye kaydına ulaştık",
           "text": "Bütçesinin büyük kısmı Google Arama dışındaki kanallara giden kampanyayı devralıp yalnızca arama ağında çalışan, dört reklam gruplu bir yapıya çevirdik. Dönüşüm olarak sadece SMS koduyla tamamlanan üyelikleri sayıyoruz.",
           "metrics": [
             {
-              "value": "55",
+              "value": "100+",
               "label": "doğrulanmış üye kaydı"
             },
             {
@@ -572,11 +572,25 @@
               "label": "dönüşüm oranı"
             }
           ],
-          "note": "Google Arama kampanyasının ilk iki haftası."
+          "note": "Tıklama ve dönüşüm oranı, Google Arama kampanyasının ilk iki haftasına aittir."
         },
         {
           "title": "Servis hizmeti veren bir işletmeyle reklamdan gelen her talebi ölçülebilir hale getirdik",
-          "text": "Reklam gruplarıyla bire bir eşleşen 19 açılış sayfası hazırladık; form, telefon ve WhatsApp tıklamaları için dönüşüm ölçümünü kurduk. Reklam paneli ile Analytics verisi artık birbirini tutuyor ve hangi kampanyanın talep getirdiği görülebiliyor."
+          "text": "Reklam gruplarıyla bire bir eşleşen 19 açılış sayfası hazırladık; form, telefon ve WhatsApp tıklamaları için dönüşüm ölçümünü kurduk. Reklam paneli ile Analytics verisi artık birbirini tutuyor ve hangi kampanyanın talep getirdiği görülebiliyor.",
+          "metrics": [
+            {
+              "value": "19",
+              "label": "açılış sayfası"
+            },
+            {
+              "value": "3",
+              "label": "ölçülen dönüşüm türü"
+            },
+            {
+              "value": "8",
+              "label": "ölçümü düzenlenen kampanya"
+            }
+          ]
         }
       ]
     },
