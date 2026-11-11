@@ -1,0 +1,768 @@
+{
+  "ui": {
+    "home": "Ana sayfa",
+    "services": "Hizmetler",
+    "summaryFor": "Kimler için",
+    "summaryDeliver": "Ne teslim ediyorum",
+    "summaryHow": "Nasıl çalışıyoruz",
+    "included": "Bu hizmete neler dahil?",
+    "proof": "Bu alanda yaptığım işler",
+    "process": "Nasıl ilerliyoruz?",
+    "faq": "Sık sorulan sorular",
+    "otherServices": "Diğer hizmetler",
+    "whatsapp": "WhatsApp'tan yazın",
+    "email": "E-posta gönderin",
+    "visit": "Siteyi açın",
+    "preview": "{{title}} ekran görüntüsü",
+    "videos": "Videolardan örnekler",
+    "play": "Videoyu oynat: {{title}}"
+  },
+  "items": {
+    "web": {
+      "name": "Web sitesi ve web uygulaması",
+      "title": "Web sitesi ve web uygulaması geliştirme",
+      "metaTitle": "Web Sitesi ve Web Uygulaması Geliştirme | Ali Onar",
+      "metaDescription": "Kurumsal web sitesi, yönetim paneli, teklif ve sipariş sistemi, B2B platform. İşinize özel web yazılımlarını analizden yayına kadar tek elden geliştiriyorum.",
+      "lead": "Kurumsal web sitesinden yönetim paneline, teklif ve sipariş sisteminden B2B platforma kadar işinize özel web yazılımları geliştiriyorum. Analiz, tasarım, geliştirme ve yayına alma tek elden yürür.",
+      "summary": {
+        "for": "Hazır paketlerin işine uymadığı, süreçlerini kendi düzenine göre yürütmek isteyen işletmeler.",
+        "deliver": "Yayında çalışan web sitesi ya da uygulama, yönetim paneli ve kullanım eğitimi.",
+        "how": "Yazılı kapsam ve takvim, haftalık demolar, yayın sonrası destek."
+      },
+      "included": [
+        {
+          "title": "Kurumsal web sitesi",
+          "text": "Hizmetlerinizi ve ürünlerinizi anlatan, telefonda da rahat kullanılan, Google'ın kolay okuduğu hızlı bir site."
+        },
+        {
+          "title": "Yönetim paneli",
+          "text": "Talep, teklif, sipariş, müşteri ve ödeme kayıtlarını tek ekrandan yönettiğiniz, işinize göre tasarlanmış panel."
+        },
+        {
+          "title": "Teklif ve sipariş akışları",
+          "text": "Excel'de ya da kâğıtta yürüyen teklif, sipariş ve evrak işlerini takip edilebilir bir sisteme taşıma."
+        },
+        {
+          "title": "Entegrasyonlar",
+          "text": "Ödeme sistemleri (iyzico, Param, Stripe), WhatsApp, SMS, e-posta ve Telegram bildirimleri."
+        },
+        {
+          "title": "Çok dilli yapı",
+          "text": "Yurt dışına satış yapan firmalar için dil bazlı sayfalar ve uluslararası arama motoru ayarları."
+        },
+        {
+          "title": "Yayın ve bakım",
+          "text": "Sunucu kurulumu, alan adı ve güvenlik ayarları, yedekleme ve yayın sonrası güncellemeler."
+        }
+      ],
+      "projects": [
+        {
+          "key": "aktek",
+          "note": "Kurumsal site ve arkasındaki yönetim paneli: servis ve teklif talepleri, randevu takvimi, teklifler ve ödemeler tek yerde."
+        },
+        {
+          "key": "ecoban",
+          "note": "Altı dilde yayınlanan ürün ve kurumsal site; bayi ve servis girişi, servis talebi akışları."
+        },
+        {
+          "key": "tvtenerji",
+          "note": "Hizmet sayfaları, hızlı talep akışı ve WhatsApp entegrasyonu olan kurumsal site."
+        }
+      ],
+      "process": [
+        {
+          "title": "Tanışma görüşmesi",
+          "text": "İhtiyacınızı ve mevcut iş akışınızı dinliyorum. Bu görüşme ücretsizdir."
+        },
+        {
+          "title": "Analiz ve yazılı teklif",
+          "text": "Kapsamı, ekranları, takvimi ve ödeme planını içeren ayrıntılı bir teklif dosyası hazırlıyorum."
+        },
+        {
+          "title": "Haftalık demolarla geliştirme",
+          "text": "Her hafta çalışan sürümü birlikte inceliyoruz; geri bildirimleriniz bir sonraki haftaya yansır."
+        },
+        {
+          "title": "Test, yayın ve destek",
+          "text": "Testlerden sonra yayına alıyor, ekibinize kullanımı gösteriyor ve yayın sonrası destek veriyorum."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bir web sitesi ya da uygulama ne kadar sürede biter?",
+          "a": "Kapsama göre değişir. Takvimi tahminle değil, analizden sonra hazırladığım teklif dosyasında aşama aşama veriyorum."
+        },
+        {
+          "q": "Fiyat nasıl belirleniyor?",
+          "a": "Fiyatı kapsam belirler: ekran sayısı, entegrasyonlar ve içerik hazırlığı. İlk görüşmeden sonra kapsamı, takvimi ve ödeme planını yazılı olarak iletiyorum; neye ne ödediğinizi baştan görürsünüz."
+        },
+        {
+          "q": "Mevcut sitemizi ya da Excel dosyalarımızı yeni sisteme taşıyabilir misiniz?",
+          "a": "Evet. Mevcut içerik, ürün listesi, müşteri kayıtları ve Excel şablonları yeni sisteme aktarılır. Geçişi işinizi aksatmayacak şekilde birlikte planlıyoruz."
+        },
+        {
+          "q": "Yayından sonra destek veriyor musunuz?",
+          "a": "Evet. Yayın sonrası hata düzeltme, güncelleme ve yeni özellik taleplerini bakım kapsamında yürütüyorum."
+        }
+      ],
+      "cta": {
+        "title": "Projenizi konuşalım",
+        "text": "İhtiyacınızı birkaç cümleyle yazın; en kısa sürede dönüş yapıp bir tanışma görüşmesi planlayalım."
+      },
+      "whatsappMessage": "Merhaba, web sitesi ve web uygulaması geliştirme hakkında bilgi almak istiyorum."
+    },
+    "mobile": {
+      "name": "Mobil uygulama",
+      "title": "iOS ve Android mobil uygulama geliştirme",
+      "metaTitle": "iOS ve Android Mobil Uygulama Geliştirme | Ali Onar",
+      "metaDescription": "iOS ve Android uygulamanızı tek kod tabanıyla geliştirip App Store ve Google Play'de yayına alıyorum. Web siteniz ve mobil uygulamanız aynı altyapıyı kullanır.",
+      "lead": "iOS ve Android uygulamanızı tek kod tabanıyla geliştiriyor, App Store ve Google Play'de yayına alıyorum. Web siteniz ya da paneliniz varsa mobil uygulama aynı altyapıyı kullanır.",
+      "summary": {
+        "for": "Müşterisine ya da ekibine cepten ulaşmak isteyen işletmeler ve mobil ürün fikri olan girişimler.",
+        "deliver": "App Store ve Google Play'de yayınlanmış uygulama, yönetim paneli ve mağaza sayfaları.",
+        "how": "Yazılı kapsam ve takvim, haftalık demolar, yayın sonrası destek."
+      },
+      "included": [
+        {
+          "title": "iOS ve Android tek projede",
+          "text": "React Native ve Expo ile iki platform tek kod tabanından çıkar; geliştirme süresi ve bakım maliyeti düşer."
+        },
+        {
+          "title": "Mağaza yayın süreci",
+          "text": "Geliştirici hesapları, mağaza sayfaları, inceleme süreci ve sürüm güncellemeleri."
+        },
+        {
+          "title": "Web ile ortak altyapı",
+          "text": "Mobil uygulama, web siteniz ve yönetim paneliniz aynı veritabanını ve aynı kullanıcı hesaplarını kullanır."
+        },
+        {
+          "title": "Bildirimler",
+          "text": "Sipariş, randevu ya da kampanya gibi durumlarda kullanıcıya anlık bildirim."
+        },
+        {
+          "title": "Giriş ve kullanıcı hesapları",
+          "text": "Telefon ya da e-posta ile giriş, kişiye özel içerik ve ayarlar."
+        },
+        {
+          "title": "Yapay zekâ özellikleri",
+          "text": "Kullanıcıya özel öneri ve içerik üretimi gibi yapay zekâ destekli özellikler."
+        }
+      ],
+      "projects": [
+        {
+          "key": "loadmuscle",
+          "note": "Tek başıma geliştirip yayına aldığım yapay zekâ destekli antrenman uygulaması. 15.000+ uygulama kullanıcısı; mobilde React Native ve Expo, web'de Next.js."
+        }
+      ],
+      "process": [
+        {
+          "title": "Tanışma görüşmesi",
+          "text": "Uygulamanın kime, ne için lazım olduğunu dinliyorum. Bu görüşme ücretsizdir."
+        },
+        {
+          "title": "Analiz ve yazılı teklif",
+          "text": "Ekranları, akışları, takvimi ve ödeme planını içeren ayrıntılı bir teklif dosyası hazırlıyorum."
+        },
+        {
+          "title": "Haftalık demolarla geliştirme",
+          "text": "Her hafta uygulamanın çalışan sürümünü kendi telefonunuzda deniyorsunuz."
+        },
+        {
+          "title": "Mağaza yayını ve destek",
+          "text": "Uygulamayı App Store ve Google Play'de yayına alıyor, sonraki sürümler için destek veriyorum."
+        }
+      ],
+      "faq": [
+        {
+          "q": "iOS ve Android için ayrı ayrı mı geliştiriyorsunuz?",
+          "a": "Hayır. İki platform tek kod tabanından çıkar. Böylece hem ilk geliştirme hem de sonraki güncellemeler daha az maliyetle yürür."
+        },
+        {
+          "q": "Uygulamayı mağazalarda siz mi yayınlıyorsunuz?",
+          "a": "Evet. Mağaza sayfalarının hazırlanmasından inceleme sürecine kadar yayın adımlarını ben yürütüyorum."
+        },
+        {
+          "q": "Önce web mi, mobil mi yapılmalı?",
+          "a": "İşe göre değişir. Çoğu işletme için önce web ile başlamak, kullanım oturduktan sonra mobile geçmek daha az risklidir. İlk görüşmede hangisinin size uygun olduğunu birlikte değerlendiriyoruz."
+        },
+        {
+          "q": "Yayından sonra güncellemeleri kim yapıyor?",
+          "a": "İşletim sistemi güncellemeleri, mağaza kuralları ve yeni özellik talepleri için bakım desteği veriyorum."
+        }
+      ],
+      "cta": {
+        "title": "Uygulama fikrinizi konuşalım",
+        "text": "Aklınızdaki uygulamayı birkaç cümleyle yazın; en kısa sürede dönüş yapıp bir tanışma görüşmesi planlayalım."
+      },
+      "whatsappMessage": "Merhaba, mobil uygulama geliştirme hakkında bilgi almak istiyorum."
+    },
+    "saas": {
+      "name": "SaaS ürünü geliştirme",
+      "title": "Sıfırdan SaaS ürünü geliştirme",
+      "metaTitle": "Sıfırdan SaaS Ürünü Geliştirme | Ali Onar",
+      "metaDescription": "Fikrinizi kullanıcı yönetimi, ödeme ve abonelik sistemi, yönetim paneli olan çalışan bir SaaS ürününe dönüştürüyorum. İlk sürümden büyümeye kadar tek elden.",
+      "lead": "Fikrinizi abonelikle satılan, çalışan bir ürüne dönüştürüyorum: kullanıcı yönetimi, ödeme ve abonelik, yönetim paneli ve büyüdükçe sizi sınırlamayan bir altyapı.",
+      "summary": {
+        "for": "Yazılım ürünü fikrini pazara çıkarmak isteyen girişimciler ve kendi iç yazılımını ürüne dönüştürmek isteyen firmalar.",
+        "deliver": "Yayında, ödeme alabilen ilk sürüm; yönetim paneli ve kullanım ölçümleri.",
+        "how": "Önce en küçük satılabilir sürüm, sonra kullanıcı geri bildirimine göre adım adım geliştirme."
+      },
+      "included": [
+        {
+          "title": "İlk sürümün kapsamı",
+          "text": "Fikri, müşteriye gösterilebilecek en küçük sürüme indiriyor; neyin sonraya kalacağını birlikte belirliyoruz."
+        },
+        {
+          "title": "Üyelik ve yetkilendirme",
+          "text": "Kayıt, giriş, ekip davetleri ve rol bazlı yetkiler."
+        },
+        {
+          "title": "Ödeme ve abonelik",
+          "text": "Stripe, Lemon Squeezy, iyzico ya da Param ile tek seferlik ödeme ve abonelik akışları."
+        },
+        {
+          "title": "Çok firmalı yapı",
+          "text": "Her müşterinizin verisi birbirinden ayrı tutulur; tek kurulum üzerinden birçok firmaya hizmet verirsiniz."
+        },
+        {
+          "title": "Yapay zekâ entegrasyonu",
+          "text": "Belge okuma, sohbet, içerik ve görsel üretimi gibi özellikler için yapay zekâ modelleriyle entegrasyon."
+        },
+        {
+          "title": "Yönetim paneli ve ölçüm",
+          "text": "Kullanıcıları, ödemeleri ve kullanım verilerini izlediğiniz panel."
+        }
+      ],
+      "projects": [
+        {
+          "key": "tigaa",
+          "note": "WhatsApp ve yapay zekâ destekli teklif motoruna sahip, çok firmalı B2B satın alma platformu."
+        },
+        {
+          "key": "ireturnticket",
+          "note": "Rezervasyon akışı, ödeme ve otomatik PDF üretimi olan seyahat belgesi ürünü."
+        },
+        {
+          "key": "sonic8",
+          "note": "Ses dosyalarına yapay zekâ filigranı ekleyen; faturalama ve kontrol paneli olan ürün."
+        }
+      ],
+      "process": [
+        {
+          "title": "Tanışma görüşmesi",
+          "text": "Fikri, hedef müşteriyi ve gelir modelini konuşuyoruz. Bu görüşme ücretsizdir."
+        },
+        {
+          "title": "İlk sürümün tanımı",
+          "text": "İlk sürümde nelerin olacağını, takvimi ve ödeme planını yazılı bir teklif dosyasında netleştiriyorum."
+        },
+        {
+          "title": "Haftalık demolarla geliştirme",
+          "text": "Her hafta çalışan sürümü birlikte inceliyoruz; öncelikleri gerektiğinde yeniden sıralıyoruz."
+        },
+        {
+          "title": "Yayın ve büyütme",
+          "text": "Ürünü yayına alıyor, ilk kullanıcıların geri bildirimine göre sonraki sürümleri planlıyoruz."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Elimde sadece bir fikir var, nereden başlıyoruz?",
+          "a": "İlk görüşmede fikri, hedef müşteriyi ve gelir modelini konuşuyoruz. Ardından ilk sürümde nelerin olacağını ve nelerin sonraya kalacağını yazılı olarak netleştiriyorum."
+        },
+        {
+          "q": "İlk sürüm ne kadar sürede çıkar?",
+          "a": "Kapsama bağlıdır. Hedefim, fikri gerçek kullanıcıya gösterebileceğiniz en küçük sürümü çıkarmaktır; takvimi teklif dosyasında aşama aşama veriyorum."
+        },
+        {
+          "q": "Türkiye'den ve yurt dışından ödeme alabilir miyim?",
+          "a": "Evet. Türkiye için iyzico ve Param, yurt dışı için Stripe ve Lemon Squeezy ile çalışıyorum; ürününüze uygun olanı birlikte seçiyoruz."
+        },
+        {
+          "q": "Ürün büyüdüğünde altyapı yeterli olur mu?",
+          "a": "Altyapıyı ilk günden büyümeye uygun kuruyor, teknoloji seçimlerini uzun vadeli toplam maliyete göre yapıyorum. Amaç, kullanıcı sayısı arttığında sistemi baştan yazmak zorunda kalmamanızdır."
+        }
+      ],
+      "cta": {
+        "title": "Ürün fikrinizi konuşalım",
+        "text": "Fikrinizi birkaç cümleyle yazın; en kısa sürede dönüş yapıp bir tanışma görüşmesi planlayalım."
+      },
+      "whatsappMessage": "Merhaba, SaaS ürünü geliştirme hakkında bilgi almak istiyorum."
+    },
+    "rescue": {
+      "name": "Yarım kalmış projeler",
+      "title": "Yarım kalmış yazılım projelerini tamamlama",
+      "metaTitle": "Yarım Kalmış Yazılım Projelerini Tamamlama | Ali Onar",
+      "metaDescription": "Önceki ekibin bıraktığı ya da yapay zekâ araçlarıyla üretilip ilerleyemeyen yazılım projelerini devralıyor, sorunları giderip yayına alıyorum.",
+      "lead": "Önceki ekibin bıraktığı ya da yapay zekâ araçlarıyla üretilip ilerleyemeyen projeleri devralıyorum. Önce durumu inceliyor, sorunları tespit ediyor, sonra projeyi tamamlayıp yayına alıyorum.",
+      "summary": {
+        "for": "Yazılımcısı projeyi bırakmış, işi teslim alamamış ya da yapay zekâyla başladığı projede tıkanmış işletmeler.",
+        "deliver": "Mevcut durumun yazılı raporu, ardından tamamlanmış ve yayında çalışan ürün.",
+        "how": "Önce inceleme ve rapor, sonra birlikte verilen karar, ardından aşamalı teslim."
+      },
+      "included": [
+        {
+          "title": "Durum incelemesi",
+          "text": "Kodun, veritabanının ve sunucunun mevcut halini inceleyip neyin çalıştığını, neyin eksik olduğunu yazılı olarak raporluyorum."
+        },
+        {
+          "title": "Devam mı, yeniden yazım mı?",
+          "text": "Mevcut kodun üzerine devam etmenin mi, kritik kısımları yeniden yazmanın mı daha az maliyetli olduğunu gerekçesiyle öneriyorum."
+        },
+        {
+          "title": "Hata ve güvenlik düzeltmeleri",
+          "text": "Giriş, ödeme ve veri kaybı gibi kritik sorunları önceliklendirip gideriyorum."
+        },
+        {
+          "title": "Eksiklerin tamamlanması",
+          "text": "Yarım kalan ekranları ve akışları tamamlıyor, çalışmayan entegrasyonları onarıyorum."
+        },
+        {
+          "title": "Yayına alma",
+          "text": "Sunucu, alan adı, yedekleme ve izleme kurulumlarıyla projeyi güvenli şekilde canlıya alıyorum."
+        },
+        {
+          "title": "Belgelendirme",
+          "text": "Sistemin nasıl çalıştığını ve nasıl yönetileceğini belgeliyorum; proje tek bir kişiye bağımlı kalmaz."
+        }
+      ],
+      "projects": [
+        {
+          "key": "kolaytadilat",
+          "note": "Yarım kalmış, yapay zekâ ile üretilmiş kod tabanını devralıp canlıya aldım; sunucu tarafını sıfırdan kurdum."
+        },
+        {
+          "key": "adilanaliz",
+          "note": "Devraldığım hukuk yapay zekâsı platformunda yanıt kalitesini, üyelik ve ödeme akışlarını iyileştirdim."
+        },
+        {
+          "key": "rumimetric",
+          "note": "Yapay zekâ ile üretilmiş prototipi baz alıp uygulamayı yayına hazır şekilde yeniden yazdım."
+        }
+      ],
+      "process": [
+        {
+          "title": "Tanışma görüşmesi",
+          "text": "Projenin nerede kaldığını ve sizi en çok neyin zorladığını dinliyorum."
+        },
+        {
+          "title": "Durum incelemesi ve rapor",
+          "text": "Koda ve sunucuya okuma erişimiyle inceleme yapıp bulguları ve önerdiğim yolu yazılı olarak paylaşıyorum."
+        },
+        {
+          "title": "Aşamalı tamamlama",
+          "text": "Önce kritik sorunları gideriyor, ardından eksik özellikleri haftalık demolarla tamamlıyorum."
+        },
+        {
+          "title": "Yayın ve devir",
+          "text": "Projeyi yayına alıyor, belgeleriyle birlikte size devrediyor ve yayın sonrası destek veriyorum."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Önceki yazılımcıya ulaşamıyoruz, yine de devralabilir misiniz?",
+          "a": "Çoğu durumda evet. Kaynak koda, sunucuya ve alan adına erişiminiz varsa inceleme yapabilirim. Erişim eksikse hangi hesapların nasıl geri alınabileceğini birlikte çıkarıyoruz."
+        },
+        {
+          "q": "Projeyi baştan yazmak gerekir mi?",
+          "a": "Her zaman değil. İnceleme sonunda mevcut kodla devam etmenin mi, belirli bölümleri yeniden yazmanın mı daha az maliyetli olduğunu gerekçesiyle raporluyorum; kararı siz verirsiniz."
+        },
+        {
+          "q": "Yapay zekâ araçlarıyla ürettiğimiz proje yayına alınabilir mi?",
+          "a": "Alınabilir, ancak çoğu zaman güvenlik, veri yapısı ve ödeme tarafında eksikler olur. Bu eksikleri tamamlayıp projeyi gerçek kullanıcıya hazır hale getiriyorum."
+        },
+        {
+          "q": "Devralma süreci nasıl başlıyor?",
+          "a": "İlk görüşmede sorunu dinliyorum. Ardından koda ve sunucuya okuma erişimiyle durum incelemesini yapıp bulguları ve önerdiğim yolu yazılı olarak paylaşıyorum."
+        }
+      ],
+      "cta": {
+        "title": "Projenizin durumunu konuşalım",
+        "text": "Projenin nerede kaldığını birkaç cümleyle yazın; en kısa sürede dönüş yapıp nasıl ilerleyebileceğimizi konuşalım."
+      },
+      "whatsappMessage": "Merhaba, yarım kalmış bir yazılım projemiz hakkında görüşmek istiyorum."
+    },
+    "seo": {
+      "name": "SEO",
+      "title": "SEO ve Google'da görünürlük",
+      "metaTitle": "SEO ve Google'da Görünürlük | Ali Onar",
+      "metaDescription": "Teknik SEO, anahtar kelime ve sayfa yapısı, yerel SEO ve ölçüm. Önerileri raporda bırakmıyor, yazılımcı olarak sitede kendim uyguluyorum.",
+      "lead": "Web sitenizin, müşterilerinizin Google'da aradığı kelimelerde öne çıkması için teknik altyapıdan içerik yapısına kadar tüm SEO çalışmasını üstleniyorum. Yazılımcı olduğum için önerileri raporda bırakmıyor, sitede kendim uyguluyorum.",
+      "summary": {
+        "for": "Müşterisi Google'da arama yapan, ancak aramalarda rakiplerinin gerisinde kalan işletmeler.",
+        "deliver": "Teknik düzeltmeler, hedef kelimelere göre sayfa yapısı ve düzenli ilerleme raporu.",
+        "how": "Önce mevcut durum analizi, sonra öncelik sırasına göre uygulama ve düzenli ölçüm."
+      },
+      "included": [
+        {
+          "title": "Teknik SEO",
+          "text": "Site hızı, mobil uyum, site haritası, yönlendirmeler ve Google'ın sayfaları doğru okumasını sağlayan altyapı düzeltmeleri."
+        },
+        {
+          "title": "Anahtar kelime ve sayfa yapısı",
+          "text": "Müşterinizin gerçekten aradığı kelimeleri bulup her biri için doğru sayfayı kurguluyorum."
+        },
+        {
+          "title": "Yerel SEO",
+          "text": "Şehir ve bölge aramalarında görünürlük; Google İşletme Profili düzeni ve yerel sayfalar."
+        },
+        {
+          "title": "İçerik planı",
+          "text": "Hizmet sayfaları ve blog yazıları için, arama niyetine göre hazırlanmış içerik planı."
+        },
+        {
+          "title": "Yapılandırılmış veri",
+          "text": "Arama sonuçlarında zengin görünüm için Schema.org işaretlemeleri."
+        },
+        {
+          "title": "Ölçüm ve raporlama",
+          "text": "Search Console ve Analytics ile sıralama, tıklama ve talep takibi; düzenli ve anlaşılır raporlar."
+        }
+      ],
+      "projects": [
+        {
+          "key": "aktek",
+          "note": "Marmara Bölgesi'nde chiller servisi aramalarında ilk sayfayı hedefleyen teknik ve sayfa içi SEO çalışması."
+        },
+        {
+          "key": "loadmuscle",
+          "note": "Aylık 60.000+ web ziyaretçisine ulaşan fitness uygulamasının web sitesi."
+        },
+        {
+          "key": "toptantursu",
+          "note": "\"Toptan turşu\" ve ürün bazlı aramalar için kurgulanmış SEO odaklı sayfa yapısı."
+        }
+      ],
+      "process": [
+        {
+          "title": "Mevcut durum analizi",
+          "text": "Sitenizi, rakiplerinizi ve Search Console verilerinizi inceleyip nerede kayıp olduğunu çıkarıyorum."
+        },
+        {
+          "title": "Öncelik planı",
+          "text": "En çok etki edecek düzeltmeleri ve hedef kelimeleri sıraya koyuyorum."
+        },
+        {
+          "title": "Uygulama",
+          "text": "Teknik düzeltmeleri, sayfa yapısını ve içerik değişikliklerini sitede kendim uyguluyorum."
+        },
+        {
+          "title": "Ölçüm ve iyileştirme",
+          "text": "Sıralama, tıklama ve gelen talepleri düzenli olarak raporluyor, plana göre devam ediyorum."
+        }
+      ],
+      "faq": [
+        {
+          "q": "SEO'da sonuç ne zaman görülür?",
+          "a": "Kelimenin rekabetine ve sitenin mevcut durumuna göre değişir. Teknik düzeltmelerin etkisi genellikle haftalar içinde, rekabetli kelimelerde sıralama artışı ise aylar içinde görülür. Kesin bir tarih ya da sıra garantisi vermiyorum; ilerlemeyi verilerle gösteriyorum."
+        },
+        {
+          "q": "Sitemizi siz yapmadınız, yine de çalışabilir misiniz?",
+          "a": "Evet. Mevcut sitenizin altyapısını inceleyip yapılabilecekleri çıkarıyorum. Altyapı hedeflere engel oluyorsa bunu da gerekçesiyle söylüyorum."
+        },
+        {
+          "q": "SEO mu, Google Ads mi?",
+          "a": "İkisi birbirini tamamlar. Reklam hemen talep getirir ama bütçe bitince durur; SEO daha geç sonuç verir ama kalıcıdır. Çoğu işletme için doğru yol, reklamla başlayıp SEO'yu paralelde büyütmektir."
+        },
+        {
+          "q": "Raporlarda neler görürüm?",
+          "a": "Hangi kelimede kaçıncı sırada olduğunuzu, Google'dan kaç kişinin geldiğini ve bu ziyaretlerin kaçının talebe dönüştüğünü. Teknik terimler yerine iş sonuçlarını raporluyorum."
+        }
+      ],
+      "cta": {
+        "title": "Sitenizin durumuna birlikte bakalım",
+        "text": "Site adresinizi ve hedeflediğiniz aramaları yazın; en kısa sürede dönüş yapıp ilk değerlendirmemi paylaşayım."
+      },
+      "whatsappMessage": "Merhaba, SEO çalışması hakkında bilgi almak istiyorum."
+    },
+    "ads": {
+      "name": "Google Ads yönetimi",
+      "title": "Google Ads reklam yönetimi",
+      "metaTitle": "Google Ads Reklam Yönetimi | Ali Onar",
+      "metaDescription": "Google Ads hesap kurulumu, dönüşüm ölçümü, reklam sayfaları ve düzenli optimizasyon. Reklamı, sayfayı ve ölçümü tek elden yönetiyorum.",
+      "lead": "Google'da hizmetinizi arayan müşterinin karşısına doğru anda çıkmanız için reklam hesabınızı kuruyor ve yönetiyorum. Reklamın gittiği sayfayı ve dönüşüm ölçümünü de kendim kurduğum için bütçenizin neye dönüştüğünü net görürsünüz.",
+      "summary": {
+        "for": "Google'dan talep almak isteyen ya da reklam veriyor ama karşılığını göremeyen işletmeler.",
+        "deliver": "Ölçümü çalışan reklam hesabı, reklam sayfaları, düzenli optimizasyon ve rapor.",
+        "how": "Önce hesap ve ölçüm denetimi, sonra kampanya kurulumu ve düzenli optimizasyon."
+      },
+      "included": [
+        {
+          "title": "Hesap ve kampanya kurulumu",
+          "text": "Hizmetlerinize ve hizmet bölgenize göre arama kampanyaları, reklam grupları ve reklam metinleri."
+        },
+        {
+          "title": "Dönüşüm ölçümü",
+          "text": "Form, telefon ve WhatsApp tıklamalarını ya da üyelik gibi asıl hedefinizi ölçüyorum; hangi kelimenin talep getirdiği görünür olur."
+        },
+        {
+          "title": "Anahtar kelime ve negatif kelime yönetimi",
+          "text": "Alakasız aramalara giden bütçeyi keserek harcamayı talep getiren kelimelere yönlendiriyorum."
+        },
+        {
+          "title": "Reklam sayfaları",
+          "text": "Reklam gruplarıyla eşleşen, hızlı açılan ve talep almaya göre düzenlenmiş sayfalar hazırlıyorum."
+        },
+        {
+          "title": "Teklif ve bütçe optimizasyonu",
+          "text": "Verilere göre teklif stratejisini ve bütçe dağılımını düzenli olarak güncelliyorum."
+        },
+        {
+          "title": "Raporlama",
+          "text": "Harcamayı, tıklamayı, talep sayısını ve talep başına maliyeti sade bir raporla paylaşıyorum."
+        }
+      ],
+      "projects": [],
+      "process": [
+        {
+          "title": "Hesap ve ölçüm denetimi",
+          "text": "Mevcut hesabınız varsa bütçenin nereye gittiğini ve ölçümün doğru çalışıp çalışmadığını inceliyorum."
+        },
+        {
+          "title": "Kampanya ve sayfa kurulumu",
+          "text": "Kampanyaları, reklam metinlerini, dönüşüm ölçümünü ve reklamın gideceği sayfaları kuruyorum."
+        },
+        {
+          "title": "Düzenli optimizasyon",
+          "text": "Arama terimlerini, teklifleri ve reklam metinlerini verilere göre düzenli olarak güncelliyorum."
+        },
+        {
+          "title": "Rapor ve plan",
+          "text": "Sonuçları sade bir raporla paylaşıyor, bir sonraki dönemin planını birlikte belirliyoruz."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Ne kadar reklam bütçesi gerekir?",
+          "a": "Sektöre, şehre ve hedeflediğiniz kelimelerin rekabetine göre değişir. İlk görüşmeden sonra kelime bazlı tahmini maliyetleri çıkarıyor; küçük bir bütçeyle başlayıp veri geldikçe artırmayı öneriyorum."
+        },
+        {
+          "q": "Reklamlar ne zaman sonuç verir?",
+          "a": "Reklamlar yayına girdiği gün gösterilmeye başlar. Sağlıklı karar verebilmek için birkaç haftalık veri gerekir; bu sürede kelimeleri ve reklam metinlerini verilere göre düzenliyorum."
+        },
+        {
+          "q": "Mevcut reklam hesabımızı devralabilir misiniz?",
+          "a": "Evet. Önce hesabı denetleyip bütçenin nereye gittiğini ve ölçümün doğru çalışıp çalışmadığını raporluyorum; ardından düzeltmeleri uyguluyorum."
+        },
+        {
+          "q": "Sitemiz reklam için uygun değilse ne olur?",
+          "a": "Reklamın gittiği sayfa talep almaya uygun değilse bütçe boşa gider. Gerekirse mevcut sayfayı düzenliyor ya da reklam için ayrı sayfalar hazırlıyorum."
+        }
+      ],
+      "cta": {
+        "title": "Reklam hesabınıza birlikte bakalım",
+        "text": "Site adresinizi ve reklamdan beklentinizi yazın; en kısa sürede dönüş yapıp ilk değerlendirmemi paylaşayım."
+      },
+      "whatsappMessage": "Merhaba, Google Ads reklam yönetimi hakkında bilgi almak istiyorum.",
+      "cases": [
+        {
+          "title": "Bir e-ticaret firmasıyla ilk iki haftada 55 doğrulanmış üye kaydına ulaştık",
+          "text": "Bütçesinin büyük kısmı Google Arama dışındaki kanallara giden kampanyayı devralıp yalnızca arama ağında çalışan, dört reklam gruplu bir yapıya çevirdik. Dönüşüm olarak sadece SMS koduyla tamamlanan üyelikleri sayıyoruz.",
+          "metrics": [
+            {
+              "value": "55",
+              "label": "doğrulanmış üye kaydı"
+            },
+            {
+              "value": "%13,6",
+              "label": "tıklama oranı"
+            },
+            {
+              "value": "%6,9",
+              "label": "dönüşüm oranı"
+            }
+          ],
+          "note": "Google Arama kampanyasının ilk iki haftası."
+        },
+        {
+          "title": "Servis hizmeti veren bir işletmeyle reklamdan gelen her talebi ölçülebilir hale getirdik",
+          "text": "Reklam gruplarıyla bire bir eşleşen 19 açılış sayfası hazırladık; form, telefon ve WhatsApp tıklamaları için dönüşüm ölçümünü kurduk. Reklam paneli ile Analytics verisi artık birbirini tutuyor ve hangi kampanyanın talep getirdiği görülebiliyor."
+        }
+      ]
+    },
+    "consulting": {
+      "name": "Teknik danışmanlık",
+      "title": "Teknik danışmanlık",
+      "metaTitle": "Yazılım ve Teknik Danışmanlık | Ali Onar",
+      "metaDescription": "Teknoloji seçimi, yazılım tekliflerinin değerlendirilmesi, kod ve sistem incelemesi, sunucu maliyeti. Pahalı hatalardan önce tarafsız bir teknik görüş.",
+      "lead": "Hangi teknolojiyi seçmelisiniz, mevcut sisteminiz büyümeye hazır mı, teklif aldığınız yazılım ekibi doğru mu ilerliyor? Pahalı hatalar yapmadan önce tarafsız bir teknik görüş sunuyorum.",
+      "summary": {
+        "for": "Yazılım yatırımı yapacak ya da mevcut yazılımından emin olamayan, içeride teknik ekibi olmayan işletmeler.",
+        "deliver": "Teknik olmayan birinin de anlayacağı dilde yazılı değerlendirme ve öneri.",
+        "how": "Tek seferlik inceleme ya da proje boyunca düzenli danışmanlık."
+      },
+      "included": [
+        {
+          "title": "Teknoloji ve mimari seçimi",
+          "text": "Yeni bir proje için hangi teknolojilerin, hangi sunucu ve veritabanı yapısının uzun vadede daha az maliyetli olacağını değerlendiriyorum."
+        },
+        {
+          "title": "Teklif ve kapsam değerlendirmesi",
+          "text": "Yazılım firmalarından aldığınız teklifleri kapsam, süre ve teknik yeterlilik açısından inceliyorum."
+        },
+        {
+          "title": "Kod ve sistem incelemesi",
+          "text": "Mevcut yazılımınızın güvenlik, performans ve sürdürülebilirlik açısından durumunu raporluyorum."
+        },
+        {
+          "title": "Sunucu ve maliyet",
+          "text": "Sunucu, veritabanı ve üçüncü parti servis giderlerini inceleyip daha uygun kurulumlar öneriyorum."
+        },
+        {
+          "title": "Yapay zekâ kullanım alanları",
+          "text": "İşinizde yapay zekânın gerçekten fayda sağlayacağı yerleri ve sınırlarını belirliyorum."
+        },
+        {
+          "title": "Ekip ve süreç",
+          "text": "Yazılım ekibinizle ya da dış firmanızla çalışırken teslimleri takip edebileceğiniz bir düzen kuruyorum."
+        }
+      ],
+      "projects": [
+        {
+          "key": "meritrisk",
+          "note": "Bankaların kullandığı 10 yıllık risk platformunun yeni mimarisi ve canlı müşteriler için geçiş planı."
+        },
+        {
+          "key": "kolaytadilat",
+          "note": "Devraldığım pazaryerinde veritabanını ölçeklenebilirlik için yeniden tasarladım."
+        }
+      ],
+      "process": [
+        {
+          "title": "Tanışma görüşmesi",
+          "text": "Vermeniz gereken kararı ve elinizdeki seçenekleri dinliyorum."
+        },
+        {
+          "title": "İnceleme",
+          "text": "Kod, teklif, sunucu ya da süreç; ihtiyaca göre ilgili malzemeyi inceliyorum."
+        },
+        {
+          "title": "Yazılı değerlendirme",
+          "text": "Bulguları, riskleri ve önerdiğim yolu sade bir dille raporluyorum."
+        },
+        {
+          "title": "Uygulama desteği",
+          "text": "İsterseniz kararın uygulanmasında ekibinize ya da çalıştığınız firmaya eşlik ediyorum."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Teknik bilgim yok, raporu anlayabilir miyim?",
+          "a": "Evet. Değerlendirmeyi teknik terimlerle değil, maliyet, risk ve süre üzerinden yazıyorum; gerekirse görüşmede birlikte üzerinden geçiyoruz."
+        },
+        {
+          "q": "Başka bir firmadan teklif aldık, tarafsız kalabilir misiniz?",
+          "a": "Evet. Danışmanlıkta amacım işi almak değil, doğru kararı vermenize yardımcı olmaktır; değerlendirmeyi yalnızca teklifin kendisine göre yapıyorum."
+        },
+        {
+          "q": "Tek seferlik mi, sürekli mi çalışıyorsunuz?",
+          "a": "İkisi de mümkün. Tek bir karar için tek seferlik inceleme yapabilir ya da proje boyunca düzenli olarak yanınızda olabilirim."
+        },
+        {
+          "q": "Kod incelemesi için nelere erişmeniz gerekiyor?",
+          "a": "Kaynak koda ve tercihen sunucuya okuma erişimi yeterlidir."
+        }
+      ],
+      "cta": {
+        "title": "Kararınızı birlikte değerlendirelim",
+        "text": "Önünüzdeki kararı birkaç cümleyle yazın; en kısa sürede dönüş yapıp bir görüşme planlayalım."
+      },
+      "whatsappMessage": "Merhaba, teknik danışmanlık hakkında bilgi almak istiyorum."
+    },
+    "training": {
+      "name": "Eğitim",
+      "title": "Yazılım ve yapay zekâ eğitimleri",
+      "metaTitle": "Yazılım ve Yapay Zekâ Eğitimleri | Ali Onar",
+      "metaDescription": "Ekiplere ve bireylere yapay zekâ destekli yazılım geliştirme, Next.js ve Supabase ile ürün geliştirme eğitimleri. Canlı ve uygulamalı.",
+      "lead": "Ekiplere ve bireylere, gerçek projelerde kullandığım yöntemleri aktarıyorum: yapay zekâ destekli yazılım geliştirme, Next.js ve Supabase ile ürün çıkarma, yayına alma ve SEO. Eğitimler hazır slaytlardan değil, canlı uygulama üzerinden ilerler.",
+      "summary": {
+        "for": "Ekibinin yapay zekâ araçlarını verimli kullanmasını isteyen firmalar ve kendini geliştirmek isteyen yazılımcılar.",
+        "deliver": "İhtiyaca göre hazırlanmış program, canlı uygulamalı oturumlar ve örnek proje.",
+        "how": "Birebir mentorluk ya da ekibe özel eğitim."
+      },
+      "included": [
+        {
+          "title": "Yapay zekâ destekli yazılım geliştirme",
+          "text": "Claude Code gibi araçlarla gerçek bir projeyi baştan sona geliştirme; doğru yönlendirme, kontrol ve kalite adımları."
+        },
+        {
+          "title": "Next.js ve Supabase ile ürün geliştirme",
+          "text": "Kimlik doğrulama, veritabanı ve yayına alma dahil, çalışan bir web uygulamasını adım adım kurma."
+        },
+        {
+          "title": "Yayına alma ve altyapı",
+          "text": "Vercel, Railway, Hetzner ve Cloudflare üzerinde yayın, alan adı, yedekleme ve maliyet yönetimi."
+        },
+        {
+          "title": "SEO temelleri",
+          "text": "Yazılımcılar ve içerik ekipleri için teknik SEO, sayfa yapısı ve ölçüm."
+        },
+        {
+          "title": "Birebir mentorluk",
+          "text": "Kendi projeniz üzerinde düzenli görüşmelerle kod incelemesi ve yol haritası."
+        },
+        {
+          "title": "Ekibe özel program",
+          "text": "Ekibinizin seviyesine ve kullandığı teknolojilere göre hazırlanmış içerik."
+        }
+      ],
+      "projects": [],
+      "proofLink": {
+        "text": "YouTube kanalımda Claude Code ile SaaS ve kurumsal web sitesi geliştirme, Next.js ve Supabase ile Full Stack serisi gibi uygulamalı videolar yayınlıyorum. Anlatım tarzımı oradan görebilirsiniz.",
+        "label": "Tüm videoları YouTube'da izleyin",
+        "url": "https://www.youtube.com/@alionar60"
+      },
+      "process": [
+        {
+          "title": "İhtiyaç görüşmesi",
+          "text": "Katılımcıların seviyesini, kullandıkları teknolojileri ve eğitimden beklentiyi dinliyorum."
+        },
+        {
+          "title": "Program",
+          "text": "Konuları, oturum sayısını ve örnek projeyi içeren programı yazılı olarak paylaşıyorum."
+        },
+        {
+          "title": "Canlı oturumlar",
+          "text": "Oturumlar ekran paylaşımıyla, uygulama yaparak ilerler; sorular anında yanıtlanır."
+        },
+        {
+          "title": "Takip",
+          "text": "Eğitimden sonra ortaya çıkan soruları yanıtlıyor, gerekirse ek oturum planlıyoruz."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Eğitim hangi seviyeye uygun?",
+          "a": "Program, katılımcıların seviyesine göre hazırlanır. Yeni başlayan bir ekip için temelden, deneyimli bir ekip için doğrudan ileri konulardan başlayabiliriz."
+        },
+        {
+          "q": "Kendi projemiz üzerinde çalışabilir miyiz?",
+          "a": "Evet. En verimli eğitim, ekibinizin kendi projesi üzerinde yapılandır; örnekleri mümkün olduğunca sizin kodunuzdan seçiyorum."
+        },
+        {
+          "q": "Bireysel olarak da katılabilir miyim?",
+          "a": "Evet. Birebir mentorlukta kendi projeniz ya da hedefiniz üzerinden, size özel bir programla ilerliyoruz."
+        }
+      ],
+      "cta": {
+        "title": "Eğitim ihtiyacınızı konuşalım",
+        "text": "Ekibinizi ya da hedefinizi birkaç cümleyle yazın; en kısa sürede dönüş yapıp size uygun programı konuşalım."
+      },
+      "whatsappMessage": "Merhaba, eğitimler hakkında bilgi almak istiyorum.",
+      "videos": [
+        {
+          "id": "52NkJfL0R68",
+          "title": "Yapay Zeka ile Kurumsal Web Sitesi Yapıyoruz | Claude Code ile Sıfırdan"
+        },
+        {
+          "id": "Ftlv7HSsxc0",
+          "title": "Claude Code ile SaaS Yapıyoruz #1 - Fikir, Kurulum ve Auth"
+        },
+        {
+          "id": "IPQCPk7Qlno",
+          "title": "Full Stack Serisi #1 Giriş | Nextjs - Supabase - AI Tools"
+        }
+      ]
+    }
+  }
+}

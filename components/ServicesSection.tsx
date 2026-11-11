@@ -1,45 +1,14 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 import { useTranslation } from "react-i18next";
-import { Boxes, LifeBuoy, Smartphone, Lightbulb, TrendingUp } from "lucide-react";
-
-const items = [
-  {
-    key: "saas",
-    Icon: Boxes,
-    tone: "border-orange-200 bg-orange-50 text-brand-deep",
-    glow: "from-brand/15",
-  },
-  {
-    key: "rescue",
-    Icon: LifeBuoy,
-    tone: "border-emerald-200 bg-emerald-50 text-emerald-700",
-    glow: "from-emerald-500/15",
-  },
-  {
-    key: "mobile",
-    Icon: Smartphone,
-    tone: "border-sky-200 bg-sky-50 text-sky-700",
-    glow: "from-sky-500/15",
-  },
-  {
-    key: "consulting",
-    Icon: Lightbulb,
-    tone: "border-violet-200 bg-violet-50 text-violet-700",
-    glow: "from-violet-500/15",
-  },
-  {
-    key: "seo",
-    Icon: TrendingUp,
-    tone: "border-rose-200 bg-rose-50 text-rose-700",
-    glow: "from-rose-500/15",
-    wide: true,
-  },
-];
+import { ArrowRight } from "lucide-react";
+import { serviceKeys, servicePath } from "@/lib/services";
+import { serviceVisuals } from "./service/serviceVisuals";
 
 const ServicesSection = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
     <section id="services" className="py-24 md:py-32 border-t border-border bg-secondary/40">
@@ -56,33 +25,37 @@ const ServicesSection = () => {
           </p>
         </div>
 
-        <div className="mt-14 grid gap-px overflow-hidden rounded-2xl border border-border bg-border md:grid-cols-2">
-          {items.map(({ key, Icon, tone, glow, wide }) => (
-            <div
-              key={key}
-              className={`group relative flex flex-col gap-4 overflow-hidden bg-background p-7 transition-colors hover:bg-muted/40 ${
-                wide ? "md:col-span-2 md:flex-row md:items-start md:gap-6" : ""
-              }`}
-            >
-              <div
-                aria-hidden
-                className={`pointer-events-none absolute -left-16 -top-16 h-40 w-40 rounded-full bg-gradient-to-br ${glow} to-transparent opacity-0 blur-2xl transition-opacity duration-500 group-hover:opacity-100`}
-              />
-              <div
-                className={`relative flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border transition-transform duration-300 group-hover:-translate-y-0.5 ${tone}`}
+        <div className="mt-14 grid gap-px overflow-hidden rounded-2xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-4">
+          {serviceKeys.map((key) => {
+            const { Icon, tone } = serviceVisuals[key];
+
+            return (
+              <Link
+                key={key}
+                href={servicePath(i18n.language, key)}
+                className="group relative flex flex-col bg-background p-6 transition-colors hover:bg-brand-soft focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-brand"
               >
-                <Icon className="h-5 w-5" />
-              </div>
-              <div className={`relative ${wide ? "md:max-w-3xl" : ""}`}>
-                <h3 className="text-lg font-semibold tracking-tight">
+                <span
+                  className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border ${tone}`}
+                >
+                  <Icon aria-hidden className="h-5 w-5" />
+                </span>
+                <h3 className="mt-5 text-lg font-semibold tracking-tight">
                   {t(`Services.items.${key}.title`)}
                 </h3>
                 <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
                   {t(`Services.items.${key}.description`)}
                 </p>
-              </div>
-            </div>
-          ))}
+                <span className="mt-auto inline-flex items-center gap-1.5 pt-6 text-sm font-medium text-brand-deep">
+                  {t("Services.more")}
+                  <ArrowRight
+                    aria-hidden
+                    className="h-4 w-4 transition-transform group-hover:translate-x-0.5"
+                  />
+                </span>
+              </Link>
+            );
+          })}
         </div>
       </div>
     </section>

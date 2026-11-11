@@ -1,0 +1,768 @@
+{
+  "ui": {
+    "home": "Home",
+    "services": "Services",
+    "summaryFor": "Who it is for",
+    "summaryDeliver": "What I deliver",
+    "summaryHow": "How we work",
+    "included": "What is included?",
+    "proof": "Work in this area",
+    "process": "How it goes",
+    "faq": "Frequently asked questions",
+    "otherServices": "Other services",
+    "whatsapp": "Message on WhatsApp",
+    "email": "Send an email",
+    "visit": "Open the site",
+    "preview": "{{title}} screenshot",
+    "videos": "Sample videos",
+    "play": "Play video: {{title}}"
+  },
+  "items": {
+    "web": {
+      "name": "Websites and web apps",
+      "title": "Website and web application development",
+      "metaTitle": "Website and Web Application Development | Ali Onar",
+      "metaDescription": "Company websites, admin panels, quoting and ordering systems, B2B platforms. I build custom web software end to end, from analysis to launch.",
+      "lead": "From company websites to admin panels, from quoting and ordering systems to B2B platforms, I build web software shaped around your business. Analysis, design, development and launch are handled by one person.",
+      "summary": {
+        "for": "Businesses that off-the-shelf tools do not fit and that want to run their processes their own way.",
+        "deliver": "A live website or application, an admin panel and a walkthrough for your team.",
+        "how": "Written scope and timeline, weekly demos, support after launch."
+      },
+      "included": [
+        {
+          "title": "Company website",
+          "text": "A fast site that explains your services and products, works well on phones and is easy for Google to read."
+        },
+        {
+          "title": "Admin panel",
+          "text": "A panel designed around your work, where requests, quotes, orders, customers and payments live on one screen."
+        },
+        {
+          "title": "Quoting and ordering flows",
+          "text": "Moving quotes, orders and paperwork that run on Excel or paper into a system you can track."
+        },
+        {
+          "title": "Integrations",
+          "text": "Payment providers (iyzico, Param, Stripe), WhatsApp, SMS, email and Telegram notifications."
+        },
+        {
+          "title": "Multilingual setup",
+          "text": "Language-specific pages and international search settings for companies selling abroad."
+        },
+        {
+          "title": "Hosting and maintenance",
+          "text": "Server setup, domain and security settings, backups and updates after launch."
+        }
+      ],
+      "projects": [
+        {
+          "key": "aktek",
+          "note": "Company website and the management panel behind it: service and quote requests, calendar, quotes and payments in one place."
+        },
+        {
+          "key": "ecoban",
+          "note": "Product and company website published in six languages, with dealer and service logins and service request flows."
+        },
+        {
+          "key": "tvtenerji",
+          "note": "Company website with service pages, a quick request flow and WhatsApp integration."
+        }
+      ],
+      "process": [
+        {
+          "title": "Intro call",
+          "text": "I listen to what you need and how you work today. This call is free."
+        },
+        {
+          "title": "Analysis and written proposal",
+          "text": "I prepare a detailed proposal covering scope, screens, timeline and payment plan."
+        },
+        {
+          "title": "Development with weekly demos",
+          "text": "We review the working version every week, and your feedback shapes the following week."
+        },
+        {
+          "title": "Testing, launch and support",
+          "text": "After testing I launch the product, walk your team through it and provide support afterwards."
+        }
+      ],
+      "faq": [
+        {
+          "q": "How long does a website or application take?",
+          "a": "It depends on the scope. I do not guess the timeline; I give it stage by stage in the proposal I prepare after the analysis."
+        },
+        {
+          "q": "How is the price set?",
+          "a": "Scope sets the price: number of screens, integrations and content preparation. After the first call I send the scope, timeline and payment plan in writing, so you see what you pay for up front."
+        },
+        {
+          "q": "Can you move our current site or Excel files into the new system?",
+          "a": "Yes. Existing content, product lists, customer records and Excel templates are migrated. We plan the switch together so it does not disrupt your work."
+        },
+        {
+          "q": "Do you provide support after launch?",
+          "a": "Yes. I handle bug fixes, updates and new feature requests under a maintenance arrangement."
+        }
+      ],
+      "cta": {
+        "title": "Let's talk about your project",
+        "text": "Describe what you need in a few sentences and I will get back to you shortly to schedule an intro call."
+      },
+      "whatsappMessage": "Hi, I would like to learn more about website and web application development."
+    },
+    "mobile": {
+      "name": "Mobile apps",
+      "title": "iOS and Android app development",
+      "metaTitle": "iOS and Android App Development | Ali Onar",
+      "metaDescription": "I build your iOS and Android app from a single codebase and publish it on the App Store and Google Play. Your website and app share the same foundation.",
+      "lead": "I build your iOS and Android app from a single codebase and publish it on the App Store and Google Play. If you already have a website or panel, the app runs on the same foundation.",
+      "summary": {
+        "for": "Businesses that want to reach customers or staff on their phones, and founders with a mobile product idea.",
+        "deliver": "An app published on the App Store and Google Play, an admin panel and store listings.",
+        "how": "Written scope and timeline, weekly demos, support after launch."
+      },
+      "included": [
+        {
+          "title": "iOS and Android in one project",
+          "text": "With React Native and Expo both platforms come from one codebase, which cuts build time and maintenance cost."
+        },
+        {
+          "title": "Store release",
+          "text": "Developer accounts, store listings, the review process and version updates."
+        },
+        {
+          "title": "Shared foundation with the web",
+          "text": "The app, your website and your admin panel use the same database and the same user accounts."
+        },
+        {
+          "title": "Notifications",
+          "text": "Instant notifications for orders, appointments or campaigns."
+        },
+        {
+          "title": "Sign-in and user accounts",
+          "text": "Sign-in by phone or email, with personal content and settings."
+        },
+        {
+          "title": "AI features",
+          "text": "AI-powered features such as personal recommendations and content generation."
+        }
+      ],
+      "projects": [
+        {
+          "key": "loadmuscle",
+          "note": "An AI-powered workout app I built and shipped on my own. 15,000+ app users; React Native and Expo on mobile, Next.js on the web."
+        }
+      ],
+      "process": [
+        {
+          "title": "Intro call",
+          "text": "I listen to who the app is for and what it should do. This call is free."
+        },
+        {
+          "title": "Analysis and written proposal",
+          "text": "I prepare a detailed proposal covering screens, flows, timeline and payment plan."
+        },
+        {
+          "title": "Development with weekly demos",
+          "text": "Every week you try the working version of the app on your own phone."
+        },
+        {
+          "title": "Store release and support",
+          "text": "I publish the app on the App Store and Google Play and support the releases that follow."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do you build iOS and Android separately?",
+          "a": "No. Both platforms come from a single codebase, so the first build and every later update cost less."
+        },
+        {
+          "q": "Do you publish the app in the stores?",
+          "a": "Yes. I handle the release steps, from preparing the store listings to the review process."
+        },
+        {
+          "q": "Should we start with web or mobile?",
+          "a": "It depends on the business. For most companies it is less risky to start on the web and move to mobile once usage settles. We weigh this together in the first call."
+        },
+        {
+          "q": "Who handles updates after launch?",
+          "a": "I provide maintenance for operating system updates, store rules and new feature requests."
+        }
+      ],
+      "cta": {
+        "title": "Let's talk about your app idea",
+        "text": "Describe the app you have in mind in a few sentences and I will get back to you shortly to schedule an intro call."
+      },
+      "whatsappMessage": "Hi, I would like to learn more about mobile app development."
+    },
+    "saas": {
+      "name": "SaaS product development",
+      "title": "SaaS product development from scratch",
+      "metaTitle": "SaaS Product Development from Scratch | Ali Onar",
+      "metaDescription": "I turn your idea into a working SaaS product with user management, payments and subscriptions, and an admin panel. One person from first release to growth.",
+      "lead": "I turn your idea into a working product sold by subscription: user management, payments and subscriptions, an admin panel and a foundation that does not hold you back as you grow.",
+      "summary": {
+        "for": "Founders who want to bring a software product to market, and companies turning an internal tool into a product.",
+        "deliver": "A live first release that can take payments, an admin panel and usage metrics.",
+        "how": "The smallest sellable version first, then step-by-step development driven by user feedback."
+      },
+      "included": [
+        {
+          "title": "Scope of the first release",
+          "text": "I reduce the idea to the smallest version you can show a customer, and we decide together what waits for later."
+        },
+        {
+          "title": "Accounts and permissions",
+          "text": "Sign-up, sign-in, team invitations and role-based permissions."
+        },
+        {
+          "title": "Payments and subscriptions",
+          "text": "One-time payments and subscriptions with Stripe, Lemon Squeezy, iyzico or Param."
+        },
+        {
+          "title": "Multi-tenant structure",
+          "text": "Each of your customers' data is kept separate, so one installation serves many companies."
+        },
+        {
+          "title": "AI integration",
+          "text": "Integration with AI models for features such as document reading, chat, and content and image generation."
+        },
+        {
+          "title": "Admin panel and metrics",
+          "text": "A panel where you follow users, payments and usage."
+        }
+      ],
+      "projects": [
+        {
+          "key": "tigaa",
+          "note": "A multi-tenant B2B procurement platform with a WhatsApp and AI-powered quoting engine."
+        },
+        {
+          "key": "ireturnticket",
+          "note": "A travel document product with a booking flow, payments and automated PDF generation."
+        },
+        {
+          "key": "sonic8",
+          "note": "A product that adds AI watermarks to audio files, with billing and a dashboard."
+        }
+      ],
+      "process": [
+        {
+          "title": "Intro call",
+          "text": "We talk through the idea, the target customer and the revenue model. This call is free."
+        },
+        {
+          "title": "Defining the first release",
+          "text": "I set out what the first release includes, the timeline and the payment plan in a written proposal."
+        },
+        {
+          "title": "Development with weekly demos",
+          "text": "We review the working version every week and reorder priorities when needed."
+        },
+        {
+          "title": "Launch and growth",
+          "text": "I launch the product and we plan the next releases from the first users' feedback."
+        }
+      ],
+      "faq": [
+        {
+          "q": "I only have an idea. Where do we start?",
+          "a": "In the first call we talk through the idea, the target customer and the revenue model. Then I put in writing what the first release includes and what waits for later."
+        },
+        {
+          "q": "How long until the first release?",
+          "a": "It depends on the scope. My aim is to ship the smallest version you can put in front of real users; the proposal gives the timeline stage by stage."
+        },
+        {
+          "q": "Can I take payments from Turkey and abroad?",
+          "a": "Yes. I work with iyzico and Param for Turkey, and with Stripe and Lemon Squeezy internationally; we choose what fits your product together."
+        },
+        {
+          "q": "Will the foundation hold when the product grows?",
+          "a": "I set up the foundation for growth from day one and choose technologies by long-term total cost. The aim is that you do not have to rewrite the system when the number of users increases."
+        }
+      ],
+      "cta": {
+        "title": "Let's talk about your product idea",
+        "text": "Describe your idea in a few sentences and I will get back to you shortly to schedule an intro call."
+      },
+      "whatsappMessage": "Hi, I would like to learn more about SaaS product development."
+    },
+    "rescue": {
+      "name": "Unfinished projects",
+      "title": "Finishing stalled software projects",
+      "metaTitle": "Finishing Stalled Software Projects | Ali Onar",
+      "metaDescription": "I take over software projects left behind by a previous team or generated with AI tools and stuck, fix the problems and bring them to launch.",
+      "lead": "I take over projects left behind by a previous team or generated with AI tools and unable to move forward. I review where things stand, identify the problems, then finish the project and launch it.",
+      "summary": {
+        "for": "Businesses whose developer left, who never received the finished work, or who got stuck on a project started with AI.",
+        "deliver": "A written report on the current state, then a finished product running live.",
+        "how": "Review and report first, then a decision we make together, then staged delivery."
+      },
+      "included": [
+        {
+          "title": "State review",
+          "text": "I review the code, the database and the server, and report in writing what works and what is missing."
+        },
+        {
+          "title": "Continue or rewrite?",
+          "text": "I recommend, with reasons, whether it costs less to build on the existing code or to rewrite the critical parts."
+        },
+        {
+          "title": "Bug and security fixes",
+          "text": "I prioritise and fix critical issues such as sign-in, payments and data loss."
+        },
+        {
+          "title": "Completing what is missing",
+          "text": "I finish half-built screens and flows and repair broken integrations."
+        },
+        {
+          "title": "Launch",
+          "text": "I take the project live safely with server, domain, backup and monitoring in place."
+        },
+        {
+          "title": "Documentation",
+          "text": "I document how the system works and how to run it, so the project does not depend on one person."
+        }
+      ],
+      "projects": [
+        {
+          "key": "kolaytadilat",
+          "note": "I took over an unfinished, AI-generated codebase and brought it live, rebuilding the server side from scratch."
+        },
+        {
+          "key": "adilanaliz",
+          "note": "On a legal AI platform I took over, I improved answer quality and the membership and payment flows."
+        },
+        {
+          "key": "rumimetric",
+          "note": "Starting from an AI-generated prototype, I rewrote the application to be ready for production."
+        }
+      ],
+      "process": [
+        {
+          "title": "Intro call",
+          "text": "I listen to where the project stopped and what is hurting you most."
+        },
+        {
+          "title": "State review and report",
+          "text": "With read access to the code and server I review the project and share my findings and the route I recommend in writing."
+        },
+        {
+          "title": "Staged completion",
+          "text": "I fix the critical problems first, then complete the missing features with weekly demos."
+        },
+        {
+          "title": "Launch and handover",
+          "text": "I launch the project, hand it over with its documentation and provide support afterwards."
+        }
+      ],
+      "faq": [
+        {
+          "q": "We cannot reach the previous developer. Can you still take over?",
+          "a": "In most cases, yes. If you have access to the source code, the server and the domain, I can review it. If access is missing, we work out together which accounts can be recovered and how."
+        },
+        {
+          "q": "Does the project need to be rewritten?",
+          "a": "Not always. After the review I report, with reasons, whether continuing with the existing code or rewriting specific parts costs less; the decision is yours."
+        },
+        {
+          "q": "Can a project we generated with AI tools go live?",
+          "a": "It can, but there are usually gaps in security, data structure and payments. I close those gaps and make the project ready for real users."
+        },
+        {
+          "q": "How does the takeover start?",
+          "a": "I listen to the problem in the first call. Then, with read access to the code and server, I review the project and share my findings and the route I recommend in writing."
+        }
+      ],
+      "cta": {
+        "title": "Let's talk about where your project stands",
+        "text": "Describe where the project stopped in a few sentences and I will get back to you shortly about how we can move forward."
+      },
+      "whatsappMessage": "Hi, I would like to talk about an unfinished software project."
+    },
+    "seo": {
+      "name": "SEO",
+      "title": "SEO and visibility on Google",
+      "metaTitle": "SEO and Visibility on Google | Ali Onar",
+      "metaDescription": "Technical SEO, keywords and page structure, local SEO and measurement. As a developer I implement the recommendations on the site myself.",
+      "lead": "I handle the full SEO work, from technical foundations to content structure, so your website shows up for what your customers search on Google. As a developer I do not leave recommendations in a report; I implement them on the site myself.",
+      "summary": {
+        "for": "Businesses whose customers search on Google but who trail competitors in the results.",
+        "deliver": "Technical fixes, page structure built around target keywords and regular progress reports.",
+        "how": "Analysis of the current state first, then implementation in priority order and regular measurement."
+      },
+      "included": [
+        {
+          "title": "Technical SEO",
+          "text": "Site speed, mobile friendliness, sitemap, redirects and the fixes that let Google read your pages correctly."
+        },
+        {
+          "title": "Keywords and page structure",
+          "text": "I find the terms your customers really search for and plan the right page for each."
+        },
+        {
+          "title": "Local SEO",
+          "text": "Visibility in city and region searches; Google Business Profile and local pages."
+        },
+        {
+          "title": "Content plan",
+          "text": "A content plan for service pages and blog posts based on search intent."
+        },
+        {
+          "title": "Structured data",
+          "text": "Schema.org markup for richer appearance in search results."
+        },
+        {
+          "title": "Measurement and reporting",
+          "text": "Rankings, clicks and enquiries tracked with Search Console and Analytics; regular, readable reports."
+        }
+      ],
+      "projects": [
+        {
+          "key": "aktek",
+          "note": "Technical and on-page SEO targeting the first page for chiller service searches in the Marmara region."
+        },
+        {
+          "key": "loadmuscle",
+          "note": "The website of a fitness app reaching 60,000+ monthly web visitors."
+        },
+        {
+          "key": "toptantursu",
+          "note": "An SEO-focused page structure built for wholesale pickle and product-level searches."
+        }
+      ],
+      "process": [
+        {
+          "title": "Current state analysis",
+          "text": "I review your site, your competitors and your Search Console data to find where you are losing ground."
+        },
+        {
+          "title": "Priority plan",
+          "text": "I put the fixes with the most impact and the target keywords in order."
+        },
+        {
+          "title": "Implementation",
+          "text": "I apply the technical fixes, page structure and content changes on the site myself."
+        },
+        {
+          "title": "Measurement and improvement",
+          "text": "I report rankings, clicks and incoming enquiries regularly and continue according to the plan."
+        }
+      ],
+      "faq": [
+        {
+          "q": "When do SEO results show?",
+          "a": "It depends on how competitive the keyword is and where the site stands today. Technical fixes usually show within weeks; ranking gains on competitive keywords take months. I do not promise a date or a position; I show progress with data."
+        },
+        {
+          "q": "You did not build our site. Can you still work on it?",
+          "a": "Yes. I review your current setup and work out what can be done. If the platform itself blocks your goals, I say so with reasons."
+        },
+        {
+          "q": "SEO or Google Ads?",
+          "a": "They complement each other. Ads bring enquiries immediately but stop when the budget ends; SEO takes longer but lasts. For most businesses the right route is to start with ads and grow SEO in parallel."
+        },
+        {
+          "q": "What will I see in the reports?",
+          "a": "Where you rank for which keyword, how many people came from Google and how many of those visits turned into enquiries. I report business results rather than technical terms."
+        }
+      ],
+      "cta": {
+        "title": "Let's look at your site together",
+        "text": "Send your site address and the searches you care about, and I will get back to you shortly with a first assessment."
+      },
+      "whatsappMessage": "Hi, I would like to learn more about SEO."
+    },
+    "ads": {
+      "name": "Google Ads management",
+      "title": "Google Ads management",
+      "metaTitle": "Google Ads Management | Ali Onar",
+      "metaDescription": "Google Ads account setup, conversion tracking, landing pages and regular optimisation. I manage the ad, the page and the measurement together.",
+      "lead": "I set up and manage your Google Ads account so you appear at the right moment for people searching for your service. Because I also build the landing page and the conversion tracking myself, you see clearly what your budget turns into.",
+      "summary": {
+        "for": "Businesses that want enquiries from Google, or that advertise but cannot see what they get for it.",
+        "deliver": "An ad account with working measurement, landing pages, regular optimisation and reports.",
+        "how": "Account and measurement audit first, then campaign setup and regular optimisation."
+      },
+      "included": [
+        {
+          "title": "Account and campaign setup",
+          "text": "Search campaigns, ad groups and ad copy built around your services and service area."
+        },
+        {
+          "title": "Conversion tracking",
+          "text": "I measure form, phone and WhatsApp clicks, or your real goal such as sign-ups, so you see which keyword brings enquiries."
+        },
+        {
+          "title": "Keyword and negative keyword management",
+          "text": "I cut budget going to irrelevant searches and steer spending to the keywords that bring enquiries."
+        },
+        {
+          "title": "Landing pages",
+          "text": "I prepare fast pages that match your ad groups and are arranged to collect enquiries."
+        },
+        {
+          "title": "Bid and budget optimisation",
+          "text": "I update the bid strategy and budget split regularly based on the data."
+        },
+        {
+          "title": "Reporting",
+          "text": "I share spend, clicks, number of enquiries and cost per enquiry in a plain report."
+        }
+      ],
+      "projects": [],
+      "process": [
+        {
+          "title": "Account and measurement audit",
+          "text": "If you already have an account, I check where the budget goes and whether measurement works correctly."
+        },
+        {
+          "title": "Campaign and page setup",
+          "text": "I set up the campaigns, ad copy, conversion tracking and the pages the ads lead to."
+        },
+        {
+          "title": "Regular optimisation",
+          "text": "I update search terms, bids and ad copy regularly based on the data."
+        },
+        {
+          "title": "Report and plan",
+          "text": "I share the results in a plain report and we set the plan for the next period together."
+        }
+      ],
+      "faq": [
+        {
+          "q": "How much ad budget do we need?",
+          "a": "It depends on the sector, the city and how competitive your keywords are. After the first call I estimate costs per keyword, and I recommend starting with a small budget and raising it as data comes in."
+        },
+        {
+          "q": "When do ads start to work?",
+          "a": "Ads begin to show the day they go live. Sound decisions need a few weeks of data; during that time I adjust keywords and ad copy based on what the data shows."
+        },
+        {
+          "q": "Can you take over our existing ad account?",
+          "a": "Yes. I audit the account first and report where the budget goes and whether measurement works; then I apply the fixes."
+        },
+        {
+          "q": "What if our site is not suitable for ads?",
+          "a": "If the page an ad leads to is not built to collect enquiries, the budget is wasted. Where needed I rework the existing page or prepare separate pages for the ads."
+        }
+      ],
+      "cta": {
+        "title": "Let's look at your ad account together",
+        "text": "Send your site address and what you expect from ads, and I will get back to you shortly with a first assessment."
+      },
+      "whatsappMessage": "Hi, I would like to learn more about Google Ads management.",
+      "cases": [
+        {
+          "title": "With an e-commerce company we reached 55 verified sign-ups in the first two weeks",
+          "text": "We took over a campaign that spent most of its budget outside Google Search and rebuilt it as a search-only campaign with four ad groups. Only sign-ups completed with an SMS code count as conversions.",
+          "metrics": [
+            {
+              "value": "55",
+              "label": "verified sign-ups"
+            },
+            {
+              "value": "13.6%",
+              "label": "click-through rate"
+            },
+            {
+              "value": "6.9%",
+              "label": "conversion rate"
+            }
+          ],
+          "note": "First two weeks of the Google Search campaign."
+        },
+        {
+          "title": "With a service business we made every enquiry from ads measurable",
+          "text": "We built 19 landing pages matched one to one with the ad groups and set up conversion tracking for form, phone and WhatsApp clicks. The ad account and Analytics now agree, and it is clear which campaign brings enquiries."
+        }
+      ]
+    },
+    "consulting": {
+      "name": "Technical consulting",
+      "title": "Technical consulting",
+      "metaTitle": "Software and Technical Consulting | Ali Onar",
+      "metaDescription": "Technology choices, review of software proposals, code and system reviews, server costs. An impartial technical opinion before costly mistakes.",
+      "lead": "Which technology should you choose, is your current system ready to grow, is the software team you got a quote from on the right track? I give an impartial technical opinion before costly mistakes are made.",
+      "summary": {
+        "for": "Businesses about to invest in software, or unsure about the software they have, without an in-house technical team.",
+        "deliver": "A written assessment and recommendation in language a non-technical reader can follow.",
+        "how": "A one-off review or regular consulting through a project."
+      },
+      "included": [
+        {
+          "title": "Technology and architecture choices",
+          "text": "For a new project I assess which technologies and which server and database setup will cost less in the long run."
+        },
+        {
+          "title": "Proposal and scope review",
+          "text": "I review the quotes you receive from software companies for scope, duration and technical adequacy."
+        },
+        {
+          "title": "Code and system review",
+          "text": "I report on the state of your current software in terms of security, performance and maintainability."
+        },
+        {
+          "title": "Servers and cost",
+          "text": "I review server, database and third-party service costs and recommend more suitable setups."
+        },
+        {
+          "title": "Where AI helps",
+          "text": "I identify where AI will bring real benefit in your business, and where its limits are."
+        },
+        {
+          "title": "Team and process",
+          "text": "I set up a routine that lets you track deliveries when working with your software team or an outside company."
+        }
+      ],
+      "projects": [
+        {
+          "key": "meritrisk",
+          "note": "New architecture for a 10-year-old risk platform used by banks, with a migration plan for live customers."
+        },
+        {
+          "key": "kolaytadilat",
+          "note": "On a marketplace I took over, I redesigned the database for scalability."
+        }
+      ],
+      "process": [
+        {
+          "title": "Intro call",
+          "text": "I listen to the decision in front of you and the options you have."
+        },
+        {
+          "title": "Review",
+          "text": "Code, a proposal, servers or process: I review the material the question calls for."
+        },
+        {
+          "title": "Written assessment",
+          "text": "I report the findings, the risks and the route I recommend in plain language."
+        },
+        {
+          "title": "Support in applying it",
+          "text": "If you wish, I accompany your team or the company you work with while the decision is applied."
+        }
+      ],
+      "faq": [
+        {
+          "q": "I am not technical. Will I understand the report?",
+          "a": "Yes. I write the assessment in terms of cost, risk and time rather than technical jargon, and we can go through it together on a call."
+        },
+        {
+          "q": "We have a quote from another company. Can you stay impartial?",
+          "a": "Yes. In consulting my aim is not to win the work but to help you make the right decision; I assess only the proposal itself."
+        },
+        {
+          "q": "Do you work one-off or ongoing?",
+          "a": "Both are possible. I can do a one-off review for a single decision or stay alongside you regularly through a project."
+        },
+        {
+          "q": "What access do you need for a code review?",
+          "a": "Read access to the source code, and preferably to the server, is enough."
+        }
+      ],
+      "cta": {
+        "title": "Let's weigh your decision together",
+        "text": "Describe the decision in front of you in a few sentences and I will get back to you shortly to schedule a call."
+      },
+      "whatsappMessage": "Hi, I would like to learn more about technical consulting."
+    },
+    "training": {
+      "name": "Training",
+      "title": "Software and AI training",
+      "metaTitle": "Software and AI Training | Ali Onar",
+      "metaDescription": "Training for teams and individuals on AI-assisted software development and building products with Next.js and Supabase. Live and hands-on.",
+      "lead": "I teach teams and individuals the methods I use on real projects: AI-assisted software development, shipping products with Next.js and Supabase, deployment and SEO. Sessions run on live work, not ready-made slides.",
+      "summary": {
+        "for": "Companies that want their team to use AI tools effectively, and developers who want to grow.",
+        "deliver": "A programme prepared for your needs, live hands-on sessions and a sample project.",
+        "how": "One-to-one mentoring or training tailored to a team."
+      },
+      "included": [
+        {
+          "title": "AI-assisted software development",
+          "text": "Building a real project end to end with tools like Claude Code; how to direct, check and keep quality."
+        },
+        {
+          "title": "Building products with Next.js and Supabase",
+          "text": "Setting up a working web application step by step, including authentication, database and deployment."
+        },
+        {
+          "title": "Deployment and infrastructure",
+          "text": "Deployment on Vercel, Railway, Hetzner and Cloudflare; domains, backups and cost control."
+        },
+        {
+          "title": "SEO fundamentals",
+          "text": "Technical SEO, page structure and measurement for developers and content teams."
+        },
+        {
+          "title": "One-to-one mentoring",
+          "text": "Code review and a roadmap on your own project through regular calls."
+        },
+        {
+          "title": "Team-specific programme",
+          "text": "Content prepared for your team's level and the technologies it uses."
+        }
+      ],
+      "projects": [],
+      "proofLink": {
+        "text": "On my YouTube channel I publish hands-on videos (in Turkish): building a SaaS and a company website with Claude Code, and a Full Stack series with Next.js and Supabase. You can see how I teach there.",
+        "label": "Watch all videos on YouTube",
+        "url": "https://www.youtube.com/@alionar60"
+      },
+      "process": [
+        {
+          "title": "Needs call",
+          "text": "I listen to the participants' level, the technologies they use and what you expect from the training."
+        },
+        {
+          "title": "Programme",
+          "text": "I share the programme in writing: topics, number of sessions and the sample project."
+        },
+        {
+          "title": "Live sessions",
+          "text": "Sessions run with screen sharing and hands-on work; questions are answered on the spot."
+        },
+        {
+          "title": "Follow-up",
+          "text": "I answer questions that come up after the training, and we plan extra sessions if needed."
+        }
+      ],
+      "faq": [
+        {
+          "q": "What level is the training for?",
+          "a": "The programme is prepared for the participants' level. We can start from the basics for a new team, or go straight to advanced topics for an experienced one."
+        },
+        {
+          "q": "Can we work on our own project?",
+          "a": "Yes. The most effective training runs on your team's own project, and I take examples from your code wherever possible."
+        },
+        {
+          "q": "Can I join as an individual?",
+          "a": "Yes. In one-to-one mentoring we follow a programme built around your own project or goal."
+        }
+      ],
+      "cta": {
+        "title": "Let's talk about your training needs",
+        "text": "Describe your team or your goal in a few sentences and I will get back to you shortly about a programme that fits."
+      },
+      "whatsappMessage": "Hi, I would like to learn more about your training.",
+      "videos": [
+        {
+          "id": "52NkJfL0R68",
+          "title": "Yapay Zeka ile Kurumsal Web Sitesi Yapıyoruz | Claude Code ile Sıfırdan"
+        },
+        {
+          "id": "Ftlv7HSsxc0",
+          "title": "Claude Code ile SaaS Yapıyoruz #1 - Fikir, Kurulum ve Auth"
+        },
+        {
+          "id": "IPQCPk7Qlno",
+          "title": "Full Stack Serisi #1 Giriş | Nextjs - Supabase - AI Tools"
+        }
+      ]
+    }
+  }
+}

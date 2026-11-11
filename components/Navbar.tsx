@@ -6,18 +6,20 @@ import React, { useEffect, useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import { useTranslation } from "react-i18next";
 import LanguageChanger from "./i18n/LanguageChanger";
+import { homeAnchor, homePath } from "@/lib/site";
 
 const navLinks = [
-  { key: "About", href: "#about" },
-  { key: "Work", href: "#work" },
-  { key: "Experience", href: "#experience" },
-  { key: "Services", href: "#services" },
+  { key: "About", id: "about" },
+  { key: "Work", id: "work" },
+  { key: "Experience", id: "experience" },
+  { key: "Services", id: "services" },
 ];
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const locale = i18n.language;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -37,7 +39,7 @@ const Navbar = () => {
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <Link
-            href="/"
+            href={homePath(locale)}
             className="flex items-center gap-2 text-sm font-semibold tracking-tight text-foreground"
           >
             <Image
@@ -53,24 +55,24 @@ const Navbar = () => {
 
           <nav className="hidden md:flex items-center gap-7">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.key}
-                href={link.href}
+                href={homeAnchor(locale, link.id)}
                 className="text-sm text-muted-foreground hover:text-brand-deep transition-colors"
               >
                 {t(`Navbar.${link.key}`)}
-              </a>
+              </Link>
             ))}
           </nav>
 
           <div className="flex items-center gap-3">
             <LanguageChanger />
-            <a
-              href="#contact"
+            <Link
+              href={homeAnchor(locale, "contact")}
               className="hidden md:inline-flex items-center rounded-full bg-brand px-3.5 py-1.5 text-xs font-medium text-brand-foreground shadow-sm shadow-brand/30 hover:bg-brand/90 transition-colors"
             >
               {t("Navbar.Contact")}
-            </a>
+            </Link>
             <button
               type="button"
               onClick={() => setOpen((v) => !v)}
@@ -91,13 +93,13 @@ const Navbar = () => {
             <ul className="flex flex-col gap-1 pt-2 border-t border-border">
               {navLinks.map((link) => (
                 <li key={link.key}>
-                  <a
-                    href={link.href}
+                  <Link
+                    href={homeAnchor(locale, link.id)}
                     onClick={() => setOpen(false)}
                     className="block rounded-md px-3 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
                   >
                     {t(`Navbar.${link.key}`)}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

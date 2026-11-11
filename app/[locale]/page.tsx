@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import AboutSection from "@/components/AboutSection";
 import ContactSection from "@/components/ContactSection";
 import ExperienceSection from "@/components/ExperienceSection";
@@ -6,6 +7,20 @@ import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
 import ServicesSection from "@/components/ServicesSection";
 import WorkSection from "@/components/WorkSection";
+import { homePath } from "@/lib/site";
+
+export function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}): Metadata {
+  return {
+    alternates: {
+      canonical: homePath(locale),
+      languages: { en: "/", tr: "/tr", "x-default": "/" },
+    },
+  };
+}
 
 export default function Home() {
   return (
