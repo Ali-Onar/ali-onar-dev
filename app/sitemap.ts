@@ -1,4 +1,5 @@
 import { MetadataRoute } from "next";
+import { pagePath } from "@/lib/pages";
 import { serviceKeys, servicePath } from "@/lib/services";
 import { SITE_URL } from "@/lib/site";
 
@@ -32,5 +33,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }));
   });
 
-  return [...home, ...services];
+  const processLanguages = {
+    en: `${SITE_URL}${pagePath("en", "process")}`,
+    tr: `${SITE_URL}${pagePath("tr", "process")}`,
+  };
+  const process: MetadataRoute.Sitemap = [
+    processLanguages.tr,
+    processLanguages.en,
+  ].map((url) => ({
+    url,
+    lastModified,
+    alternates: { languages: processLanguages },
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...home, ...services, ...process];
 }

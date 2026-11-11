@@ -1,4 +1,5 @@
 import i18nConfig from "@/i18nConfig";
+import { findPage, pagePath } from "@/lib/pages";
 import { localePrefix, type Locale } from "@/lib/site";
 
 export const serviceKeys = [
@@ -55,6 +56,12 @@ export const switchLocalePath = (pathname: string, to: string) => {
     const from: Locale = match[1] === "hizmetler" ? "tr" : "en";
     const key = findService(from, match[2]);
     if (key) return servicePath(to, key);
+  }
+
+  const single = rest.match(/^\/([^/]+)\/?$/);
+  if (single) {
+    const page = findPage(single[1]);
+    if (page) return pagePath(to, page);
   }
 
   return `${localePrefix(to)}${rest === "/" ? "" : rest}` || "/";

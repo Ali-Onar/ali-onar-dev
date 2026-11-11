@@ -318,7 +318,8 @@
         "title": "Eğitim",
         "description": "Ekiplere ve bireylere yapay zekâ destekli yazılım geliştirme, Next.js ve Supabase eğitimleri."
       }
-    }
+    },
+    "processLink": "Nasıl çalıştığımı ve örnek teklif dosyasını görün"
   },
   "Contact": {
     "eyebrow": "İletişime geçin",
@@ -337,6 +338,7 @@
     "rights": "Tüm hakları saklıdır.",
     "builtWith": "Next.js + Tailwind ile geliştirildi.",
     "services": "Hizmetler",
-    "contact": "İletişim"
+    "contact": "İletişim",
+    "process": "Nasıl çalışıyoruz"
   }
 }

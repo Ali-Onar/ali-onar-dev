@@ -318,7 +318,8 @@
         "title": "Training",
         "description": "AI-assisted software development, Next.js and Supabase training for teams and individuals."
       }
-    }
+    },
+    "processLink": "See how I work and a sample proposal"
   },
   "Contact": {
     "eyebrow": "Get in touch",
@@ -337,6 +338,7 @@
     "rights": "All rights reserved.",
     "builtWith": "Built with Next.js + Tailwind.",
     "services": "Services",
-    "contact": "Contact"
+    "contact": "Contact",
+    "process": "How we work"
   }
 }

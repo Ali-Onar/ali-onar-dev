@@ -4,8 +4,10 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
+import { pagePath } from "@/lib/pages";
 import { serviceKeys, servicePath } from "@/lib/services";
 import { EMAIL, WHATSAPP_DISPLAY, homePath } from "@/lib/site";
+import MailLink from "./MailLink";
 import WhatsAppLink from "./WhatsAppLink";
 
 const Footer = () => {
@@ -27,6 +29,12 @@ const Footer = () => {
             <span className="text-sm font-medium text-foreground">Ali Onar</span>
           </Link>
           <p className="mt-3 text-sm text-foreground/75">{t("Hero.role")}</p>
+          <Link
+            href={pagePath(locale, "process")}
+            className="mt-4 inline-block text-sm font-medium text-foreground underline decoration-brand/50 underline-offset-4 transition-colors hover:text-brand-deep"
+          >
+            {t("Footer.process")}
+          </Link>
         </div>
 
         <nav aria-label={t("Footer.services")} className="md:col-span-5">
@@ -49,12 +57,12 @@ const Footer = () => {
           <p className="text-sm font-medium text-foreground">{t("Footer.contact")}</p>
           <ul className="mt-4 space-y-2.5 text-sm text-foreground/75">
             <li>
-              <a
-                href={`mailto:${EMAIL}`}
+              <MailLink
+                location="footer"
                 className="transition-colors hover:text-brand-deep"
               >
                 {EMAIL}
-              </a>
+              </MailLink>
             </li>
             <li>
               <WhatsAppLink

@@ -1,0 +1,327 @@
+{
+  "metaTitle": "Nasıl Çalışıyoruz ve Örnek Teklif Dosyası | Ali Onar",
+  "metaDescription": "İlk görüşmeden yayın sonrası desteğe kadar süreç sekiz adımda ilerler. Kapsamı, fazları, süreyi ve ödeme planını gösteren örnek teklif dosyasını inceleyin.",
+  "home": "Ana sayfa",
+  "name": "Nasıl çalışıyoruz",
+  "title": "Nasıl çalışıyoruz?",
+  "lead": "İlk görüşmeden yayın sonrası desteğe kadar süreç sekiz adımda ilerler. İşe başlamadan önce kapsamı, takvimi ve ödeme planını yazılı olarak görürsünüz.",
+  "sampleLink": "Örnek teklif dosyasını görün",
+  "stepsTitle": "Sekiz adımda süreç",
+  "steps": [
+    {
+      "title": "Tanışma görüşmesi",
+      "text": "İhtiyacınızı ve mevcut iş akışınızı dinliyorum. Bu görüşme ücretsizdir."
+    },
+    {
+      "title": "Süreç analizi",
+      "text": "İşin bugün nasıl yürüdüğünü, kullanılan dosyaları ve ekranları inceliyorum; neyin yazılıma taşınacağını birlikte netleştiriyoruz."
+    },
+    {
+      "title": "Yazılı teklif dosyası",
+      "text": "Kapsamı, fazları, takvimi, ödeme planını ve kapsam dışı kalanları tek dosyada sunuyorum. Bir örneği bu sayfanın altında."
+    },
+    {
+      "title": "Sözleşme ve ilk ödeme",
+      "text": "Teklif onaylanınca iş başlar.",
+      "tag": "%40 ilk ödeme"
+    },
+    {
+      "title": "Haftalık demolarla geliştirme",
+      "text": "Her faz tamamlandığında test ortamında incelemenize sunulur; geri bildirimleriniz sonraki faza yansır."
+    },
+    {
+      "title": "Ara teslim",
+      "text": "İşin ilk bölümü yayına alınır; ölçüm ve reklam bağlantıları kurulur.",
+      "tag": "%30 ikinci ödeme"
+    },
+    {
+      "title": "Test, eğitim ve son yayın",
+      "text": "Uçtan uca test ve güvenlik kontrolünden sonra ekibinize kullanım eğitimi veriyorum.",
+      "tag": "%30 son ödeme"
+    },
+    {
+      "title": "Bakım ve destek",
+      "text": "Son yayından sonra bir ay boyunca ücretsiz bakım ve hata desteği veriyorum."
+    }
+  ],
+  "termsTitle": "Her projede sabit olanlar",
+  "terms": [
+    {
+      "title": "Kod ve hesaplar sizin adınıza",
+      "text": "Kaynak kod ilk günden sizin adınıza açılan GitHub hesabında durur. Sunucu, alan adı ve Google hesapları da sizin adınıza açılır."
+    },
+    {
+      "title": "Sabit bedel",
+      "text": "Teklifteki bedel değişmez. Kapsam dışı istekler, yazılı mutabakatla ayrıca fiyatlandırılır."
+    },
+    {
+      "title": "Her faz sizin incelemenizle",
+      "text": "Her faz test ortamında size sunulur; geri bildiriminizden sonra bir sonrakine geçilir."
+    },
+    {
+      "title": "Yayın sonrası destek",
+      "text": "Son yayından sonra bir ay ücretsiz bakım ve hata desteği."
+    }
+  ],
+  "sample": {
+    "badge": "Örnek",
+    "eyebrow": "Örnek teklif dosyası",
+    "title": "Proje planı, kapsam ve anlaşma dokümanı",
+    "note": "Bu dosya, gerçek bir teklif örnek alınarak ve firma bilgileri çıkarılarak hazırlanmıştır. Kapsam, süre ve bedel her projede ihtiyaca göre belirlenir.",
+    "meta": [
+      [
+        "Proje",
+        "Kurumsal web sitesi ve yönetim paneli"
+      ],
+      [
+        "Yüklenici",
+        "Ali Onar"
+      ],
+      [
+        "İşveren",
+        "Örnek firma (teknik servis)"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "1. Kapsam, süre ve bedel",
+        "rows": [
+          [
+            "Kapsam",
+            "Türkçe ve İngilizce kurumsal web sitesi, Google Analytics / Search Console / Ads altyapısı ve yönetim paneli (içerik, teklif, müşteri)"
+          ],
+          [
+            "Süre",
+            "20 iş günü"
+          ],
+          [
+            "Toplam bedel",
+            "100.000 ₺ (sabit bedel)"
+          ]
+        ]
+      },
+      {
+        "title": "2. Ödeme planı",
+        "head": [
+          "Ödeme",
+          "Koşul",
+          "Oran",
+          "Tutar (₺)"
+        ],
+        "table": [
+          [
+            "1. ödeme",
+            "Proje başlangıcı",
+            "%40",
+            "40.000"
+          ],
+          [
+            "2. ödeme",
+            "Site yayında; Search Console, Analytics ve Google Ads bağlantıları tamamlandı (Faz 5)",
+            "%30",
+            "30.000"
+          ],
+          [
+            "3. ödeme",
+            "İş bitimi (Faz 9 teslimi ve son yayın)",
+            "%30",
+            "30.000"
+          ]
+        ],
+        "foot": [
+          "Toplam",
+          "",
+          "%100",
+          "100.000"
+        ]
+      },
+      {
+        "title": "3. Fazlar ve süre planı",
+        "head": [
+          "Faz",
+          "İçerik",
+          "Süre (iş günü)"
+        ],
+        "table": [
+          [
+            "Faz 0: Keşif ve hazırlık",
+            "Bekleyen girdilerin toplanması, site haritası",
+            "1"
+          ],
+          [
+            "Faz 1: Tasarım",
+            "Site ve panel arayüz tasarımı (telefon, tablet ve masaüstü uyumlu)",
+            "2"
+          ],
+          [
+            "Faz 2: Kurumsal site",
+            "Ana sayfa, hizmetler ve hizmet sayfaları, referanslar, hakkımızda, blog, iletişim, KVKK ve çerez",
+            "3"
+          ],
+          [
+            "Faz 3: İki dil",
+            "Türkçe ve İngilizce; dil bazlı adresler ve SEO",
+            "1"
+          ],
+          [
+            "Faz 4: Formlar ve bildirimler",
+            "Teklif al ve iletişim formları, dosya yükleme, e-posta bildirimleri, spam koruması",
+            "2"
+          ],
+          [
+            "Faz 5: SEO, analitik ve yayın",
+            "SEO, GA4, Tag Manager, Search Console, Google Ads dönüşüm takibi, çerez onayı, alan adı geçişi, site yayını",
+            "2"
+          ],
+          [
+            "Faz 6: Panel altyapısı ve roller",
+            "Giriş, roller (yönetici, çalışan), kullanıcı yönetimi, medya kütüphanesi",
+            "2"
+          ],
+          [
+            "Faz 7: İçerik yönetimi",
+            "Hizmet, referans, blog ve sayfa içeriklerinin panelden yönetimi",
+            "2"
+          ],
+          [
+            "Faz 8: Teklif ve müşteri yönetimi",
+            "Teklif talepleri, PDF teklif hazırlama ve e-posta ile gönderim, müşteri kayıtları",
+            "3"
+          ],
+          [
+            "Faz 9: Test ve son yayın",
+            "Uçtan uca test, güvenlik kontrolü, panel eğitimi, son yayın",
+            "2"
+          ]
+        ],
+        "foot": [
+          "Toplam",
+          "",
+          "20"
+        ],
+        "notes": [
+          "Süreler iş günü cinsinden ön görüdür; takvim, işveren tarafındaki içerik ve materyal teslimlerine bağlıdır. Bedel sabittir.",
+          "Erken yayın: Faz 5 sonunda site yayına alınır ve Google Ads başlatılabilir. Panel geliştirmesi site yayındayken devam eder.",
+          "Geliştirme sürecindeki kısa tasarım ve düzenleme istekleri ayrıca ücretlendirilmez."
+        ]
+      },
+      {
+        "title": "4. Aylık işletme giderleri (yaklaşık, işverene ait)",
+        "head": [
+          "Hizmet",
+          "Amaç",
+          "Yaklaşık aylık"
+        ],
+        "table": [
+          [
+            "Railway",
+            "Uygulama barındırma ve PostgreSQL veritabanı",
+            "5-20 USD"
+          ],
+          [
+            "Cloudflare",
+            "DNS, SSL, CDN, güvenlik duvarı",
+            "Ücretsiz plan"
+          ],
+          [
+            "Cloudflare R2",
+            "Dosya depolama (görseller, teklif PDF'leri)",
+            "Ücretsiz kota"
+          ],
+          [
+            "E-posta sağlayıcı",
+            "Bildirim e-postaları",
+            "0-20 USD"
+          ],
+          [
+            "Alan adı",
+            "Site adresi",
+            "Yıllık ücret"
+          ]
+        ]
+      },
+      {
+        "title": "5. Kapsam",
+        "groups": [
+          {
+            "title": "Kurumsal site (Faz 0-5)",
+            "items": [
+              "Her hizmet için ayrı sayfa; hizmet sayfaları Google Ads açılış sayfası olarak tasarlanır.",
+              "Teklif al formu: firma, ihtiyaç, açıklama, dosya ekleme, aciliyet.",
+              "WhatsApp butonu, tıklanabilir telefon ve e-posta, KVKK uyumlu formlar ve çerez onayı.",
+              "SEO, Google Analytics 4, Tag Manager, Search Console, Google Ads dönüşüm takibi (form, telefon, WhatsApp)."
+            ]
+          },
+          {
+            "title": "Yönetim paneli (Faz 6-8)",
+            "items": [
+              "Roller: yönetici ve çalışan; her rol yalnızca yetkili olduğu bölümleri görür.",
+              "Hizmet, referans, blog ve sayfa içeriklerinin yönetimi.",
+              "Siteden gelen teklif talepleri: durum takibi, sorumlu atama, talebin kaynağı (reklam ya da organik).",
+              "Firma şablonunda PDF teklif hazırlama ve panelden e-posta ile gönderim.",
+              "Müşteri kartı: firma, yetkililer, geçmiş talep ve teklifler."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "6. Kapsam dışı",
+        "items": [
+          "E-fatura ve muhasebe programı entegrasyonu.",
+          "Online satış ve ödeme, müşteri portalı.",
+          "SMS ve WhatsApp otomatik bildirimleri.",
+          "Google Ads kampanya yönetimi ve reklam bütçesi.",
+          "Profesyonel fotoğraf ve video çekimi.",
+          "Aylık abonelik ve kullanım giderleri (bkz. 4)."
+        ],
+        "notes": [
+          "Bu kalemler ileride ayrıca fiyatlandırılarak eklenebilir."
+        ]
+      },
+      {
+        "title": "7. Genel hükümler",
+        "numbered": [
+          {
+            "title": "Teslim ve kabul",
+            "text": "Her faz tamamlandığında test ortamında işverenin incelemesine sunulur. İşveren 5 iş günü içinde geri bildirim verir; bu sürede bildirim yapılmazsa faz kabul edilmiş sayılır."
+          },
+          {
+            "title": "Takvim",
+            "text": "Süreler iş günü cinsinden ön görüdür. İşverenden beklenen girdilerin gecikmesi hâlinde takvim gecikme süresi kadar ötelenir; bedel değişmez."
+          },
+          {
+            "title": "Ödeme",
+            "text": "Ödeme planına göre yapılır. Vadesi geçen ödemelerde yüklenici, ödeme yapılana kadar çalışmayı durdurma hakkını saklı tutar."
+          },
+          {
+            "title": "Fikri mülkiyet",
+            "text": "Kaynak kodu ilk günden itibaren işveren adına açılan GitHub hesabında tutulur. Toplam bedelin tamamının ödenmesiyle kaynak kodu ve tüm haklar işverene aittir."
+          },
+          {
+            "title": "Hesaplar ve erişimler",
+            "text": "GitHub, sunucu, Cloudflare, Google (Analytics, Ads, Search Console) ve alan adı hesapları işveren adına açılır; yüklenici proje süresince geliştirici erişimiyle çalışır."
+          },
+          {
+            "title": "Bakım ve destek",
+            "text": "Son yayından sonra 1 ay boyunca ücretsiz bakım ve hata desteği verilir. Bu süreçte istenen küçük özellikler ücretlendirilmez; büyük özellik istekleri ayrıca fiyatlandırılır."
+          },
+          {
+            "title": "KVKK",
+            "text": "Aydınlatma metinleri yüklenici tarafından şablon olarak hazırlanır; hukuki onayı işverene aittir."
+          },
+          {
+            "title": "Gizlilik",
+            "text": "Taraflar, proje kapsamında edindikleri ticari bilgileri üçüncü kişilerle paylaşmaz."
+          }
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "title": "Sizin projeniz için teklif hazırlayalım",
+    "text": "İhtiyacınızı birkaç cümleyle yazın; tanışma görüşmesinden sonra kapsamı, süreyi ve bedeli bu örnekteki gibi yazılı olarak iletirim."
+  },
+  "whatsapp": "WhatsApp'tan yazın",
+  "email": "E-posta gönderin",
+  "whatsappMessage": "Merhaba, projem için teklif almak istiyorum."
+}

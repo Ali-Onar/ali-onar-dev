@@ -15,7 +15,8 @@
     "visit": "Open the site",
     "preview": "{{title}} screenshot",
     "videos": "Sample videos",
-    "play": "Play video: {{title}}"
+    "play": "Play video: {{title}}",
+    "processLink": "See the full process and a sample proposal"
   },
   "items": {
     "web": {

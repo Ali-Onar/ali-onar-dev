@@ -15,7 +15,8 @@
     "visit": "Siteyi açın",
     "preview": "{{title}} ekran görüntüsü",
     "videos": "Videolardan örnekler",
-    "play": "Videoyu oynat: {{title}}"
+    "play": "Videoyu oynat: {{title}}",
+    "processLink": "Sürecin tamamını ve örnek teklif dosyasını görün"
   },
   "items": {
     "web": {

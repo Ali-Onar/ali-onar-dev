@@ -1,0 +1,327 @@
+{
+  "metaTitle": "How We Work and a Sample Proposal | Ali Onar",
+  "metaDescription": "From the first call to support after launch, the process runs in eight steps. See a sample proposal with scope, phases, timeline and payment plan.",
+  "home": "Home",
+  "name": "How we work",
+  "title": "How we work",
+  "lead": "From the first call to support after launch, the process runs in eight steps. Before any work starts you see the scope, timeline and payment plan in writing.",
+  "sampleLink": "See the sample proposal",
+  "stepsTitle": "The process in eight steps",
+  "steps": [
+    {
+      "title": "Intro call",
+      "text": "I listen to what you need and how you work today. This call is free."
+    },
+    {
+      "title": "Process analysis",
+      "text": "I review how the work runs today, the files and screens in use, and we agree on what moves into software."
+    },
+    {
+      "title": "Written proposal",
+      "text": "I present the scope, phases, timeline, payment plan and what is out of scope in one document. A sample is at the bottom of this page."
+    },
+    {
+      "title": "Agreement and first payment",
+      "text": "Work starts once the proposal is approved.",
+      "tag": "40% first payment"
+    },
+    {
+      "title": "Development with weekly demos",
+      "text": "Each finished phase is put on a test environment for your review, and your feedback shapes the next phase."
+    },
+    {
+      "title": "Interim delivery",
+      "text": "The first part of the work goes live; measurement and ad connections are set up.",
+      "tag": "30% second payment"
+    },
+    {
+      "title": "Testing, training and final launch",
+      "text": "After end-to-end testing and a security check, I train your team to use the system.",
+      "tag": "30% final payment"
+    },
+    {
+      "title": "Maintenance and support",
+      "text": "For one month after the final launch I provide free maintenance and bug fixes."
+    }
+  ],
+  "termsTitle": "What stays the same on every project",
+  "terms": [
+    {
+      "title": "Code and accounts in your name",
+      "text": "From day one the source code lives in a GitHub account opened in your name. Server, domain and Google accounts are opened in your name too."
+    },
+    {
+      "title": "Fixed price",
+      "text": "The price in the proposal does not change. Requests outside the scope are priced separately, by written agreement."
+    },
+    {
+      "title": "Every phase reviewed by you",
+      "text": "Each phase is presented on a test environment; we move on after your feedback."
+    },
+    {
+      "title": "Support after launch",
+      "text": "One month of free maintenance and bug fixes after the final launch."
+    }
+  ],
+  "sample": {
+    "badge": "Sample",
+    "eyebrow": "Sample proposal",
+    "title": "Project plan, scope and agreement document",
+    "note": "This document is modelled on a real proposal, with the company details removed. Scope, duration and price are set for each project according to its needs.",
+    "meta": [
+      [
+        "Project",
+        "Company website and admin panel"
+      ],
+      [
+        "Contractor",
+        "Ali Onar"
+      ],
+      [
+        "Client",
+        "Sample company (technical services)"
+      ]
+    ],
+    "sections": [
+      {
+        "title": "1. Scope, duration and price",
+        "rows": [
+          [
+            "Scope",
+            "Company website in Turkish and English, Google Analytics / Search Console / Ads setup and an admin panel (content, quotes, customers)"
+          ],
+          [
+            "Duration",
+            "20 working days"
+          ],
+          [
+            "Total price",
+            "100,000 TRY (fixed price)"
+          ]
+        ]
+      },
+      {
+        "title": "2. Payment plan",
+        "head": [
+          "Payment",
+          "Condition",
+          "Share",
+          "Amount (TRY)"
+        ],
+        "table": [
+          [
+            "1st payment",
+            "Project start",
+            "40%",
+            "40,000"
+          ],
+          [
+            "2nd payment",
+            "Site live; Search Console, Analytics and Google Ads connections completed (Phase 5)",
+            "30%",
+            "30,000"
+          ],
+          [
+            "3rd payment",
+            "Completion (Phase 9 delivery and final launch)",
+            "30%",
+            "30,000"
+          ]
+        ],
+        "foot": [
+          "Total",
+          "",
+          "100%",
+          "100,000"
+        ]
+      },
+      {
+        "title": "3. Phases and timeline",
+        "head": [
+          "Phase",
+          "Content",
+          "Duration (working days)"
+        ],
+        "table": [
+          [
+            "Phase 0: Discovery and preparation",
+            "Collecting pending inputs, sitemap",
+            "1"
+          ],
+          [
+            "Phase 1: Design",
+            "Site and panel interface design (phone, tablet and desktop)",
+            "2"
+          ],
+          [
+            "Phase 2: Company website",
+            "Home page, services and service pages, references, about, blog, contact, privacy and cookies",
+            "3"
+          ],
+          [
+            "Phase 3: Two languages",
+            "Turkish and English; language-specific addresses and SEO",
+            "1"
+          ],
+          [
+            "Phase 4: Forms and notifications",
+            "Quote and contact forms, file upload, email notifications, spam protection",
+            "2"
+          ],
+          [
+            "Phase 5: SEO, analytics and launch",
+            "SEO, GA4, Tag Manager, Search Console, Google Ads conversion tracking, cookie consent, domain switch, site launch",
+            "2"
+          ],
+          [
+            "Phase 6: Panel foundation and roles",
+            "Sign-in, roles (admin, staff), user management, media library",
+            "2"
+          ],
+          [
+            "Phase 7: Content management",
+            "Managing services, references, blog and page content from the panel",
+            "2"
+          ],
+          [
+            "Phase 8: Quotes and customers",
+            "Quote requests, PDF quote preparation and sending by email, customer records",
+            "3"
+          ],
+          [
+            "Phase 9: Testing and final launch",
+            "End-to-end testing, security check, panel training, final launch",
+            "2"
+          ]
+        ],
+        "foot": [
+          "Total",
+          "",
+          "20"
+        ],
+        "notes": [
+          "Durations are estimates in working days; the schedule depends on the client delivering content and materials. The price is fixed.",
+          "Early launch: the site goes live at the end of Phase 5 and Google Ads can start. Panel development continues while the site is live.",
+          "Small design and adjustment requests during development are not charged separately."
+        ]
+      },
+      {
+        "title": "4. Monthly running costs (approximate, paid by the client)",
+        "head": [
+          "Service",
+          "Purpose",
+          "Approx. monthly"
+        ],
+        "table": [
+          [
+            "Railway",
+            "Application hosting and PostgreSQL database",
+            "5-20 USD"
+          ],
+          [
+            "Cloudflare",
+            "DNS, SSL, CDN, firewall",
+            "Free plan"
+          ],
+          [
+            "Cloudflare R2",
+            "File storage (images, quote PDFs)",
+            "Free quota"
+          ],
+          [
+            "Email provider",
+            "Notification emails",
+            "0-20 USD"
+          ],
+          [
+            "Domain",
+            "Site address",
+            "Yearly fee"
+          ]
+        ]
+      },
+      {
+        "title": "5. Scope",
+        "groups": [
+          {
+            "title": "Company website (Phases 0-5)",
+            "items": [
+              "A separate page for each service; service pages are designed as Google Ads landing pages.",
+              "Quote form: company, need, description, file attachment, urgency.",
+              "WhatsApp button, clickable phone and email, privacy-compliant forms and cookie consent.",
+              "SEO, Google Analytics 4, Tag Manager, Search Console, Google Ads conversion tracking (form, phone, WhatsApp)."
+            ]
+          },
+          {
+            "title": "Admin panel (Phases 6-8)",
+            "items": [
+              "Roles: admin and staff; each role sees only the sections it is allowed to.",
+              "Management of services, references, blog and page content.",
+              "Quote requests from the site: status tracking, assignee, source of the request (ads or organic).",
+              "PDF quotes on the company template, sent by email from the panel.",
+              "Customer card: company, contacts, past requests and quotes."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "6. Out of scope",
+        "items": [
+          "E-invoice and accounting software integration.",
+          "Online sales and payments, customer portal.",
+          "Automatic SMS and WhatsApp notifications.",
+          "Google Ads campaign management and ad budget.",
+          "Professional photo and video shoots.",
+          "Monthly subscription and usage costs (see 4)."
+        ],
+        "notes": [
+          "These items can be priced and added separately later."
+        ]
+      },
+      {
+        "title": "7. General terms",
+        "numbered": [
+          {
+            "title": "Delivery and acceptance",
+            "text": "Each finished phase is put on a test environment for the client's review. The client gives feedback within 5 working days; without feedback in that time the phase counts as accepted."
+          },
+          {
+            "title": "Schedule",
+            "text": "Durations are estimates in working days. If inputs expected from the client are late, the schedule moves by the length of the delay; the price does not change."
+          },
+          {
+            "title": "Payment",
+            "text": "Payments follow the payment plan. For overdue payments the contractor reserves the right to pause work until payment is made."
+          },
+          {
+            "title": "Intellectual property",
+            "text": "From day one the source code is kept in a GitHub account opened in the client's name. Once the total price is paid in full, the source code and all rights belong to the client."
+          },
+          {
+            "title": "Accounts and access",
+            "text": "GitHub, server, Cloudflare, Google (Analytics, Ads, Search Console) and domain accounts are opened in the client's name; the contractor works with developer access during the project."
+          },
+          {
+            "title": "Maintenance and support",
+            "text": "Free maintenance and bug fixes are provided for 1 month after the final launch. Small features requested in that time are not charged; large feature requests are priced separately."
+          },
+          {
+            "title": "Privacy notices",
+            "text": "Privacy notices are prepared by the contractor as templates; legal approval is the client's responsibility."
+          },
+          {
+            "title": "Confidentiality",
+            "text": "The parties do not share commercial information obtained through the project with third parties."
+          }
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "title": "Let's prepare a proposal for your project",
+    "text": "Describe what you need in a few sentences; after the intro call I will send the scope, duration and price in writing, as in this sample."
+  },
+  "whatsapp": "Message on WhatsApp",
+  "email": "Send an email",
+  "whatsappMessage": "Hi, I would like a proposal for my project."
+}

@@ -2,17 +2,24 @@ import React from "react";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, Check, ChevronDown, Mail } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Check, ChevronDown, Mail } from "lucide-react";
 import { FaWhatsapp, FaYoutube } from "react-icons/fa6";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import MailLink from "@/components/MailLink";
 import WhatsAppLink from "@/components/WhatsAppLink";
+import {
+  container,
+  h2,
+  primaryButton,
+  secondaryButton,
+} from "@/components/pageStyles";
 import VideoEmbed from "./VideoEmbed";
 import { serviceVisuals } from "./serviceVisuals";
+import { pagePath } from "@/lib/pages";
 import { getProject } from "@/lib/projects";
 import { serviceKeys, servicePath, type ServiceKey } from "@/lib/services";
 import {
-  EMAIL,
   SITE_URL,
   homeAnchor,
   homePath,
@@ -89,13 +96,6 @@ export function buildServiceMetadata(locale: Locale, key: ServiceKey): Metadata 
   };
 }
 
-const container = "mx-auto max-w-6xl px-6 lg:px-8";
-const h2 = "text-balance text-2xl sm:text-3xl md:text-4xl font-semibold tracking-tight leading-[1.15]";
-const primaryButton =
-  "inline-flex items-center gap-2 rounded-full bg-brand px-5 py-3 text-sm font-medium text-brand-foreground shadow-lg shadow-brand/25 transition-all hover:bg-brand/90 hover:shadow-brand/35";
-const secondaryButton =
-  "inline-flex items-center gap-2 rounded-full border border-border bg-background px-5 py-3 text-sm font-medium text-foreground transition-colors hover:border-brand/40 hover:bg-brand-soft";
-
 type Props = { locale: Locale; serviceKey: ServiceKey };
 
 const ServicePage = ({ locale, serviceKey }: Props) => {
@@ -103,7 +103,6 @@ const ServicePage = ({ locale, serviceKey }: Props) => {
   const c = items[serviceKey];
   const { Icon, tone } = serviceVisuals[serviceKey];
   const url = `${SITE_URL}${servicePath(locale, serviceKey)}`;
-  const mailto = `mailto:${EMAIL}?subject=${encodeURIComponent(c.name)}`;
 
   const projects = c.projects
     .map((p) => ({ ...p, project: getProject(p.key) }))
@@ -154,10 +153,14 @@ const ServicePage = ({ locale, serviceKey }: Props) => {
         <FaWhatsapp aria-hidden size={17} />
         {ui.whatsapp}
       </WhatsAppLink>
-      <a href={mailto} className={secondaryButton}>
+      <MailLink
+        location={`${location}_${serviceKey}`}
+        subject={c.name}
+        className={secondaryButton}
+      >
         <Mail aria-hidden className="h-4 w-4" />
         {ui.email}
-      </a>
+      </MailLink>
     </div>
   );
 
@@ -389,6 +392,16 @@ const ServicePage = ({ locale, serviceKey }: Props) => {
                 </li>
               ))}
             </ol>
+            <Link
+              href={pagePath(locale, "process")}
+              className="group mt-10 inline-flex items-center gap-1.5 text-sm font-medium text-brand-deep hover:text-brand"
+            >
+              {ui.processLink}
+              <ArrowRight
+                aria-hidden
+                className="h-4 w-4 transition-transform group-hover:translate-x-0.5"
+              />
+            </Link>
           </div>
         </section>
 

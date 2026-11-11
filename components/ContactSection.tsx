@@ -13,6 +13,7 @@ import {
 } from "react-icons/fa6";
 import { Mail, ArrowUpRight } from "lucide-react";
 import { EMAIL, WHATSAPP_DISPLAY } from "@/lib/site";
+import MailLink from "./MailLink";
 import WhatsAppLink from "./WhatsAppLink";
 
 const socials = [
@@ -63,8 +64,8 @@ const ContactSection = () => {
             <ArrowUpRight aria-hidden className={`${tileArrow} group-hover:text-[#128C7E]`} />
           </WhatsAppLink>
 
-          <a
-            href={`mailto:${EMAIL}`}
+          <MailLink
+            location="contact_section"
             className={`${tile} hover:border-brand/50 hover:bg-brand-soft`}
           >
             <span className="flex items-center gap-3">
@@ -77,7 +78,7 @@ const ContactSection = () => {
               </span>
             </span>
             <ArrowUpRight aria-hidden className={`${tileArrow} group-hover:text-brand`} />
-          </a>
+          </MailLink>
 
           <a
             href="https://www.linkedin.com/in/ali-tunacan-onar"
