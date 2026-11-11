@@ -1,7 +1,7 @@
 {
   "Meta": {
-    "title": "Ali Tunacan Onar - Full-Stack Engineer",
-    "description": "Full-Stack Engineer building SaaS products. Six years across fintech, healthcare AI, fitness, and B2B platforms."
+    "title": "Ali Onar - Full-Stack Engineer",
+    "description": "Full-Stack Engineer. Six years across fintech, healthcare AI, fitness, and B2B platforms."
   },
   "Navbar": {
     "LogoTitle": "Ali Onar",
@@ -13,8 +13,9 @@
     "toggleMenu": "Toggle menu"
   },
   "Hero": {
-    "name": "Ali Tunacan Onar",
-    "role": "Full-Stack Engineer building SaaS products.",
+    "name": "Ali Onar",
+    "role": "Full-Stack Engineer",
+    "photoAlt": "Ali Onar",
     "intro": "For over six years I have been designing and launching web and mobile products from the ground up. I have worked across fintech, healthcare AI, fitness, and B2B, both within corporate teams and as an independent engineer responsible for entire projects.",
     "primaryCta": "Get in touch",
     "secondaryCta": "View on LinkedIn",
@@ -39,7 +40,6 @@
     "p1": "I design and build web and mobile products end to end, from initial idea to launch. My work, both within product teams and as an independent consultant, spans enterprise B2B platforms, AI-powered applications, marketplaces, and SEO-driven corporate websites that rank at the top of Google.",
     "p2": "My approach rests on three principles: defining the problem precisely and solving it in the shortest possible time, choosing technology based on long-term total cost rather than short-term convenience, and maintaining transparent, clear communication with non-technical stakeholders at every stage.",
     "location": "Türkiye · Remote",
-    "photoAlt": "Ali Tunacan Onar",
     "stackTitle": "Default stack",
     "categories": {
       "frontend": "Frontend",
@@ -292,6 +292,10 @@
     "emailLabel": "Email",
     "linkedinLabel": "LinkedIn",
     "social": "Elsewhere"
+  },
+  "WhatsApp": {
+    "label": "Chat on WhatsApp",
+    "message": "Hi, I'm reaching out via alionar.com."
   },
   "Footer": {
     "rights": "All rights reserved.",

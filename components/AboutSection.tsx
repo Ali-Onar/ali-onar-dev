@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 import { useTranslation } from "react-i18next";
 
 const stack = [
@@ -48,34 +47,17 @@ const AboutSection = () => {
             <span className="inline-block text-xs font-medium uppercase tracking-[0.18em] text-brand-deep">
               {t("About.eyebrow")}
             </span>
-            <div className="mt-6 relative">
-              <div
-                aria-hidden
-                className="absolute -inset-3 -z-10 rounded-3xl bg-gradient-to-br from-brand/20 via-brand/5 to-transparent blur-xl"
-              />
-              <div className="relative aspect-square w-full max-w-sm overflow-hidden rounded-2xl border border-border bg-muted">
-                <Image
-                  src="/images/hero-image.jpeg"
-                  alt={t("About.photoAlt")}
-                  fill
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                  className="object-cover"
-                  priority={false}
-                />
-              </div>
-              <div className="mt-4 flex items-center gap-3 text-xs text-muted-foreground">
-                <span className="h-px w-8 bg-brand/50" />
-                <span>{t("About.location")}</span>
-              </div>
+            <h2 className="mt-3 text-balance text-3xl sm:text-4xl font-semibold tracking-tight leading-[1.1]">
+              {t("About.title")}
+            </h2>
+            <div className="mt-6 flex items-center gap-3 text-xs text-muted-foreground">
+              <span className="h-px w-8 bg-brand/50" />
+              <span>{t("About.location")}</span>
             </div>
           </div>
 
           <div className="md:col-span-7">
-            <h2 className="text-balance text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight leading-[1.1]">
-              {t("About.title")}
-            </h2>
-
-            <div className="mt-8 space-y-5 text-base sm:text-lg text-muted-foreground leading-relaxed max-w-2xl">
+            <div className="space-y-5 text-base sm:text-lg text-muted-foreground leading-relaxed max-w-2xl">
               <p>{t("About.p1")}</p>
               <p>{t("About.p2")}</p>
             </div>

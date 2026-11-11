@@ -7,20 +7,25 @@ import { dir } from "i18next";
 import TranslationsProvider from "@/components/i18n/TranslationProvider";
 import initTranslations from "../i18n";
 import { Toaster } from "@/components/ui/toaster";
+import {
+  GoogleTagManager,
+  GoogleTagManagerNoScript,
+} from "@/components/GoogleTagManager";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 const meta = {
   en: {
-    title: "Ali Tunacan Onar - Full-Stack Engineer",
+    title: "Ali Onar - Full-Stack Engineer",
     description:
-      "Full-Stack Engineer building SaaS products. Six years across fintech, healthcare AI, fitness, and B2B platforms.",
+      "Full-Stack Engineer. Six years across fintech, healthcare AI, fitness, and B2B platforms.",
     ogLocale: "en_US",
   },
   tr: {
-    title: "Ali Tunacan Onar - Full-Stack Yazılım Mühendisi",
+    title: "Ali Onar - Full-Stack Yazılım Mühendisi",
     description:
-      "SaaS ürünleri geliştiren Full-Stack Yazılım Mühendisi. Fintech, sağlıkta yapay zekâ, fitness ve B2B platformlarında 6 yıllık deneyim.",
+      "Full-Stack Yazılım Mühendisi. Fintech, sağlıkta yapay zekâ, fitness ve B2B platformlarında 6 yıllık deneyim.",
     ogLocale: "tr_TR",
   },
 } as const;
@@ -41,22 +46,22 @@ export function generateMetadata({
 }
 
 const baseMetadata: Metadata = {
-  title: "Ali Tunacan Onar - Full-Stack Engineer",
+  title: "Ali Onar - Full-Stack Engineer",
   description:
-    "Full-Stack Engineer building SaaS products. Six years across fintech, healthcare AI, fitness, and B2B platforms.",
+    "Full-Stack Engineer. Six years across fintech, healthcare AI, fitness, and B2B platforms.",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://alionar.com",
-    title: "Ali Tunacan Onar - Full-Stack Engineer",
+    title: "Ali Onar - Full-Stack Engineer",
     description:
-      "Full-Stack Engineer building SaaS products. Next.js, TypeScript, Node.js, PostgreSQL.",
+      "Full-Stack Engineer. Next.js, TypeScript, Node.js, PostgreSQL.",
     images: [
       {
         url: "https://alionar.com/images/hero-image.jpeg",
         width: 1024,
         height: 768,
-        alt: "Ali Tunacan Onar",
+        alt: "Ali Onar",
       },
     ],
     siteName: "Ali Onar",
@@ -65,12 +70,13 @@ const baseMetadata: Metadata = {
     card: "summary_large_image",
     site: "@alionar60",
     creator: "@alionar60",
-    title: "Ali Tunacan Onar - Full-Stack Engineer",
-    description: "Full-Stack Engineer building SaaS products.",
+    title: "Ali Onar - Full-Stack Engineer",
+    description:
+      "Full-Stack Engineer. Six years across fintech, healthcare AI, fitness, and B2B platforms.",
     images: [
       {
         url: "https://alionar.com/images/hero-image.jpeg",
-        alt: "Ali Tunacan Onar",
+        alt: "Ali Onar",
       },
     ],
   },
@@ -81,7 +87,6 @@ const baseMetadata: Metadata = {
   },
   keywords: [
     "Ali Onar",
-    "Ali Tunacan Onar",
     "Full-Stack Engineer",
     "SaaS Developer",
     "Next.js",
@@ -113,14 +118,17 @@ export default async function RootLayout({
         <link rel="icon" href="/logo.png" />
       </head>
       <body className={`${inter.className} bg-background text-foreground`}>
+        <GoogleTagManagerNoScript />
         <TranslationsProvider
           locale={locale}
           namespaces={i18nNamespaces}
           resources={resources}
         >
           {children}
+          <WhatsAppButton />
           <Toaster />
         </TranslationsProvider>
+        <GoogleTagManager />
       </body>
     </html>
   );

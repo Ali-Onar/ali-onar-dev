@@ -1,7 +1,7 @@
 {
   "Meta": {
-    "title": "Ali Tunacan Onar - Full-Stack Yazılım Mühendisi",
-    "description": "SaaS ürünleri geliştiren Full-Stack Yazılım Mühendisi. Fintech, sağlıkta yapay zekâ, fitness ve B2B platformlarında 6 yıllık deneyim."
+    "title": "Ali Onar - Full-Stack Yazılım Mühendisi",
+    "description": "Full-Stack Yazılım Mühendisi. Fintech, sağlıkta yapay zekâ, fitness ve B2B platformlarında 6 yıllık deneyim."
   },
   "Navbar": {
     "LogoTitle": "Ali Onar",
@@ -13,8 +13,9 @@
     "toggleMenu": "Menüyü aç/kapat"
   },
   "Hero": {
-    "name": "Ali Tunacan Onar",
-    "role": "SaaS ürünleri geliştiren Full-Stack Yazılım Mühendisi.",
+    "name": "Ali Onar",
+    "role": "Full-Stack Yazılım Mühendisi",
+    "photoAlt": "Ali Onar",
     "intro": "Altı yılı aşkın süredir web ve mobil ürünleri sıfırdan tasarlayıp yayına alıyorum. Finans, sağlık, fitness ve B2B alanlarında hem kurumsal ekiplerde hem de projelerin tamamını üstlenen bağımsız yazılım mühendisi olarak görev aldım.",
     "primaryCta": "İletişime geçin",
     "secondaryCta": "LinkedIn profilim",
@@ -39,7 +40,6 @@
     "p1": "Web ve mobil ürünleri fikir aşamasından yayına kadar uçtan uca tasarlıyor ve geliştiriyorum. Ürün ekiplerinde ve bağımsız danışman olarak yürüttüğüm projeler; kurumsal B2B platformları, yapay zekâ destekli uygulamalar, pazaryerleri ve Google'da üst sıralarda yer alan SEO odaklı kurumsal web sitelerini kapsıyor.",
     "p2": "Çalışma yaklaşımımın temelinde üç ilke var: problemi doğru tanımlayıp en kısa sürede çözüme ulaştırmak, teknoloji tercihlerini kısa vadeli kolaylığa değil uzun vadeli toplam maliyete göre belirlemek ve sürecin her aşamasında teknik olmayan paydaşlarla da şeffaf, anlaşılır bir iletişim kurmak.",
     "location": "Türkiye · Uzaktan",
-    "photoAlt": "Ali Tunacan Onar",
     "stackTitle": "Kullandığım teknolojiler",
     "categories": {
       "frontend": "Frontend",
@@ -292,6 +292,10 @@
     "emailLabel": "E-posta",
     "linkedinLabel": "LinkedIn",
     "social": "Diğer kanallar"
+  },
+  "WhatsApp": {
+    "label": "WhatsApp'tan yazın",
+    "message": "Merhaba, alionar.com üzerinden yazıyorum."
   },
   "Footer": {
     "rights": "Tüm hakları saklıdır.",
