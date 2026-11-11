@@ -1,9 +1,9 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
-import { ArrowUpRight, MoveRight, Sparkles } from "lucide-react";
+import { ArrowUpRight, ChevronDown, MoveRight, Sparkles } from "lucide-react";
 import { projects, type Status } from "@/lib/projects";
 
 const statusStyles: Record<Status, string> = {
@@ -12,11 +12,22 @@ const statusStyles: Record<Status, string> = {
   client: "border-orange-200 bg-orange-50/90 text-brand-deep",
 };
 
+/** Projects shown before the visitor asks for the rest. */
+const INITIAL_COUNT = 6;
+
 const WorkSection = () => {
   const { t } = useTranslation();
+  const [showAll, setShowAll] = useState(false);
+  const visible = showAll ? projects : projects.slice(0, INITIAL_COUNT);
+
+  const toggle = () => {
+    // Collapsing leaves the visitor far below the list, so bring it back into view.
+    if (showAll) document.getElementById("work")?.scrollIntoView();
+    setShowAll((v) => !v);
+  };
 
   return (
-    <section id="work" className="py-24 md:py-32 border-t border-border bg-secondary/40">
+    <section id="work" className="py-24 md:py-32 border-t border-border">
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
           <div className="max-w-2xl">
@@ -33,7 +44,7 @@ const WorkSection = () => {
         </div>
 
         <div className="mt-14 grid gap-6 md:grid-cols-2">
-          {projects.map((p) => {
+          {visible.map((p) => {
             const highlights = t(`Work.projects.${p.key}.highlights`, {
               returnObjects: true,
             }) as string[];
@@ -70,7 +81,7 @@ const WorkSection = () => {
 
                     <div className="absolute left-3 top-3">
                       <span
-                        className={`inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-medium uppercase tracking-wider backdrop-blur ${statusStyles[p.status]}`}
+                        className={`inline-flex items-center rounded-full border px-2 py-0.5 text-[11px] font-medium uppercase tracking-wider backdrop-blur ${statusStyles[p.status]}`}
                       >
                         {t(`Work.status.${p.status}`)}
                       </span>
@@ -111,7 +122,7 @@ const WorkSection = () => {
                     {p.stack.map((s) => (
                       <span
                         key={s}
-                        className="rounded-full border border-border bg-secondary/60 px-2 py-0.5 text-[11px] text-foreground/70"
+                        className="rounded-full border border-border bg-secondary/60 px-2.5 py-0.5 text-xs text-foreground/80"
                       >
                         {s}
                       </span>
@@ -123,9 +134,28 @@ const WorkSection = () => {
           })}
         </div>
 
+        {projects.length > INITIAL_COUNT && (
+          <div className="mt-8 flex justify-center">
+            <button
+              type="button"
+              onClick={toggle}
+              aria-expanded={showAll}
+              className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-5 py-3 text-sm font-medium text-foreground transition-colors hover:border-brand/40 hover:bg-brand-soft focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand"
+            >
+              {showAll
+                ? t("Work.showLess")
+                : t("Work.showAll", { total: projects.length })}
+              <ChevronDown
+                aria-hidden
+                className={`h-4 w-4 transition-transform ${showAll ? "rotate-180" : ""}`}
+              />
+            </button>
+          </div>
+        )}
+
         <a
           href="#contact"
-          className="group relative mt-6 block overflow-hidden rounded-2xl border border-brand/30 bg-gradient-to-br from-brand-soft via-background to-background transition-all hover:border-brand/60 hover:shadow-[0_12px_40px_-12px_hsl(var(--brand)/0.35)]"
+          className="group relative mt-10 block overflow-hidden rounded-2xl border border-brand/30 bg-gradient-to-br from-brand-soft via-background to-background transition-all hover:border-brand/60 hover:shadow-[0_12px_40px_-12px_hsl(var(--brand)/0.35)]"
         >
           <div
             aria-hidden

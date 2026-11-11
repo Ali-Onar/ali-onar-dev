@@ -30,7 +30,7 @@ const ExperienceCard: React.FC<ExperienceProps> = ({
           </h3>
           <p className="text-sm text-muted-foreground">
             {position}
-            {location ? <span className="text-foreground/30"> · {location}</span> : null}
+            {location ? <span> · {location}</span> : null}
           </p>
         </div>
         <span
@@ -46,20 +46,22 @@ const ExperienceCard: React.FC<ExperienceProps> = ({
 
       <p className="mt-3 text-sm text-foreground/80 leading-relaxed">{summary}</p>
 
-      <ul className="mt-4 space-y-2 text-sm text-muted-foreground leading-relaxed">
-        {bullets.map((b) => (
-          <li key={b} className="flex gap-2">
-            <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-brand" />
-            <span>{b}</span>
-          </li>
-        ))}
-      </ul>
+      {bullets.length > 0 && (
+        <ul className="mt-4 space-y-2 text-sm text-muted-foreground leading-relaxed">
+          {bullets.map((b) => (
+            <li key={b} className="flex gap-2">
+              <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-brand" />
+              <span>{b}</span>
+            </li>
+          ))}
+        </ul>
+      )}
 
       <div className="mt-4 flex flex-wrap gap-1.5">
         {stack.map((s) => (
           <span
             key={s}
-            className="rounded-full border border-border bg-secondary/60 px-2 py-0.5 text-[11px] text-foreground/70"
+            className="rounded-full border border-border bg-secondary/60 px-2.5 py-0.5 text-xs text-foreground/80"
           >
             {s}
           </span>

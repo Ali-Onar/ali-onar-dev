@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
 import ServicesSection from "@/components/ServicesSection";
+import TechStack from "@/components/TechStack";
 import WorkSection from "@/components/WorkSection";
 import { homePath } from "@/lib/site";
 
@@ -29,9 +30,10 @@ export default function Home() {
       <main>
         <HeroSection />
         <AboutSection />
+        <TechStack />
         <WorkSection />
-        <ExperienceSection />
         <ServicesSection />
+        <ExperienceSection />
         <ContactSection />
       </main>
       <Footer />

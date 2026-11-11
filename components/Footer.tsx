@@ -26,11 +26,12 @@ const Footer = () => {
             />
             <span className="text-sm font-medium text-foreground">Ali Onar</span>
           </Link>
+          <p className="mt-3 text-sm text-foreground/75">{t("Hero.role")}</p>
         </div>
 
         <nav aria-label={t("Footer.services")} className="md:col-span-5">
           <p className="text-sm font-medium text-foreground">{t("Footer.services")}</p>
-          <ul className="mt-4 grid gap-x-8 gap-y-2.5 text-sm text-muted-foreground sm:grid-cols-2">
+          <ul className="mt-4 grid gap-x-8 gap-y-2.5 text-sm text-foreground/75 sm:grid-cols-2">
             {serviceKeys.map((key) => (
               <li key={key}>
                 <Link
@@ -46,7 +47,7 @@ const Footer = () => {
 
         <div className="md:col-span-3">
           <p className="text-sm font-medium text-foreground">{t("Footer.contact")}</p>
-          <ul className="mt-4 space-y-2.5 text-sm text-muted-foreground">
+          <ul className="mt-4 space-y-2.5 text-sm text-foreground/75">
             <li>
               <a
                 href={`mailto:${EMAIL}`}

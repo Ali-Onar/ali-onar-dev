@@ -2,15 +2,16 @@
 
 import { useRouter, usePathname } from "next/navigation";
 import { useTranslation } from "react-i18next";
+import { ChevronDown, Globe } from "lucide-react";
 import { switchLocalePath } from "@/lib/services";
 
 const locales = [
-  { code: "en", label: "EN" },
   { code: "tr", label: "TR" },
+  { code: "en", label: "EN" },
 ] as const;
 
 export default function LanguageChanger() {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const currentLocale = i18n.language;
   const router = useRouter();
   const currentPathname = usePathname();
@@ -28,24 +29,27 @@ export default function LanguageChanger() {
   };
 
   return (
-    <div className="inline-flex items-center rounded-full border border-border bg-background p-0.5 text-xs">
-      {locales.map((l) => {
-        const active = currentLocale === l.code;
-        return (
-          <button
-            key={l.code}
-            type="button"
-            onClick={() => handleChange(l.code)}
-            className={`rounded-full px-2.5 py-1 font-medium transition-colors ${
-              active
-                ? "bg-brand text-brand-foreground"
-                : "text-muted-foreground hover:text-foreground"
-            }`}
-          >
+    <label className="relative inline-flex items-center">
+      <span className="sr-only">{t("Navbar.language")}</span>
+      <Globe
+        aria-hidden
+        className="pointer-events-none absolute left-2.5 h-4 w-4 text-foreground/60"
+      />
+      <select
+        value={currentLocale}
+        onChange={(e) => handleChange(e.target.value)}
+        className="h-9 cursor-pointer appearance-none rounded-full border border-border bg-background pl-8 pr-7 text-sm font-medium text-foreground transition-colors hover:border-foreground/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand"
+      >
+        {locales.map((l) => (
+          <option key={l.code} value={l.code}>
             {l.label}
-          </button>
-        );
-      })}
-    </div>
+          </option>
+        ))}
+      </select>
+      <ChevronDown
+        aria-hidden
+        className="pointer-events-none absolute right-2 h-4 w-4 text-foreground/60"
+      />
+    </label>
   );
 }

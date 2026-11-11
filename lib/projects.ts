@@ -12,6 +12,15 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    key: "aktekdmr",
+    title: "AD İklim Teknolojileri",
+    status: "client",
+    stack: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "i18n", "Railway", "Cloudflare"],
+    url: "https://aktekdmr.com.tr/",
+    image: "/images/projects/aktekdmr.jpg",
+    accent: "from-emerald-500/25 to-slate-500/10",
+  },
+  {
     key: "amperofis",
     title: "AmperOfis",
     status: "client",

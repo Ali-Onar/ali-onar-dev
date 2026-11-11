@@ -2,7 +2,6 @@
 
 import React from "react";
 import { useTranslation } from "react-i18next";
-import TechStack from "./TechStack";
 
 const principles = ["problem", "cost", "communication"] as const;
 
@@ -22,7 +21,7 @@ const AboutSection = () => {
         <p className="mt-8 max-w-[44rem] text-base sm:text-lg text-muted-foreground leading-relaxed">
           {t("About.p1")}
         </p>
-        <div className="mt-5 flex items-center gap-3 text-xs text-muted-foreground">
+        <div className="mt-5 flex items-center gap-3 text-[13px] text-muted-foreground">
           <span className="h-px w-8 bg-brand/50" />
           <span>{t("About.location")}</span>
         </div>
@@ -31,9 +30,9 @@ const AboutSection = () => {
           <h3 className="text-lg font-semibold tracking-tight">
             {t("About.principlesTitle")}
           </h3>
-          <dl className="mt-6 grid gap-8 md:grid-cols-3 md:gap-10">
+          <dl className="mt-6 grid gap-4 md:grid-cols-3">
             {principles.map((key) => (
-              <div key={key} className="border-t-2 border-brand/70 pt-4">
+              <div key={key} className="rounded-2xl border border-border bg-background p-6">
                 <dt className="font-semibold tracking-tight">
                   {t(`About.principles.${key}.title`)}
                 </dt>
@@ -45,7 +44,6 @@ const AboutSection = () => {
           </dl>
         </div>
 
-        <TechStack />
       </div>
     </section>
   );

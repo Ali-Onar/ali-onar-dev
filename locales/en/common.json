@@ -10,7 +10,8 @@
     "Experience": "Experience",
     "Services": "Services",
     "Contact": "Contact",
-    "toggleMenu": "Toggle menu"
+    "toggleMenu": "Toggle menu",
+    "language": "Language"
   },
   "Hero": {
     "name": "Ali Onar",
@@ -37,7 +38,7 @@
   "About": {
     "eyebrow": "About",
     "title": "A full-stack engineer who takes products from idea to launch.",
-    "p1": "I design and build web and mobile products end to end, from initial idea to launch. My work, both within product teams and as an independent consultant, spans enterprise B2B platforms, AI-powered applications, marketplaces, and SEO-driven corporate websites that rank at the top of Google.",
+    "p1": "I design and build web and mobile products end to end, from initial idea to launch. My work as a software engineer spans enterprise B2B platforms, AI-powered applications, marketplaces, and SEO-driven corporate websites that rank at the top of Google.",
     "location": "Türkiye · Remote",
     "principlesTitle": "How I work",
     "principles": {
@@ -53,37 +54,18 @@
         "title": "Speaking plainly",
         "text": "At every stage I keep communication transparent and clear, with non-technical stakeholders too."
       }
-    },
-    "stackTitle": "Technologies I use",
-    "stackSubtitle": "I work on every layer of a product, from its screens to its servers, from Google search to its ads.",
-    "stackBrace": "Full-stack",
-    "stackBraceNote": "Three layers, one person",
-    "growthTitle": "What completes the product",
-    "layers": {
-      "frontend": {
-        "title": "Interface",
-        "text": "The screens your customers see and use"
-      },
-      "backend": {
-        "title": "Server and data",
-        "text": "Business rules, records and integrations"
-      },
-      "infra": {
-        "title": "Hosting and infrastructure",
-        "text": "Servers, domains, security and backups"
-      },
-      "payments": {
-        "title": "Payments",
-        "text": "Card payments and subscriptions"
-      },
-      "seo": {
-        "title": "SEO and performance",
-        "text": "Being found on Google, and page speed"
-      },
-      "ads": {
-        "title": "Ads and measurement",
-        "text": "Google ads and conversion tracking"
-      }
+    }
+  },
+  "Tech": {
+    "eyebrow": "Technologies",
+    "title": "The tools I use, from interface to ads.",
+    "groups": {
+      "frontend": "Interface",
+      "backend": "Server and data",
+      "infra": "Hosting and infrastructure",
+      "ai": "AI",
+      "payments": "Payments",
+      "growth": "SEO and ads"
     }
   },
   "Work": {
@@ -98,6 +80,14 @@
       "client": "Client work"
     },
     "projects": {
+      "aktekdmr": {
+        "tagline": "Product and company website in seven languages for the heat pump brand AD İklim Teknolojileri.",
+        "highlights": [
+          "Rewritten from WordPress to Next.js; each of the 618 old addresses redirects to its new counterpart with a 301, and references and blog content were migrated.",
+          "Product pages in seven languages, including right-to-left ones; per-language sitemaps and hreflang for international SEO.",
+          "An admin panel with language-tabbed content management and quote request tracking; a heat pump capacity calculator for visitors."
+        ]
+      },
       "tvtenerji": {
         "tagline": "Corporate website and service request platform for TVT, a heating and cooling service company.",
         "highlights": [
@@ -228,7 +218,9 @@
     "ctaEyebrow": "Work with me",
     "ctaTitle": "Have a project in mind? Let's build it together.",
     "ctaSubtitle": "A new product, a B2B platform, or an unfinished project: share a brief outline of your needs and we will map out the best way forward together.",
-    "ctaButton": "Start a project"
+    "ctaButton": "Start a project",
+    "showAll": "Show all projects ({{total}})",
+    "showLess": "Show fewer"
   },
   "Experience": {
     "eyebrow": "Experience",
@@ -239,13 +231,8 @@
         "position": "Full-Stack Engineer",
         "date": "Nov 2025 - Present",
         "location": "Remote",
-        "summary": "Building web and mobile products for clients end to end: new builds, plus projects taken over, completed and launched.",
-        "bullets": [
-          "Tigaa: Multi-tenant B2B procurement SaaS with a WhatsApp Business API + OpenAI quote engine.",
-          "KolayTadilat: Two-sided renovation marketplace - took over a stalled codebase and shipped to production.",
-          "IReturnTicket: Travel documentation SaaS with licensed GDS integration and automated PDF generation.",
-          "Merit Risk rewrite: Modernizing a 10-year-old multi-tenant risk platform used by major Turkish banks."
-        ]
+        "summary": "I build web and mobile software for businesses and take over unfinished projects to bring them to launch.",
+        "bullets": []
       },
       "papak": {
         "company": "Papak Software Ltd",
@@ -288,10 +275,8 @@
         "position": "Junior Developer",
         "date": "Dec 2016 - Oct 2017",
         "location": "Tekirdağ, Türkiye",
-        "summary": "Student venture I co-founded - built websites for early-stage clients.",
-        "bullets": [
-          "Contributed to early-stage products, gaining hands-on experience in full-cycle development."
-        ]
+        "summary": "At the student venture I co-founded, we built websites for our clients.",
+        "bullets": []
       }
     }
   },

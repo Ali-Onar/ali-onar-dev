@@ -10,7 +10,8 @@
     "Experience": "Deneyim",
     "Services": "Hizmetler",
     "Contact": "İletişim",
-    "toggleMenu": "Menüyü aç/kapat"
+    "toggleMenu": "Menüyü aç/kapat",
+    "language": "Dil"
   },
   "Hero": {
     "name": "Ali Onar",
@@ -37,7 +38,7 @@
   "About": {
     "eyebrow": "Hakkımda",
     "title": "Fikirden yayına, ürünün her aşamasını üstlenen yazılım mühendisi.",
-    "p1": "Web ve mobil ürünleri fikir aşamasından yayına kadar uçtan uca tasarlıyor ve geliştiriyorum. Ürün ekiplerinde ve bağımsız danışman olarak yürüttüğüm projeler; kurumsal B2B platformları, yapay zekâ destekli uygulamalar, pazaryerleri ve Google'da üst sıralarda yer alan SEO odaklı kurumsal web sitelerini kapsıyor.",
+    "p1": "Web ve mobil ürünleri fikir aşamasından yayına kadar uçtan uca tasarlıyor ve geliştiriyorum. Yazılım mühendisi olarak yürüttüğüm projeler; kurumsal B2B platformları, yapay zekâ destekli uygulamalar, pazaryerleri ve Google'da üst sıralarda yer alan SEO odaklı kurumsal web sitelerini kapsıyor.",
     "location": "Türkiye · Uzaktan",
     "principlesTitle": "Çalışma yaklaşımım",
     "principles": {
@@ -53,37 +54,18 @@
         "title": "Anlaşılır konuşmak",
         "text": "Sürecin her aşamasında teknik olmayan paydaşlarla da şeffaf ve anlaşılır bir iletişim kuruyorum."
       }
-    },
-    "stackTitle": "Kullandığım teknolojiler",
-    "stackSubtitle": "Bir ürünün ekranından sunucusuna, Google aramasından reklamına kadar her katmanında çalışıyorum.",
-    "stackBrace": "Full-stack",
-    "stackBraceNote": "Üç katman, tek elden",
-    "growthTitle": "Ürünü tamamlayan işler",
-    "layers": {
-      "frontend": {
-        "title": "Arayüz",
-        "text": "Müşterinizin gördüğü ve kullandığı ekranlar"
-      },
-      "backend": {
-        "title": "Sunucu ve veri",
-        "text": "İş kuralları, kayıtlar ve entegrasyonlar"
-      },
-      "infra": {
-        "title": "Yayın ve altyapı",
-        "text": "Sunucu, alan adı, güvenlik ve yedekleme"
-      },
-      "payments": {
-        "title": "Ödeme",
-        "text": "Kartla tahsilat ve abonelik"
-      },
-      "seo": {
-        "title": "SEO ve performans",
-        "text": "Google'da bulunma ve sayfa hızı"
-      },
-      "ads": {
-        "title": "Reklam ve ölçüm",
-        "text": "Google reklamları ve dönüşüm takibi"
-      }
+    }
+  },
+  "Tech": {
+    "eyebrow": "Teknolojiler",
+    "title": "Arayüzden reklama kadar kullandığım araçlar.",
+    "groups": {
+      "frontend": "Arayüz",
+      "backend": "Sunucu ve veri",
+      "infra": "Yayın ve altyapı",
+      "ai": "Yapay zekâ",
+      "payments": "Ödeme",
+      "growth": "SEO ve reklam"
     }
   },
   "Work": {
@@ -98,6 +80,14 @@
       "client": "Müşteri projesi"
     },
     "projects": {
+      "aktekdmr": {
+        "tagline": "Isı pompası markası AD İklim Teknolojileri için yedi dilli ürün ve kurumsal web sitesi.",
+        "highlights": [
+          "WordPress'ten Next.js'e yeniden yazım; eski 618 adresin her biri yeni karşılığına 301 ile yönlendirildi, referanslar ve blog içerikleri taşındı.",
+          "Ürün sayfaları yedi dilde, sağdan sola yazılan diller dahil; dil bazlı site haritaları ve hreflang ile uluslararası SEO yapısı.",
+          "Dil sekmeli içerik yönetimi ve teklif taleplerinin izlendiği yönetim paneli; ziyaretçiler için ısı pompası kapasite hesaplayıcısı."
+        ]
+      },
       "tvtenerji": {
         "tagline": "Isıtma ve soğutma sektöründe hizmet veren TVT için kurumsal web sitesi ve servis talep platformu.",
         "highlights": [
@@ -228,34 +218,31 @@
     "ctaEyebrow": "Birlikte çalışalım",
     "ctaTitle": "Aklınızda bir proje mi var? Birlikte hayata geçirelim.",
     "ctaSubtitle": "Yeni bir ürün, bir B2B platformu ya da tamamlanamamış bir proje: ihtiyacınızı kısaca paylaşın, en uygun yol haritasını birlikte belirleyelim.",
-    "ctaButton": "Projenizi anlatın"
+    "ctaButton": "Projenizi anlatın",
+    "showAll": "Tüm projeleri göster ({{total}})",
+    "showLess": "Daha az göster"
   },
   "Experience": {
     "eyebrow": "Deneyim",
-    "title": "Altı yılı aşkın süredir ürün ekipleri ve freelance projeler.",
+    "title": "Altı yılı aşkın süredir yazılım geliştiriyorum.",
     "items": {
       "self": {
         "company": "Serbest Çalışan",
         "position": "Full-Stack Yazılım Mühendisi",
         "date": "Kas 2025 - Günümüz",
         "location": "Uzaktan",
-        "summary": "Müşteriler için web ve mobil ürünleri uçtan uca geliştiriyorum: yeni projeler ile devralınarak tamamlanan ve yayına alınan projeler.",
-        "bullets": [
-          "Tigaa: WhatsApp Business API + OpenAI teklif motoruna sahip multi-tenant B2B satın alma SaaS'ı.",
-          "KolayTadilat: İki taraflı tadilat pazaryeri; yarım kalmış kod tabanını devralıp canlıya aldım.",
-          "IReturnTicket: Lisanslı GDS entegrasyonu ve otomatik PDF üretimi içeren seyahat belgesi SaaS'ı.",
-          "Merit Risk yeniden yazımı: Türkiye'nin önde gelen bankalarının kullandığı 10 yıllık multi-tenant risk platformunun modernizasyonu."
-        ]
+        "summary": "İşletmelere web ve mobil yazılım geliştiriyor, yarım kalmış projeleri devralıp yayına alıyorum.",
+        "bullets": []
       },
       "papak": {
         "company": "Papak Software Ltd",
         "position": "Full-Stack Yazılım Mühendisi",
         "date": "Haz 2024 - Haz 2025",
         "location": "İstanbul, Türkiye",
-        "summary": "Papak, fitness ve ses teknolojileri alanında SaaS ürünleri geliştiriyor.",
+        "summary": "Fitness ve ses teknolojileri alanında ürünler geliştiren yazılım şirketi.",
         "bullets": [
-          "Next.js, React Native, TypeScript, PostgreSQL ve Supabase ile cross-platform (web + mobil) fitness uygulaması geliştirdim.",
-          "Üçüncü parti API'leri yüksek veri bütünlüğüyle entegre ederek duyulmayan ses filigranı SaaS'ını tasarlayıp yayına aldım."
+          "Web ve mobilde çalışan fitness uygulamasını Next.js, React Native ve Supabase ile geliştirdim.",
+          "Ses dosyalarına duyulmayan filigran ekleyen ürünü tasarlayıp yayına aldım."
         ]
       },
       "seamlesscare": {
@@ -263,12 +250,12 @@
         "position": "Full-Stack Yazılım Mühendisi",
         "date": "Eki 2022 - Haz 2024",
         "location": "İstanbul, Türkiye",
-        "summary": "Bakım ortamlarındaki konuşamayan bireyler için yapay zekâ destekli yardımcı teknolojiler.",
+        "summary": "Bakım kurumlarında, konuşamayan bireyler için yapay zekâ destekli yardımcı teknolojiler geliştiren şirket.",
         "bullets": [
-          "B2B SaaS ürününün gereksinim toplama, sistem analizi ve mimari tasarım süreçlerine liderlik ettim.",
-          "Dahili yapay zekâ servisleri ve kullanıcı yönetimi için AWS üzerinde özel yönetim paneli (React, Node.js, PostgreSQL, MongoDB) geliştirdim.",
-          "Hastaneler ve bakım evleri için şirketin kendi yapay zekâ modelini entegre eden duygu analizi SaaS'ı geliştirdim.",
-          "Sistem genelinde hata takibi ve gerçek zamanlı performans izleme için Sentry entegre ettim."
+          "B2B ürünün gereksinim analizini ve mimari tasarımını yürüttüm.",
+          "Yapay zekâ servislerinin ve kullanıcıların yönetildiği paneli React, Node.js ve PostgreSQL ile geliştirip AWS'de yayına aldım.",
+          "Hastaneler ve bakım evleri için, şirketin kendi yapay zekâ modelini kullanan duygu analizi ürününü geliştirdim.",
+          "Hata takibi ve performans izleme için Sentry'yi sisteme entegre ettim."
         ]
       },
       "meritrisk": {
@@ -276,11 +263,11 @@
         "position": "Junior Yazılım Geliştirici",
         "date": "May 2021 - Oca 2022",
         "location": "İstanbul, Türkiye",
-        "summary": "Finansal risk yönetimi; şirket içi ekonometrik modeller etrafında kurulmuş SaaS ürünleri.",
+        "summary": "Kendi ekonometrik modelleri üzerine kurulu yazılımlar geliştiren finansal risk yönetimi şirketi.",
         "bullets": [
-          "Şirketler ve ülkeler için iş riski derecelendirme modellerini geliştirip yeniden düzenledim.",
-          "Finans ekibinin Excel tabanlı risk değerlendirme modellerini web portalına yükleyen bir araç geliştirdim.",
-          "Sunucu bakımı ve kurumsal e-posta altyapısının sorumluluğunu üstlendim."
+          "Şirket ve ülke risk derecelendirme modellerini geliştirdim ve yeniden düzenledim.",
+          "Finans ekibinin Excel'de hazırladığı risk modellerini web portalına aktaran bir araç geliştirdim.",
+          "Sunucu bakımını ve kurumsal e-posta altyapısını yürüttüm."
         ]
       },
       "pailab": {
@@ -288,10 +275,8 @@
         "position": "Junior Geliştirici",
         "date": "Ara 2016 - Eki 2017",
         "location": "Tekirdağ, Türkiye",
-        "summary": "Kurucu ortağı olduğum öğrenci girişimi; erken aşama müşteriler için web siteleri geliştirdik.",
-        "bullets": [
-          "Erken aşama ürünlere katkı sağlayarak uçtan uca geliştirme sürecinde uygulamalı deneyim kazandım."
-        ]
+        "summary": "Kurucu ortağı olduğum öğrenci girişiminde müşterilerimiz için web siteleri geliştirdik.",
+        "bullets": []
       }
     }
   },
