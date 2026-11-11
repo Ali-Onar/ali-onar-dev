@@ -2,39 +2,9 @@
 
 import React from "react";
 import { useTranslation } from "react-i18next";
+import TechStack from "./TechStack";
 
-const stack = [
-  {
-    key: "frontend",
-    items: ["Next.js", "React", "React Native", "TypeScript", "TailwindCSS"],
-    dot: "bg-sky-500",
-    chip: "border-sky-200 bg-sky-50 text-sky-800",
-  },
-  {
-    key: "backend",
-    items: ["Node.js", "Express", "PostgreSQL", "Supabase", "Prisma"],
-    dot: "bg-violet-500",
-    chip: "border-violet-200 bg-violet-50 text-violet-800",
-  },
-  {
-    key: "infra",
-    items: ["Vercel", "Railway", "Hetzner", "AWS", "Cloudflare"],
-    dot: "bg-emerald-500",
-    chip: "border-emerald-200 bg-emerald-50 text-emerald-800",
-  },
-  {
-    key: "payments",
-    items: ["Stripe", "Lemon Squeezy", "iyzico", "Param"],
-    dot: "bg-brand",
-    chip: "border-orange-200 bg-orange-50 text-orange-800",
-  },
-  {
-    key: "seo",
-    items: ["Core Web Vitals", "Search Console", "Schema.org", "Lighthouse", "Sitemap & Robots"],
-    dot: "bg-rose-500",
-    chip: "border-rose-200 bg-rose-50 text-rose-800",
-  },
-];
+const principles = ["problem", "cost", "communication"] as const;
 
 const AboutSection = () => {
   const { t } = useTranslation();
@@ -42,53 +12,40 @@ const AboutSection = () => {
   return (
     <section id="about" className="py-24 md:py-32 border-t border-border">
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
-        <div className="grid gap-12 md:gap-16 md:grid-cols-12 items-start">
-          <div className="md:col-span-5 md:sticky md:top-28">
-            <span className="inline-block text-xs font-medium uppercase tracking-[0.18em] text-brand-deep">
-              {t("About.eyebrow")}
-            </span>
-            <h2 className="mt-3 text-balance text-3xl sm:text-4xl font-semibold tracking-tight leading-[1.1]">
-              {t("About.title")}
-            </h2>
-            <div className="mt-6 flex items-center gap-3 text-xs text-muted-foreground">
-              <span className="h-px w-8 bg-brand/50" />
-              <span>{t("About.location")}</span>
-            </div>
-          </div>
+        <span className="inline-block text-xs font-medium uppercase tracking-[0.18em] text-brand-deep">
+          {t("About.eyebrow")}
+        </span>
+        <h2 className="mt-3 max-w-4xl text-balance text-3xl sm:text-4xl md:text-5xl font-semibold tracking-tight leading-[1.1]">
+          {t("About.title")}
+        </h2>
 
-          <div className="md:col-span-7">
-            <div className="space-y-5 text-base sm:text-lg text-muted-foreground leading-relaxed max-w-2xl">
-              <p>{t("About.p1")}</p>
-              <p>{t("About.p2")}</p>
-            </div>
-
-            <div className="mt-12">
-              <h3 className="text-xs font-medium uppercase tracking-[0.18em] text-brand-deep">
-                {t("About.stackTitle")}
-              </h3>
-              <div className="mt-6 grid gap-x-8 gap-y-6 sm:grid-cols-2">
-                {stack.map((group) => (
-                  <div key={group.key}>
-                    <p className="flex items-center gap-2 text-xs font-medium uppercase tracking-wider text-foreground/70">
-                      <span className={`h-1.5 w-1.5 rounded-full ${group.dot}`} />
-                      {t(`About.categories.${group.key}`)}
-                    </p>
-                    <ul className="mt-3 flex flex-wrap gap-1.5">
-                      {group.items.map((item) => (
-                        <li
-                          key={item}
-                          className={`rounded-full border px-2.5 py-1 text-xs font-medium ${group.chip}`}
-                        >
-                          {item}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
+        <p className="mt-8 max-w-[44rem] text-base sm:text-lg text-muted-foreground leading-relaxed">
+          {t("About.p1")}
+        </p>
+        <div className="mt-5 flex items-center gap-3 text-xs text-muted-foreground">
+          <span className="h-px w-8 bg-brand/50" />
+          <span>{t("About.location")}</span>
         </div>
+
+        <div className="mt-16">
+          <h3 className="text-lg font-semibold tracking-tight">
+            {t("About.principlesTitle")}
+          </h3>
+          <dl className="mt-6 grid gap-8 md:grid-cols-3 md:gap-10">
+            {principles.map((key) => (
+              <div key={key} className="border-t-2 border-brand/70 pt-4">
+                <dt className="font-semibold tracking-tight">
+                  {t(`About.principles.${key}.title`)}
+                </dt>
+                <dd className="mt-2 text-sm text-muted-foreground leading-relaxed">
+                  {t(`About.principles.${key}.text`)}
+                </dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+
+        <TechStack />
       </div>
     </section>
   );

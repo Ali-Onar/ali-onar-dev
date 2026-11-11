@@ -38,15 +38,52 @@
     "eyebrow": "About",
     "title": "A full-stack engineer who takes products from idea to launch.",
     "p1": "I design and build web and mobile products end to end, from initial idea to launch. My work, both within product teams and as an independent consultant, spans enterprise B2B platforms, AI-powered applications, marketplaces, and SEO-driven corporate websites that rank at the top of Google.",
-    "p2": "My approach rests on three principles: defining the problem precisely and solving it in the shortest possible time, choosing technology based on long-term total cost rather than short-term convenience, and maintaining transparent, clear communication with non-technical stakeholders at every stage.",
     "location": "Türkiye · Remote",
-    "stackTitle": "Default stack",
-    "categories": {
-      "frontend": "Frontend",
-      "backend": "Backend",
-      "infra": "Infrastructure",
-      "payments": "Payments",
-      "seo": "SEO & Performance"
+    "principlesTitle": "How I work",
+    "principles": {
+      "problem": {
+        "title": "Defining the problem correctly",
+        "text": "Before writing code I understand the business itself, define the problem precisely and take the shortest route to a solution."
+      },
+      "cost": {
+        "title": "Counting the long-term cost",
+        "text": "I choose technology based on long-term total cost rather than short-term convenience."
+      },
+      "communication": {
+        "title": "Speaking plainly",
+        "text": "At every stage I keep communication transparent and clear, with non-technical stakeholders too."
+      }
+    },
+    "stackTitle": "Technologies I use",
+    "stackSubtitle": "I work on every layer of a product, from its screens to its servers, from Google search to its ads.",
+    "stackBrace": "Full-stack",
+    "stackBraceNote": "Three layers, one person",
+    "growthTitle": "What completes the product",
+    "layers": {
+      "frontend": {
+        "title": "Interface",
+        "text": "The screens your customers see and use"
+      },
+      "backend": {
+        "title": "Server and data",
+        "text": "Business rules, records and integrations"
+      },
+      "infra": {
+        "title": "Hosting and infrastructure",
+        "text": "Servers, domains, security and backups"
+      },
+      "payments": {
+        "title": "Payments",
+        "text": "Card payments and subscriptions"
+      },
+      "seo": {
+        "title": "SEO and performance",
+        "text": "Being found on Google, and page speed"
+      },
+      "ads": {
+        "title": "Ads and measurement",
+        "text": "Google ads and conversion tracking"
+      }
     }
   },
   "Work": {
@@ -261,37 +298,51 @@
   "Services": {
     "eyebrow": "Services",
     "title": "How I can help.",
-    "subtitle": "Whether you are starting with a new product idea or handing over existing software that no longer scales, I take ownership of the process end to end and bring it to launch.",
+    "subtitle": "From building the product to launching it, from being visible on Google to managing ads, I step in at the stage where you need me.",
+    "more": "See details",
     "items": {
-      "saas": {
-        "title": "SaaS products from scratch",
-        "description": "I turn your idea into a fully working web application: user management, subscription and payment systems, an admin panel, and a solid foundation that will not limit you as you grow."
-      },
-      "rescue": {
-        "title": "Finishing stalled projects",
-        "description": "I take over projects left behind by a previous team or generated with AI tools and unable to move forward. I identify and resolve the issues, complete what is missing, and bring the project to launch with confidence."
+      "web": {
+        "title": "Websites and web apps",
+        "description": "Company websites, admin panels, quoting and ordering systems: web software built around your business."
       },
       "mobile": {
-        "title": "Web and mobile apps",
-        "description": "I build products for both web and mobile, on iOS and Android. Your website and mobile app share one foundation, so your users get the same experience on whatever device they use."
+        "title": "Mobile apps",
+        "description": "I build your iOS and Android app from a single codebase and publish it in the stores."
+      },
+      "saas": {
+        "title": "SaaS product development",
+        "description": "I turn your idea into a working product with user management, payments and subscriptions."
+      },
+      "rescue": {
+        "title": "Unfinished projects",
+        "description": "I take over projects left by a previous team or stuck after being generated with AI, and bring them to launch."
+      },
+      "seo": {
+        "title": "SEO",
+        "description": "Technical and content work so your site shows up for what your customers search on Google."
+      },
+      "ads": {
+        "title": "Google Ads management",
+        "description": "Enquiries from Google through account setup, conversion tracking and regular optimisation."
       },
       "consulting": {
         "title": "Technical consulting",
-        "description": "Which technology to pick, whether your current system is ready to grow, or whether the agency you're quoting is on the right track. An independent technical opinion before expensive mistakes get made."
+        "description": "An impartial technical opinion on technology choices, proposals and your current system."
       },
-      "seo": {
-        "title": "SEO and visibility on Google",
-        "description": "I handle the full SEO work that gets your website in front of customers searching on Google, from the technical foundations to content structure. Site speed, local search and page architecture included; the goal is always a measurable climb in rankings."
+      "training": {
+        "title": "Training",
+        "description": "AI-assisted software development, Next.js and Supabase training for teams and individuals."
       }
     }
   },
   "Contact": {
     "eyebrow": "Get in touch",
     "title": "Have a product idea or a stalled codebase?",
-    "subtitle": "I am open to both freelance and full-time collaborations on new projects. A short email is all it takes; I respond as quickly as possible.",
+    "subtitle": "I am open to both freelance and full-time collaborations on new projects. A short message on WhatsApp or by email is all it takes; I respond as quickly as possible.",
     "emailLabel": "Email",
     "linkedinLabel": "LinkedIn",
-    "social": "Elsewhere"
+    "social": "Elsewhere",
+    "whatsappLabel": "WhatsApp"
   },
   "WhatsApp": {
     "label": "Chat on WhatsApp",
@@ -299,6 +350,8 @@
   },
   "Footer": {
     "rights": "All rights reserved.",
-    "builtWith": "Built with Next.js + Tailwind."
+    "builtWith": "Built with Next.js + Tailwind.",
+    "services": "Services",
+    "contact": "Contact"
   }
 }

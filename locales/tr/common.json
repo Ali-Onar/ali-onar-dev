@@ -38,15 +38,52 @@
     "eyebrow": "Hakkımda",
     "title": "Fikirden yayına, ürünün her aşamasını üstlenen yazılım mühendisi.",
     "p1": "Web ve mobil ürünleri fikir aşamasından yayına kadar uçtan uca tasarlıyor ve geliştiriyorum. Ürün ekiplerinde ve bağımsız danışman olarak yürüttüğüm projeler; kurumsal B2B platformları, yapay zekâ destekli uygulamalar, pazaryerleri ve Google'da üst sıralarda yer alan SEO odaklı kurumsal web sitelerini kapsıyor.",
-    "p2": "Çalışma yaklaşımımın temelinde üç ilke var: problemi doğru tanımlayıp en kısa sürede çözüme ulaştırmak, teknoloji tercihlerini kısa vadeli kolaylığa değil uzun vadeli toplam maliyete göre belirlemek ve sürecin her aşamasında teknik olmayan paydaşlarla da şeffaf, anlaşılır bir iletişim kurmak.",
     "location": "Türkiye · Uzaktan",
+    "principlesTitle": "Çalışma yaklaşımım",
+    "principles": {
+      "problem": {
+        "title": "Problemi doğru tanımlamak",
+        "text": "Koda başlamadan önce işin kendisini anlıyor, problemi doğru tanımlayıp en kısa yoldan çözüme ulaştırıyorum."
+      },
+      "cost": {
+        "title": "Uzun vadeli maliyeti hesaplamak",
+        "text": "Teknoloji tercihlerini kısa vadeli kolaylığa değil, uzun vadeli toplam maliyete göre belirliyorum."
+      },
+      "communication": {
+        "title": "Anlaşılır konuşmak",
+        "text": "Sürecin her aşamasında teknik olmayan paydaşlarla da şeffaf ve anlaşılır bir iletişim kuruyorum."
+      }
+    },
     "stackTitle": "Kullandığım teknolojiler",
-    "categories": {
-      "frontend": "Frontend",
-      "backend": "Backend",
-      "infra": "Altyapı",
-      "payments": "Ödeme sistemleri",
-      "seo": "SEO & Performans"
+    "stackSubtitle": "Bir ürünün ekranından sunucusuna, Google aramasından reklamına kadar her katmanında çalışıyorum.",
+    "stackBrace": "Full-stack",
+    "stackBraceNote": "Üç katman, tek elden",
+    "growthTitle": "Ürünü tamamlayan işler",
+    "layers": {
+      "frontend": {
+        "title": "Arayüz",
+        "text": "Müşterinizin gördüğü ve kullandığı ekranlar"
+      },
+      "backend": {
+        "title": "Sunucu ve veri",
+        "text": "İş kuralları, kayıtlar ve entegrasyonlar"
+      },
+      "infra": {
+        "title": "Yayın ve altyapı",
+        "text": "Sunucu, alan adı, güvenlik ve yedekleme"
+      },
+      "payments": {
+        "title": "Ödeme",
+        "text": "Kartla tahsilat ve abonelik"
+      },
+      "seo": {
+        "title": "SEO ve performans",
+        "text": "Google'da bulunma ve sayfa hızı"
+      },
+      "ads": {
+        "title": "Reklam ve ölçüm",
+        "text": "Google reklamları ve dönüşüm takibi"
+      }
     }
   },
   "Work": {
@@ -261,37 +298,51 @@
   "Services": {
     "eyebrow": "Hizmetler",
     "title": "Size nasıl yardımcı olabilirim?",
-    "subtitle": "İster yeni bir ürün fikriyle başlıyor olun ister ölçeklenemeyen mevcut bir yazılımı devretmek isteyin; süreci baştan sona üstlenerek yayına alıyorum.",
+    "subtitle": "Ürünün geliştirilmesinden yayına alınmasına, Google'da görünür olmasından reklam yönetimine kadar ihtiyaç duyduğunuz aşamada devreye giriyorum.",
+    "more": "Ayrıntıları görün",
     "items": {
-      "saas": {
-        "title": "Sıfırdan SaaS ürünü geliştirme",
-        "description": "Fikrinizi uçtan uca çalışan bir web uygulamasına dönüştürüyorum: kullanıcı yönetimi, abonelik ve ödeme sistemleri, yönetim paneli ve büyüme sürecinde sizi sınırlamayacak sağlam bir altyapı."
-      },
-      "rescue": {
-        "title": "Yarım kalmış projeleri tamamlama",
-        "description": "Önceki ekibin bıraktığı ya da yapay zekâ araçlarıyla üretilip ilerleyemeyen projeleri devralıyorum. Sorunları tespit edip gideriyor, eksikleri tamamlıyor ve projeyi güvenle yayına alıyorum."
+      "web": {
+        "title": "Web sitesi ve web uygulaması",
+        "description": "Kurumsal web sitesi, yönetim paneli, teklif ve sipariş sistemi: işinize özel web yazılımları."
       },
       "mobile": {
-        "title": "Web ve mobil uygulama",
-        "description": "Hem web hem de mobilde, iOS ve Android için ürün geliştiriyorum. Web siteniz ve mobil uygulamanız aynı altyapıyı paylaşır; kullanıcılarınız hangi cihazdan girerse girsin aynı deneyimi alır."
+        "title": "Mobil uygulama",
+        "description": "iOS ve Android uygulamanızı tek kod tabanıyla geliştirip mağazalarda yayına alıyorum."
+      },
+      "saas": {
+        "title": "SaaS ürünü geliştirme",
+        "description": "Fikrinizi kullanıcı yönetimi, ödeme ve abonelik sistemi olan çalışan bir ürüne dönüştürüyorum."
+      },
+      "rescue": {
+        "title": "Yarım kalmış projeler",
+        "description": "Önceki ekibin bıraktığı ya da yapay zekâyla üretilip tıkanan projeleri devralıp yayına alıyorum."
+      },
+      "seo": {
+        "title": "SEO",
+        "description": "Sitenizin, müşterilerinizin Google'da aradığı kelimelerde öne çıkması için teknik ve içerik çalışması."
+      },
+      "ads": {
+        "title": "Google Ads yönetimi",
+        "description": "Hesap kurulumu, dönüşüm ölçümü ve düzenli optimizasyonla Google'dan talep."
       },
       "consulting": {
         "title": "Teknik danışmanlık",
-        "description": "Hangi teknolojiyi seçmelisiniz, mevcut sisteminiz büyümeye hazır mı, teklif aldığınız yazılım ekibi doğru mu ilerliyor? Pahalı hatalar yapmadan önce tarafsız bir teknik görüş sunuyorum."
+        "description": "Teknoloji seçimi, teklif değerlendirmesi ve mevcut sistem incelemesi için tarafsız teknik görüş."
       },
-      "seo": {
-        "title": "SEO ve Google'da görünürlük",
-        "description": "Web sitenizin, müşterilerinizin Google'da aradığı kelimelerde öne çıkması için teknik altyapıdan içerik yapısına kadar tüm SEO çalışmasını üstleniyorum. Site hızı, yerel arama ve sayfa yapısı dahil; hedef her zaman ölçülebilir bir sıralama artışı."
+      "training": {
+        "title": "Eğitim",
+        "description": "Ekiplere ve bireylere yapay zekâ destekli yazılım geliştirme, Next.js ve Supabase eğitimleri."
       }
     }
   },
   "Contact": {
     "eyebrow": "İletişime geçin",
     "title": "Yeni bir ürün fikriniz ya da yarım kalmış bir projeniz mi var?",
-    "subtitle": "Yeni projeler için freelance ve tam zamanlı iş birliklerine açığım. Kısa bir e-posta ile ulaşmanız yeterli; en kısa sürede geri dönüş sağlıyorum.",
+    "subtitle": "Yeni projeler için freelance ve tam zamanlı iş birliklerine açığım. WhatsApp ya da e-posta ile kısaca yazmanız yeterli; en kısa sürede geri dönüş sağlıyorum.",
     "emailLabel": "E-posta",
     "linkedinLabel": "LinkedIn",
-    "social": "Diğer kanallar"
+    "social": "Diğer kanallar",
+    "whatsappLabel": "WhatsApp"
   },
   "WhatsApp": {
     "label": "WhatsApp'tan yazın",
@@ -299,6 +350,8 @@
   },
   "Footer": {
     "rights": "Tüm hakları saklıdır.",
-    "builtWith": "Next.js + Tailwind ile geliştirildi."
+    "builtWith": "Next.js + Tailwind ile geliştirildi.",
+    "services": "Hizmetler",
+    "contact": "İletişim"
   }
 }
