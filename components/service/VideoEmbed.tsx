@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { Play } from "lucide-react";
+import { trackEvent } from "@/lib/analytics";
 
 type Props = { id: string; title: string; playLabel: string };
 
@@ -17,7 +18,7 @@ const VideoEmbed = ({ id, title, playLabel }: Props) => {
   );
 
   const play = () => {
-    window.dataLayer?.push({ event: "video_play", video_id: id });
+    trackEvent("video_play", { video_id: id });
     setPlaying(true);
   };
 

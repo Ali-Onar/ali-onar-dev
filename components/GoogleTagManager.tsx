@@ -1,5 +1,7 @@
 import Script from "next/script";
 
+// The Google tag of the GA4 property (G-2EMP65QPG4). Despite the prefix it is
+// not a Tag Manager container; events are sent from lib/analytics.ts.
 const GTM_ID = "GTM-TDXSQJLP";
 
 // Only load on production builds so local development does not pollute the data.

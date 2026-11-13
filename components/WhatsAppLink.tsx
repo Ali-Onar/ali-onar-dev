@@ -1,13 +1,8 @@
 "use client";
 
 import React from "react";
+import { trackEvent } from "@/lib/analytics";
 import { whatsappUrl } from "@/lib/site";
-
-declare global {
-  interface Window {
-    dataLayer?: Record<string, unknown>[];
-  }
-}
 
 type Props = {
   message: string;
@@ -18,18 +13,13 @@ type Props = {
   children: React.ReactNode;
 };
 
-/** Opens a WhatsApp chat and reports the click to Google Tag Manager. */
+/** Opens a WhatsApp chat and reports the click to Google Analytics. */
 const WhatsAppLink = ({ message, location, children, ...rest }: Props) => (
   <a
     href={whatsappUrl(message)}
     target="_blank"
     rel="noopener noreferrer"
-    onClick={() =>
-      window.dataLayer?.push({
-        event: "whatsapp_click",
-        click_location: location,
-      })
-    }
+    onClick={() => trackEvent("whatsapp_click", { click_location: location })}
     {...rest}
   >
     {children}
